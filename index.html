@@ -7,6 +7,8 @@
     <title>Vértenger</title>
     <link rel="stylesheet" href="src/reset.css">
     <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/dobokocka.css">
+    <link href='https://fonts.googleapis.com/css?family=UnifrakturCook:700' rel='stylesheet'>
 </head>
 <body>
     <main>
@@ -16,31 +18,27 @@
             </div>
             <div class="stats">
                 <div class="statsGrid">
-                    <div class="grid-item">
+                    <div class="grid-item" id="stat1">
                         <h3>Ügyesség</h3>
-                        <br>
                         <p>Kezdeti ügyesség:</p>
                     </div>
-                    <div class="grid-item">
+                    <div class="grid-item" id="stat2">
                         <h3>Életerő</h3>
-                        <br>
                         <p>Kezdeti életerő:</p>
                     </div>
-                    <div class="grid-item">
+                    <div class="grid-item" id="stat3">
                         <h3>Szerencse</h3>
-                        <br>
                         <p>Kezdeti szerencse:</p>
                     </div>
-                    <div class="grid-item">
-                        <h3>Legénység ereje:</h3>
+                    <div class="grid-item" id="stat4">
+                        <p>Legénység ereje:</p>
                     </div>
-                    <div class="grid-item">
-                        <h3>Legénység ütései:</h3>
+                    <div class="grid-item" id="stat5">
+                        <p>Legénység ütései:</p>
                     </div>
                 </div>
             </div>
             <div class="map">
-                <button type="button">Teljes térkép megjelenítése</button>
                 <img src="img/terkep.png" alt="térkép">
             </div>
         </section>
@@ -58,47 +56,68 @@
                     <button type="button">Opció 1</button>
                     <button type="button">Opció 2</button>
                 </div>
-            </div>
-            <div class="dice">
-                <div class="dice-1">
-                    <span id="dice-1-value"></span>
+                <div class="diceContainer">
+                    <div class="dice" id="dice1" onclick="randomNum('szamTarolo1', 'finalNumber1');randomNum('szamTarolo2', 'finalNumber2')">
+                        <div id="szamTarolo1">
+                            <p id="finalNumber1">6</p>
+                        </div>
+                    </div>
+                    <div class="dice" id="dice2" onclick="randomNum('szamTarolo2', 'finalNumber2');randomNum('szamTarolo1', 'finalNumber1')">
+                        <div id="szamTarolo2">
+                            <p id="finalNumber2">6</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="dice-2">
-                    <span id="dice-1-value"></span>
-                </div>
             </div>
+            <div id="eredmeny">Eredmény: </div>
         </section>
         <section class="right">
             <div class="titleBox">
                 <div id="kard"></div>
             </div>
             <div class="stuffs">
-                <div class="equipment">
+                    <div class="equipment">
+                    <h3>Felszerelés</h3>
+                        <div class="stuffs-grid">
+                            <div class="grid-item"></div>
+                            <div class="grid-item"></div>
+                            <div class="grid-item"></div>
+                            <div class="grid-item"></div>
+                            <div class="grid-item"></div>
+                            <div class="grid-item"></div>
+                        </div>
+                    </div>
+                    <div class="inventory">
+                    <h3>Zsákmány</h3>
+                        <div class="stuffs-grid">
+                            <div class="grid-item"></div>
+                            <div class="grid-item"></div>
+                            <div class="grid-item"></div>
+                            <div class="grid-item"></div>
+                            <div class="grid-item"></div>
+                            <div class="grid-item"></div>
+                            <div class="grid-item"></div>
+                            <div class="grid-item"></div>
+                        </div>
+                    </div>
+                <div class="battles">
                     <div class="stuffs-grid">
-                        <div class="grid-item"></div>
-                        <div class="grid-item"></div>
-                        <div class="grid-item"></div>
-                        <div class="grid-item"></div>
+                        <div class="grid-item">Ügyesség:<br>Életerő:</div>
+                        <div class="grid-item">Ügyesség:<br>Életerő:</div>
+                        <div class="grid-item">Ügyesség:<br>Életerő:</div>
+                        <div class="grid-item">Ügyesség:<br>Életerő:</div>
+                        <div class="grid-item">Ügyesség:<br>Életerő:</div>
+                        <div class="grid-item">Ügyesség:<br>Életerő:</div>
+                        <div class="grid-item">Ügyesség:<br>Életerő:</div>
+                        <div class="grid-item">Ügyesség:<br>Életerő:</div>
+                        <div class="grid-item">Ügyesség:<br>Életerő:</div>
+                        <div class="grid-item">Ügyesség:<br>Életerő:</div>
                     </div>
                 </div>
-                <div class="inventory">
-                    <div class="stuffs-grid">
-                        <div class="grid-item"></div>
-                        <div class="grid-item"></div>
-                        <div class="grid-item"></div>
-                        <div class="grid-item"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="battles">
-                <div class="grid-item-1">"Ügyesség:"<br>"Életerő:"</div>
-                <div class="grid-item-2">"Ügyesség:"<br>"Életerő:"</div>
-                <div class="grid-item-3">"Ügyesség:"<br>"Életerő:"</div>
-                <div class="grid-item-4">"Ügyesség:"<br>"Életerő:"</div>
-                <div class="grid-item-5">"Ügyesség:"<br>"Életerő:"</div>
-                <div class="grid-item-6">"Ügyesség:"<br>"Életerő:"</div>
             </div>
         </section>
     </main>
+    <script src="src/dobokocka.js"></script>
+    <script src="src/script.js"></script>
 </body>
 </html>

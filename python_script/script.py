@@ -1,8 +1,8 @@
-import docx2txt
-result = docx2txt.process("asd.docx")
+
 f = open("text.txt", "r+", encoding='utf-8')
-for n in range(40):
-    result = result.replace("\n\n","\n")
-print(result)
-f.write(result)
+result = f.read()
+for x in range(500):
+    result = result.replace(f"\n{str(x)}.\n", "\nasd--\n")
+ggg = result.split("asd--")
+print(ggg[1])
 f.close()
