@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background: url(/img/background.png), url(/img/main_bg.jpg);
+    background: url(../img/background.png), url(../img/main_bg.jpg);
     background-position: center center, auto auto;
     background-repeat: no-repeat, repeat;
     background-size: 100% 100%, auto;
@@ -41,6 +41,17 @@ main{
             }
             #stat2{
                 grid-column-start: span 2;
+                position: relative;
+                #hpIndicator{
+                    position: absolute;
+                    width: 100%;
+                    max-height: 100%;
+                    background-color: #a3000041;
+                    bottom: 0;
+                    left: 0;
+                    z-index: -1;
+                    transition: height .5s;
+                }
             }
             #stat3{
                 grid-column-start: span 2;

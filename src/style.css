@@ -3,7 +3,7 @@
 }
 
 body {
-  background: url(/img/background.png), url(/img/main_bg.jpg);
+  background: url(../img/background.png), url(../img/main_bg.jpg);
   background-position: center center, auto auto;
   background-repeat: no-repeat, repeat;
   background-size: 100% 100%, auto;
@@ -46,6 +46,17 @@ main {
 }
 .left .stats .statsGrid #stat2 {
   grid-column-start: span 2;
+  position: relative;
+}
+.left .stats .statsGrid #stat2 #hpIndicator {
+  position: absolute;
+  width: 100%;
+  max-height: 100%;
+  background-color: rgba(163, 0, 0, 0.2549019608);
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transition: height 0.5s;
 }
 .left .stats .statsGrid #stat3 {
   grid-column-start: span 2;
