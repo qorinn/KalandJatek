@@ -7,19 +7,22 @@ body {
   background-position: center center, auto auto;
   background-repeat: no-repeat, repeat;
   background-size: 100% 100%, auto;
+  background-attachment: fixed, fixed;
 }
 
 main {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 50px 150px;
   position: relative;
-  grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
-  padding: 50px 150px;
 }
 
-.left, .middle, .right {
-  padding: 0 10px;
+.left {
+  display: grid;
+  height: calc(100vh - 100px);
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto-fill, 1fr);
 }
-
 .left .titleBox {
   width: 100%;
 }
@@ -33,7 +36,7 @@ main {
   margin: 0 auto;
 }
 .left .stats {
-  padding: 10px;
+  margin: 10px 0;
 }
 .left .stats .statsGrid {
   display: grid;
@@ -72,7 +75,9 @@ main {
   position: relative;
 }
 .left .map img {
-  height: 50vh;
+  max-width: 90%;
+  max-height: calc(100vh - 200px);
+  transition: 0.3s;
 }
 
 .middle {
@@ -80,18 +85,20 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  height: calc(100vh - 100px);
 }
 .middle .card {
-  min-height: 400px;
   max-width: 20vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 3px solid #000000;
-  outline: 3px solid red;
+  border: 20px solid transparent;
+  -o-border-image: url(../img/border.jpg) 55 stretch;
+     border-image: url(../img/border.jpg) 55 stretch;
   border-radius: 2px;
   padding: 10px;
   margin-bottom: 20px;
+  border-radius: 15px;
 }
 .middle .card .cardHeader {
   text-align: center;
@@ -124,6 +131,10 @@ main {
   cursor: pointer;
   font-size: 1.2rem;
   font-family: "UnifrakturCook";
+  border: 15px solid transparent;
+  -o-border-image: url(../img/border.png) 30 round;
+     border-image: url(../img/border.png) 30 round;
+  background-color: transparent;
 }
 .middle .diceContainer {
   width: 100%;
@@ -232,4 +243,8 @@ main {
   font-size: 1.1rem;
   text-align: center;
   font-family: "UnifrakturCook";
+}
+
+.display-none {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

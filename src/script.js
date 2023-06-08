@@ -12,4 +12,25 @@ function checkHealth() {
     const pseudoHp = document.getElementById('hpIndicator');
     pseudoHp.style.height = healthAmount + '%';
 }
-  
+
+
+var prevoiusMap;
+function toggleMap(){
+    var stats = document.getElementById("statsContainer");
+    var map = document.getElementById('map');
+    var currentMap = map.getAttribute('src');
+    var terkepPath = "/img/terkep.png";
+
+    if (currentMap != terkepPath){
+        prevoiusMap = map.getAttribute('src');
+    }
+
+    stats.classList.toggle('display-none');
+
+    if (stats.classList.contains('display-none')) {
+       map.setAttribute("src", terkepPath)
+    } else {
+        map.setAttribute("src", prevoiusMap);
+    }
+
+}

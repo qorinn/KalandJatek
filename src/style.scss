@@ -6,17 +6,20 @@ body{
     background-position: center center, auto auto;
     background-repeat: no-repeat, repeat;
     background-size: 100% 100%, auto;
+    background-attachment: fixed, fixed;
 }
 main{
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px clamp(100px, 150px, 200px);
     position: relative;
-    grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
-    padding: 50px clamp(100px, 150px, 200px);
 }
-.left, .middle, .right{
-    padding: 0 10px;
-}
+
 .left{
+    display: grid;
+    height: calc(100vh - 100px);
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fill, 1fr);
     .titleBox{
         width: 100%;
         #title{
@@ -30,7 +33,7 @@ main{
         }
     }
     .stats{
-        padding: 10px;
+        margin: 10px 0;
         .statsGrid{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -68,7 +71,9 @@ main{
         text-align: center;
         position: relative;
         img{
-            height: 50vh;
+            max-width: 90%;
+            max-height: calc(100vh - 200px);
+            transition: .3s;
         }
     }
 }
@@ -77,17 +82,19 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+    height: calc(100vh - 100px);
     .card{
-        min-height: 400px;
         max-width: 20vw;
         display: flex;
         flex-direction: column;
         align-items: center;
-        border: 3px solid #000000;
-        outline: 3px solid red;
+        border: 20px solid transparent;
+        border-image: url(../img/border.jpg) 55 stretch;
         border-radius: 2px;
         padding: 10px;
         margin-bottom: 20px;
+        border-radius: 15px;
+
         .cardHeader{
             text-align: center;
             p{
@@ -117,7 +124,10 @@ main{
             padding: 10px 15px;
             cursor: pointer;
             font-size: 1.2rem;
-                font-family: 'UnifrakturCook';  
+            font-family: 'UnifrakturCook';
+            border: 15px solid transparent;
+            border-image: url(../img/border.png) 30 round;
+            background-color: transparent;
         }
     }
     .diceContainer{
@@ -223,4 +233,8 @@ main{
     font-size: 1.1rem;
     text-align: center;
     font-family: 'UnifrakturCook';
+}
+
+.display-none{
+    display: none;
 }
