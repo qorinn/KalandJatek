@@ -2,14 +2,11 @@
 1.
 A megadott napon, amikor kezdetét veszi a verseny, Kísértet nevű hajóddal elindulsz Tak városának magas gránitfallal körülvett kikötőjéből, és a Beltenger felé tartasz. Abdulnak, a Mészárosnak Haveldar nevű hajója szép nyugodtan szeli melletted a vizet. Jókora távolságban, keletre fekszik az ellenséges, de gazdag Lagash kikötője; nyugatra a Scythera-sivatag, amelyen keresztül karavánutak vezetnek Kish, Calah és Assur városaiba. Délre van a hegyekben bővelkedő Enraki-sziget.
 Merre mész?
-Veszélyes és vakmerő portyára indulsz Lagash felé a partot őrző
-hajók ellen
-?
+Veszélyes és vakmerő portyára indulsz Lagash felé a partot őrző hajók ellen?
 Lapozz az 55-re.
-Elindulsz a Scythera-sivatagba, hogy kifoszd a gazdag nyugati
-karavánokat?
-Lapozz a 20-ra. A Beltengeren cirkálsz az
-Enraki-sziget felé?
+Elindulsz a Scythera-sivatagba, hogy kifoszd a gazdag nyugati karavánokat?
+Lapozz a 20-ra.
+A Beltengeren cirkálsz az Enraki-sziget felé?
 Lapozz a 76-ra.
 2.
 A kerék túl gyors, te pedig túl lassú vagy. Pörgő pengéivel beléd döf; kalandod véres véget ér.
@@ -41,12 +38,9 @@ partját látod, tehát a vihar sikeresen átsodort a veszélyes sekély szakasz
 „Ó, jaj! kiált a Szellem. Ez igazán szörnyű!” Dühös pillantást vet rád, és kezével kétségbeesetten suhint feléd. „Ó, ily rettenetes hírek hordozója, megátkozlak téged!” Vesztesz 2 SZERENCSE  és 2 ÜGYESSÉG pontot. Lapozz a 210-re.
 15.
 A Déli-tengeren hajózva mit teszel?
-Shurrupak felé veszed az utadat, hogy a városban eladd a rabszolgáidat, vagy hogy néhány új kalózt toborozz a
-hajódra?
+Shurrupak felé veszed az utadat, hogy a városban eladd a rabszolgáidat, vagy hogy néhány új kalózt toborozz a hajódra?
 Lapozz a 301-re.
-A nagy Kish-deltán mész felfelé, és
-felhajózol a Holtak Városába? Lapozz a 140-re. Keresztülhajózol a Déli-tengeren
-Nippur irányába?
+A nagy Kish-deltán mész felfelé, és felhajózol a Holtak Városába? Lapozz a 140-re. Keresztülhajózol a Déli-tengeren Nippur irányába?
 Lapozz a 340-re.
 16.
 Abban a pillanatban, amikor benyomod a gyűrűt, a mennyezet megnyílik, és hatalmas vízsugár ömlik a nyakadba, és a földhöz vág. A bejárati ajtó becsapódik, a kripta rohamosan megtelik vízzel, és elsüllyedsz. Kalandod itt véget ér.
@@ -60,8 +54,7 @@ belső oldalára?
 Lapozz a 187-re.
 Belerúgsz a vállába?
 Lapozz a 251-re.
-Visszakézből a könyökébe
-vágsz?
+Visszakézből a könyökébe vágsz?
 Lapozz a 145-re.
 19.
 A Kísértet felgyorsul, amikor a hozzád legközelebb álló két hajó között akarsz átsiklani. Mit teszel? Ha pontosan a kettő között próbálsz átmenni lapozz a 296-ra; ha az utolsó pillanatban elfordulsz, hogy nekimenj az egyik hajó evezőinek és szétroncsold azokat lapozz a 275-re.
@@ -88,10 +81,10 @@ Minden olcsó embert megvettek már a Maraddal vívott háborúban, melynek győ
 29.
 Előreugrasz, és behúzol egyet a Küklopsz bordái közé. Ennek következtében az kettőt szaltózik vonj le 2 pontot az ÉLETEREJÉBŐL. Előrehajol,  és egy horogütéssel úgy fejbe vág, hogy elterülsz  a földön vesztesz 2 ÉLETERŐ pontot. A Küklopsz tér magához előbb, karjaiba vesz, és felemel a magasba. Mit teszel?
 Belerúgsz a vállába?
-Lapozz a 251-re. Belerúgsz a hónaljába?
+Lapozz a 251-re.
+Belerúgsz a hónaljába?
 Lapozz a 305-re.
-Visszakézből ráhúzol a
-könyökére?
+Visszakézből ráhúzol a könyökére?
 Lapozz a 145-re.
 30.
 Újra hallod a kiáltást; hátborzongatóan zúg végig a hegy lejtőin. Fölfelé mész a szakadékban a hang irányába. Ha magaddal viszed a legénységedet lapozz a 160-ra, ha egyedül mész lapozz a 138ra.
@@ -101,11 +94,9 @@ Lapozz a 145-re.
 A Kísértettel behajóztok Nippur egyetlen nagy kikötőjébe. Legényeid örülnek, hogy Vége az útnak. Dobi három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE, növeld 4-gyel utazási napjaid számát a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy több, mint LEGÉNYSÉGED EREJE, növeld 5-tel utazási napjaid számát a HAJÓNAPLÓDBAN. Abdulnak, a Mészárosnak Haveldar nevű hajója már lehorgonyzott az öbölben. Néhányan, akik a hajó fedélzetén maradtak, közlik veletek, hogy Abdul már fölment Nippur egyetlen magas hegycsúcsára, a találkahelyre. Ha a HAJÓNAPLÓDBAN  50-nél több utazási napod van lapozz a 342-re, ha a HAJÓNAPLÓDBAN 50 vagy ennél kevesebb utazási napod van lapozz a 213-ra.
 33.
 A lyuk elég nagy, oldalát tengeri növények és kagylók borítják. A hajó belsejében úszva hozzáérsz valamihez, amiről azt hitted, hogy egy halom rongy, mely hozzátapadt a hajó törzséhez. Az azonban egy sokszínű virághoz hasonlóan kinyílik, és éles fogakat, valamint szívókarokat pillantasz meg. A lény elzárja előled a kijáratot. Pillanatokon belül vissza kell térned a felszínre levegőért. Mit teszel?
-Átverekszed magad a szívókarú
-lény mellett?
+Átverekszed magad a szívókarú lény mellett?
 Lapozz a 21-re.
-Keresel egy másik kijáratot a hajó
-belsejében?
+Keresel egy másik kijáratot a hajó belsejében?
 Lapozz az 57-re.
 34.
 Sebesen közeledsz a part felé, de a hadihajók a nyomodban vannak, és elzárják az utadat. Nincs más választásod, mint átvágni a hajók között. Lapozz a 19-re.
@@ -141,17 +132,17 @@ A lyukon át a kapitány szobájába jutsz, ahol hat Vízitündérrel találod s
 A Kísértettel lefelé hajózol a nyugati partvidék mentén. Dobj három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE, növeld 5 nappal utazási idődet a HAJÓNAPLÓBAN. Ha a kapott összeg ugyanannyi vagy több, mint LEGÉNYSÉGED EREJE, növeld 6 nappal utazási idődet a HAJÓNAPLÓBAN. A hatalmas, erdőborította Martu-Amurru-hegy közelében kötsz ki, amely a Kirkuk nevű halászfalu fölött emelkedik. Mit teszel?
 Gyilkos legényeiddel partra szállsz, és rajtaütésszerű támadással arra kényszeríted a város lakóit, hogy adják át nektek
 aranyukat?
-Lapozz a 102-re. Továbbhajózol a part mentén az ellenséges
-Kish városába?
+Lapozz a 102-re. Továbbhajózol a part mentén az ellenséges Kish városába?
 Lapozz a 223-ra.
-Behajózol a Beltengerre a Trysta-zátonyok felé, hogy az arra járó hajók között
-portyázz?
+Behajózol a Beltengerre a Trysta-zátonyok felé, hogy az arra járó hajók között portyázz?
 Lapozz a 66-ra.
 46.
 Karodat behajlítva könyököddel belevágsz a szörny térdhajlatába. Az előretántorodik, elveszti az egyensúlyát, és elesik egy kiálló éles kőben vonj le tőle 2 ÉLETERŐ pontot. Mit teszel?
 Belerúgsz a bordáiba?
-Lapozz a 266-ra. Belerúgsz az ágyékába?
-Lapozz a 224-re. Belebokszolsz az állába?
+Lapozz a 266-ra.
+Belerúgsz az ágyékába?
+Lapozz a 224-re.
+Belebokszolsz az állába?
 Lapozz a 196-ra.
 47.
 Amikor Kish egyik külvárosába értek, az utcákon egyetlen hivatásos katonát sem láttok. Fedezékben maradva felsorakoztatod legényeidet, és jelt adsz a támadásra. Hatalmas ordítással vetik rá magukat a felkészületlen lakosságra. A városi polgárőrség csak itt-ott bocsátkozik ellentámadásba.
@@ -193,9 +184,9 @@ Az üzlet nagyon rosszul megy. A nap végére oly kevés rabszolgát adtál el, 
 Amikor odaugrasz a Küklopszhoz, az védekezésként a teste elé kapja a karját, így rúgásod azt éri. Elkapja a levegőben lévő lábadat, és iszonyatosan megszorítja vonj le mind önmagadtól, mind tőle 2-2 ÉLETERŐ pontot. Letesz róla, hogy eltörje a lábadat. Ehelyett inkább a bokádnál fogva ragad meg, és le-föl lóbál a levegőben. Mit teszel?
 Belerúgsz a könyökébe?
 Lapozz a 235-re.
-Karateütéssel az ágyékába
-csapsz?
-Lapozz a 177-re. Beleöklözöl a hasába?
+Karateütéssel az ágyékába csapsz?
+Lapozz a 177-re.
+Beleöklözöl a hasába?
 Lapozz a 139-re.
 61.
 Amint a part felé tartasz, szembetalálkozol néhány legényeddel, akik a többiekkel együtt a szigetet járják abban a reményben, hátha még életben találnak. Visszatértek a Kísértetre, és folytatjátok az utat. Lapozz a 15-re.
@@ -221,6 +212,7 @@ ERŐ 4 Ha a legényeid győznek, lapozz a 117-re.
 Lagash felé hajózol a Keleti-partvidék mentén, és árgus szemekkel figyeled, nem kerül-e az utadba a városba tartó kereskedőhajó. A szerencse azonban nem kedvez neked. A Kísértettel szemben két háromszög alakú piros vitorla tűnik fel a horizonton, és egyenesen feléd tart. Ezek lagashi hadihajók: fedélzetükön csak úgy nyüzsögnek a matrózok, és harci lobogók lengenek a szélben. Oldalra döntöd a Kísértetet, és megpróbálsz elhajózni a támadók elől. Dobj három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE lapozz a 87-re. Ha a kapott összeg ugyanannyi vagy több, mint LEGÉNYSÉGED EREJE lapozz  a 175-re.
 69.
 Az ajtó hatalmas, vastag, de teljes erőddel nekiveselkedve sikerül betörnöd. Abban a pillanatban, amikor az ajtó kinyílik, a fejed fölött recsegő hangot hallasz. Egy többtonnás sziklatömb válik le az ajtó fölött a mennyezetről, és egyenesen rád zuhan. Tedd próbára a SZERENCSÉDET! Ha SZERENCSÉD van, lapozz a 99-re. Ha nincs SZERENCSÉD, lapozz a 6-ra.
+70.
 A Szörny felkapja a fejét és kitátja a száját ekkora mosolyt még soha senki sem látott. Mohó éhség lángol a szemében. Ha nálad van Axillon íja lapozz a 163-ra, ha nincs lapozz a 110-re.
 71.
 Miután átadtad az aranyat, el-Shazar eléd lök egy engedélyt, amely szabad bejárást biztosít Shurrupakba. Matrózai kihúzzák csáklyáikat, és hagyják szabadon elmenni a Kísértetet. Ha a csata színterét elhagyva Shurrupak felé veszed az utadat lapozz a 301-re, ha a Beltenger közepén áthajózva Nippur felé indulsz el, amilyen gyorsan csak tudsz lapozz a 340-re.
@@ -231,8 +223,10 @@ A Batárversenynek a mai napra vége. Ha  még nem tetted volna, megpróbálkozh
 74.
 Oldalra lépsz, és a Küklopsz hatalmas karja felé suhintasz, de nem éred el, mert a szörny elkapja és majdnem teljesen kicsavarja a kezedet. Vesztesz 2 ÉLETERŐ pontot. Elereszti a kezedet, és megragad a bokádnál fogva. Fejjel lefelé lógsz a kezében. Mit teszel?
 Belerúgsz a könyökébe?
-Lapozz a 235-re. Térddel mellbe rúgod?
-Lapozz a 122-re. Beleöklözöl a bordáiba?
+Lapozz a 235-re.
+Térddel mellbe rúgod?
+Lapozz a 122-re.
+Beleöklözöl a bordáiba?
 Lapozz a 372-re.
 75.
 „Egy ragadozó Krell amelynek a barlangja e hajó alatt van, ellopta a Só-koponyát mondja a Tündér. Ez a mi legdrágább kincsünk, Tenger Apánktól kaptuk, s varázserejével különválasztja a tengerek vizét az édesvizektől. Vissza kell kapnunk e kincset!” A Tündérek varázsitalt adnak neked. Ha megiszod, addig tartózkodhatsz a víz alatt levegővétel nélkül, ameddig csak akarsz. Ezután odavezetnek a Krell barlangjához, mely a roncs alatt van.
@@ -278,11 +272,9 @@ Negyedik kalóz
 Ha legyőzöd őket, lapozz a 397-re.
 82.
 Miközben a Küklopsz megpróbál felállni, odaugrasz hozzá, hogy fejbe vágd. De szerencsétlenségedre észreveszi, amint közeledsz, és beleharap a karodba vesztesz 1 ÉLETERŐ pontot. A szörny ismét talpon van, és előregörnyedve a  karjába akar kapni. Mit teszel?
-Repülőrúgással a rekeszizmába
-rúgsz?
+Repülőrúgással a rekeszizmába rúgsz?
 Lapozz a 60-ra.
-Repülőrúgással a lábába
-rúgsz?
+Repülőrúgással a lábába rúgsz?
 Lapozz a 319-re.
 Repülőrúgással fejbe rúgod?
 Lapozz a 290-re.
@@ -312,10 +304,10 @@ A Kísértet teljes sebességgel eltávolodik a hadihajótól, és messze maga m
 91.
 Ütésed teljesen hatástalan, és már az ellentámadást várod. A Küklopsz térdével a melledbe rúg, és a földre zuhansz vesztesz 2 ÉLETERŐ pontot. Fájdalomtól meggyötört tested fölé hajol, és a karodnál fogva fölemel a levegőbe. Mit teszel?
 A hónaljába rúgsz?
-Lapozz a 305-re. A csuklójába harapsz?
+Lapozz a 305-re.
+A csuklójába harapsz?
 Lapozz a 276-ra.
-Ráhúzol a könyöke hátsó
-részére?
+Ráhúzol a könyöke hátsó részére?
 Lapozz a 187-re.
 92.
 Miközben elhajózol a sziget mellett, egy sötét, jól körvonalazható árny vetül a hajódra. Felnézel, és egy irdatlan nagy madarat pillantasz meg, amely ölyvhöz hasonlít, csak több százszor nagyobb. Egy ideig a Kísértet fölött köröz, aztán támad. Lecsap rád, a karmai közé ragad, és a sziget felé röpül veled. Előrántod a kardodat, és megpróbálsz megszabadulni tőle.
@@ -389,8 +381,10 @@ A szobor könnyedén elgurul, de közben széles orrlyukaiból csípős, mérgez
 115.
 Mikor már egészen közel vagy a szörnyhöz, hatalmasat vágsz a térdhajlatára. A földre zuhan vonj le tőle 2 ÉLETERŐ pontot. Mit teszel, míg a teremtmény a földön elterülve fekszik?
 Föl-le ugrálsz a hátán?
-Lapozz a 361-re. Belerúgsz az ágyékába?
-Lapozz a 224-re. Fejbe vágod?
+Lapozz a 361-re.
+Belerúgsz az ágyékába?
+Lapozz a 224-re.
+Fejbe vágod?
 Lapozz a 82-re.
 116.
 Az Óriás Homár biztosan kielégíti minden élelmiszerszükségletedet, a közeli patak vize pedig friss ivóvízzel lát el benneteket. Visszatérsz a Kísértetre, elhagyod a Három Nővért, és elindulsz utad utolsó szakaszára Nippurba. Lapozz a 7-re.
@@ -407,11 +401,10 @@ A kishi katonák vereséget szenvedtek. Hátat fordítanak, és eltűnnek a szom
 122.
 Miközben a Küklopsz ide-oda lóbál a levegőben, szabadon lévő lábaddal sikerül jól megrúgnod. Fájdalmában felordít és a földre dob vonj le tőle 1 ÉLETERŐ pontot. Nem ütötted meg magad, fölállsz, és szembefordulsz ellenfeleddel. Mit teszel?
 Ráhúzol a vállára?
-Lapozz a 91-re. Behúzol egyet a rekesz-
-izmába?
+Lapozz a 91-re.
+Behúzol egyet a rekesz-izmába?
 Lapozz a 18-ra.
-Karateütéssel a hónaljába
-vágsz?
+Karateütéssel a hónaljába vágsz?
 Lapozz a 337-re.
 123.
 A Kísértettel elhajózol Enraki legdélibb csücskétől. A horizont teljesen tiszta, sem hajó, sem egy árva felhő nem látható. Kish és a Keleti-partvidék kereskedelmi főútvonala tőletek délre, Enraki és a Trysta-zátonyok között halad. Ha akarod, átkutathatod ezt a szakaszt, hogy nem bukkansz-e gazdag kereskedőkre lapozz a 318-ra; vagy ha legénységed tagjai közül néhányan elestek volna, elhajózhatsz a semleges Assur városába, hogy ott felvehess egypár új embert lapozz a 171-re. De ha elég szerencsésnek érzed magad, azt is megteheted, hogy szerencsét próbálsz Calah játékbarlangjaiban lapozz a 211-re, vagy elhajózhatsz a Keleti-partvidékre, hogy ott egy kis szárazföldi portyázásra menj lapozz a 197-re.
@@ -462,9 +455,9 @@ Miközben gyomorszájon vágod, beleharap a lábadba. Mindketten felordítotok a
 2 ÉLETERŐ pontot vesztetek. Remegő lábbal ellenfeled felé fordulsz. Mit teszel?
 Mellbe vágod?
 Lapozz a 18-ra.
-Könyököddel belevágsz a
-bordáiba?
-Lapozz a 29-re. Repülőrúgással mellbe rúgod?
+Könyököddel belevágsz a bordáiba?
+Lapozz a 29-re.
+Repülőrúgással mellbe rúgod?
 Lapozz a 206-ra.
 140.
 A Kísértettel a nyugati partok mentén hajózol a Kish-delta felé. Dobj három kockával! Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE, növeld 4 nappal utazási idődet a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy nagyobb, mint LEGÉNYSÉGED EREJE, növeld 5 nappal utazási napjaid számát a HAJÓNAPLÓDBAN! A sötétség leple alatt, óvatosan, nehogy zátonyra fussatok az alacsony vízben, felhajóztok a delta egyik ágán. Tedd próbára a SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 64-re, ha nincs SZERENCSÉD lapozz a 25-re.
@@ -558,7 +551,9 @@ A három szigethez közeledve látod, hogy azok egy csoportban, egymáshoz egés
 A rendezett szigeten?
 Lapozz a 386-ra.
 A vulkánszigeten?
-Lapozz a 369-re. A pálmafákkal benőtt szigeten?   Lapozz a 354-re.
+Lapozz a 369-re.
+A pálmafákkal benőtt szigeten?
+Lapozz a 354-re.
 168.
 A folyosó hirtelen véget ér egy nagy, sziklába vájt barlangban. A göröngyös földön ül a Krell, melynek tüskékkel borított páncélját iszonyúan kusza végtagok ölelik körül. Kocsányon lógó szemekkel méreget, miközben egyik ollója egy szikladarabbal játszadozik. „Étel! Étel! mondja. Mmm, mmm, étel. Igen, étel!” Lábaival elrugaszkodik, és megtámad.
 Krell
@@ -580,6 +575,7 @@ A kormányrudat és a vitorlákat gondosan irányítva biztonságosan behajózol
 Zátonyfürkész
 ÜTÉS 9
 ERŐ 6 Ha legyőzöd lapozz a 267-re.
+171.
 A semleges Assur városa felé hajózol, a Kísértet egyenletesen szeli a Beltenger nyugodt vizét. Dobj három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE, növeld utazási napjaid számát 5-tel a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy nagyobb, mint LEGÉNYSÉGED EREJE, 6-tal növeld utazási napjaid számát a HAJÓNAPLÓDBAN. Ha a HAJÓNAP-
 LÓDBAN lévő szám páratlan lapozz a 376-ra; ha ez a szám páros lapozz a 357-re.
 172.
@@ -600,11 +596,9 @@ A lovas hadsereg illő távolságból visszakísér benneteket a Kísértethez, 
 Miközben fejjel lefelé lógsz a szörny markában, hatalmas ütést mérsz az ágyékára. Sokra nem mész vele, csak a kezed sajdul bele vesztesz 1 ÉLETERŐ pontot. A Küklopsz azonban ettől úgy megzavarodik, hogy elengedi a lábadat. A földre zuhansz. Fölállsz, és szembefordulsz ellenfeleddel. Mit teszel?
 Mellbe vágod?
 Lapozz a 18-ra.
-Visszakézből belevágsz a
-hónaljába?
+Visszakézből belevágsz a hónaljába?
 Lapozz a 337-re.
-Könyököddel belevágsz a
-bordáiba?
+Könyököddel belevágsz a bordáiba?
 Lapozz a 29-re.
 178.
 Megkerülöd a Trysta-sziget déli részét, és a Gothcsatorna felé indulsz. Maradtól néhány kilométerre egy szigetet veszel észre, amelyik egyik térképeden sem szerepel. Ha kikötsz ezen a szigeten lapozz a 38-ra, ha folytatod az utadat lapozz a 4re.
@@ -687,31 +681,35 @@ Dobj három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE la
 Miután felmászol, kijutsz a szentély tetejére. Intesz embereidnek, akik kellő távolságban a lombok között lapítanak, majd körülnézel, hogy merre menj tovább. Az egyetlen lehetséges út: csak egy másik kéményen mászhatsz vissza ezekből  viszont több is van. Találomra kiválasztasz egyet, bemászol rajta, és egy kis előszobafélébe jutsz. Két ajtó nyílik innen. Melyiken mész ki? Ha a bal oldalin lapozz a 264-re, ha a jobb oldalin lapozz a 289re.
 200.
 Lapozz az 50-re.
+201.
 A szarvánál fogva megragadod a koponyát, és teljes erővel kifelé kezded húzni. Tedd próbára a SZERENCSÉDET! Ha SZERENCSÉD van la-
 pozz a 232-re, ha nincs SZERENCSÉD lapozz a 243-ra.
 202.
 A következő futamban tizenhat gyík vesz részt, de te Csupán négyet szúrsz ki, akik között a verseny eldőlhet: Omar Shazi, Sárkánygyík, Wazi Biin és el-Savak. Az egyikre 20 Arany Tallért vagy 2 rabszolgát kell tenned, te döntsd el, melyik megoldást választod. Döntsd el, melyik Batárra fogadsz, majd dobj egy kockával. Ha a kapott szám 1 vagy 2 lapozz a 118-ra, ha a kapott szám 3 vagy 4, lapozz a 131-re, ha a kapott szám 5 vagy 6 lapozz a 106-ra.
-201.
+203.
 Görbe kardoddal beledöfsz a macskába, de az nem sérül meg. Lapozz a 322-re.
 204.
 Dobj három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE, növeld utazási napjaid számát 3-mal a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy nagyobb, mint LEGÉNYSÉGED EREJE, növeld utazási napjaid számát 4-gyel, aztán lapozz a 27-re.
 205.
 A savlabda, melyet darabokra hasítottál kardoddal, remegve fekszik a földön, kifolyt „vére” mély barázdákat mart a burkolatba. Ha még nem tetted volna, benézhetsz az egyik hálófülkébe lapozz a 218-ra, vagy menj tovább a másik ajtóhoz lapozz a 248-ra.
+206.
 Nekifutásból fölugrasz, és mellbe rúgod a Küklopszot vonj le 2 pontot az ÉLETEREJÉBŐL. Apró nyögést hallat, majd hatalmas mancsával csapkodva hátratántorodik, aztán megragad és a magasba emel. Mit teszel?
-Visszakézből a könyökébe
-vágsz?
+Visszakézből a könyökébe vágsz?
 Lapozz a 145-re.
 A hónaljába rúgsz?
-Lapozz a 305-re. A csuklójába harapsz?
+Lapozz a 305-re.
+A csuklójába harapsz?
 Lapozz a 276-ra.
 207.
 Visszatértek a Kish-deltából, és a Déli-tengeren hajóztok. Ha a Kazallu-szigetre mész élelemért lapozz a 108-ra, ha messzire hajózol a kishi partoktól a Beltenger közepe felé lapozz a 340-re.
 208.
 Amint a Kísértet megszabadul a gályától, észreveszed, hogy újabb hajóraj közeledik Marad felől. Ha még mindig át akarsz törni Marad hajóraján lapozz a 153-ra, ha inkább egy kisebb shurrupaki gályával próbálsz szerencsét lapozz a 127-re.
+209.
 Gyorsan bemenekülsz egy sziklamélyedés alá, s a hatalmas hólabda melletted gördül le a szakadék mélyére. Amikor leér, kimászol rejtekhelyedről, és a szakadékban lerohansz az ösvényen várakozó embereidhez, de közben lopva hátra-hátranézel, hogy lásd, nem gurítanak-e le a havasi vadállatok újabb hógörgeteget. Lapozz a 111-re.
 210.
 „Menj! mondja a szellem. Erre!” mutat rá egy alacsony boltívre. Átmész alatta, és egy olyan magas csigalépcső lábánál találod magad, amelynek a vége belevész a fejed fölött a homályba.
 „Menj! hallod ismét a szellem kérését. Menj!” Felmész a lépcsőn a szentélybe, majd egy ajtóhoz érsz. Lapozz a 289-re.
+211.
 Hajóddal Calah felé fordulsz. Dobj három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE, növeld utazásod napjainak számát 5-tel a HAJÓNAPLÓDBAN. Ha a kapott öszszeg ugyanannyi vagy több, mint LEGÉNYSÉGED EREJE, növeld 6-tal utazási napjaid számát a HAJÓNAPLÓDBAN. Calah nyüzsgő, koszos kikötőváros; rögtön szülővárosod, Tak után következik a szegénységet és a bűnözés mértékét tekintve. Ahogy megérkezel, sietve a kikötő játékbarlangjaiba mész. Melyik játékot választod?
 A kiütős játékot?
 Lapozz a 48-ra.
@@ -772,9 +770,11 @@ A vágatok tekervényesek és hosszúak. Néhány órán át kutattok közöttü
 Goblin horda
 ÜTÉS 9
 ERŐ 12 Ha legénységed legyőzi őket lapozz a 147-re.
+227.
 Kinyitod az ajtót, és egy kis szobába jutsz, melyben egyetlen Sárkánygyík tartózkodik. Az undorító kis lény háttal ül, de amikor a szobába lépsz, lassan megfordul. Tedd próbára a SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 278-ra. Ha nincs SZERENCSÉD lapozz a 247-re.
 228.
 A szobrot könnyen elmozdítod a talapzatáról. Bár nehéz, mégsem okoz különösebb gondot, hogy levidd a lépcsőn és átadd várakozó embereidnek. Visszatérsz Assurba, ahol a bálványt 105 Arany Tallérért eladod. Hagyod, hogy a rubint új tulajdonosa találja meg. Visszatérsz a Kísértetre. Ha délnek hajózol a nyugati tengerpart mentén lapozz a 45-re, ha délkelet felé hajózol a Beltengerre, kereskedőhajók után kutatva lapozz a 318-ra.
+229.
 Átkutatod a hozzád legközelebb fekvő tetemet, és elborzadsz, amikor annak mellkasából dagadt férgek tömege mászik be a karodba. Vesztesz 2 ÉLETERŐ pontot. Felismered őket: ezek Agyevő paraziták, amelyek átrágják magukat áldozatuk testén és csontján, hogy eljussanak az agyhoz. Ha nálad van Ut-Napishtim Sisakja lapozz a 195-re, ha nincs lapozz a 174-re.
 230.
 Vonakodva bár, de legényeid megnyugszanak, és hajlandók folytatni az utat. A part egyik kisebb öblében egy zátonyra futott gályát találtok, amelynek a törzsét az idő és a víz jócskán megtépázta. Átkutatjátok a roncsot, és 16 Arany Tallért találtok részben a roncsok között, részben a hajó körül a homokban jegyezd fel a frissen szerzett Aranyat a Zsákmány rovatba. Ha a szárazföld belseje felé akarsz menni lapozz a 42-re, ha visszamész a Kísértetre és ha még nem tetted volna elhajózol a „rendezett” szigetre lapozz a 386-ra, ha a pálmafákkal borított szigetre mész lapozz a 354-re.
@@ -795,11 +795,9 @@ dagály leemeli a Kísértetet a sziklákról, és elhajózhattok a mélyebb viz
 Megfordulsz, és éles rúgást mérsz a Küklopsz könyökére. Valószínűleg elrepedt a csontja. Ordítva a földre ejt vonj le 2 pontot az ÉLETEREJÉBŐL. Talpra állsz, és döbbent ellenfeled felé fordulsz. Mit teszel?
 Behúzol egyet a vállára?
 Lapozz a 91-re.
-Könyököddel belevágsz a
-bordáiba?
+Könyököddel belevágsz a bordáiba?
 Lapozz a 29-re.
-Repülőrúgással a mellébe
-rúgsz?
+Repülőrúgással a mellébe rúgsz?
 Lapozz a 206-ra.
 236.
 A kockavető barlangban a sors szerencsétlenségedre egy régi hiteleződdel hoz Össze, akit Jiamil el-Fazouknak hívnak. Több ezer Arany Tallérral tartozol neki ezt is szerencsejátékon vesztetted el. „Nocsak, nocsak mondja el-Fazouk, amint megpillant -‚ fogadni merek, hogy te vagy az Abdul ellenfele. Mondta is, hogy erre tekeregsz!” Ragaszkodik hozzá, hogy játssz vele, mégpedig az  az összeg a tét, amivel tartozol neki. „Dobj ezzel a két kockával! mondja. Ha 7-et dobsz, megtarthatod a hajódat, ha nem, úgy az az enyém lesz! Ha visszautasítod az ajánlatomat és nem játszol velem, akkor az embereim ölnek meg.“ Számos koszos kalóz gyűlik el-Fazouk köré, hogy jelenlétükkel megerősítsék kijelentését. Fogod a két kockát, és dobsz. Ha a kapott összeg 7 lapozz a 330-ra; ha nem lapozz a 144-re.
@@ -809,15 +807,18 @@ Ismerlek téged! Ne találkoztunk mi már egy kiütős versenyen?” Megpróbál
 mondod -‚ jól elbántál velem! Hat fogamat verted ki!“ Nevetve nyugtázza, hogy ilyen jól emlékszel rá, és jelt ad az embereinek, hogy álljanak le, ne csáklyázzák tovább a Kísértetet. „Nem tudom, hogy kerültél ide mondja, miközben néhány száz méterrel hátrább küldi embereit -‚ de a régi időkre való tekintettel igen alacsony váltságdíjjal, 200 Arany Tallérral is megelégszem!” Ha akarsz és tudsz is ennyit fizetni lapozz a 71-re, ha nem akarsz vagy nem tudsz fizetni lapozz a 96-ra.
 238.
 Felhúzod a vitorlákat és felszeded a horgonyt. Hajóddal elindulsz Shurrupak kikötőjéből a Délitengerre. Ha a part mentén hajózol a Három Nővér-sziget felé lapozz a 167-re, ha a nyílt tenger felé veszed az irányt  és Nippurba tartasz lapozz a 378-ra.
+239.
 Amint átmászol e lepusztult hegyek szétmorzsolt kövein, egyszer csak észreveszed egy hatalmas építmény sarokkövét. Legénységed tagjaival kiásatod körülötte a földet meg a sziklákat, és egy ősrégi kőkaput találtok, amely egy betemetett kripta, templom vagy palota bejárata lehetett. Miután elhordjátok a kaput elzáró köveket, keskeny, hoszszú alagút tárul elétek, mely éles szögben hatol be a hegy mélyébe. Ha a legjobb embereiddel elindulsz lefelé ezen az alagúton lapozz a 158-ra, ha ismét eltorlaszolod a kövekkel az alagút bejáratát és folytatod az utadat a hegyen át lapozz a 316ra.
 240.
 Váratlanul egy hatalmas lény ragadja meg a nyakadat, és fojtogatni kezd. Lesújtasz a kardoddal, erre a vadállat felvisít és elereszt. Amikor megfordulsz, hogy megnézd, nem látsz mást, csak az alagutat. Ekkor a teremtmény újra támad, láthatatlan öklével az arcodba vág. A csata idejére vonj le magadtól 2 ÜGYESSÉG pontot!
 Láthatatlan Támadó ÜGYESSÉG 7 ÉLETERŐ 6 Ha legyőzöd lapozz a 381-re.
+241.
 Legénységed néhány tagjának sikerül átvágnia a hadihajó árbocának köteleit, a többiek pedig megszabadítják a Kísértetet a csáklyáktól, s közben visszaverik a matrózok utolsó támadását. Megfordulsz a Kísértettel, a szél belekap a vitorlákba, és máris tovasiklotok a kishi hajót hátrahagyva, amelyen teljes zűrzavar lesz úrrá. Az Assur felé vezető utatokat elvágták, így délkelet felé, fordultok a Beltengeren. Lapozz a 318-ra.
 242.
 Az ösvény, amelyen felvezeted az embereidet, elég veszélyes. Számos legényed szerencsétlenül jár, a mélybe zuhan. Vesztesz 1 LEGÉNYSÉGI ERŐ pontot. Lapozz a 304-re.
 243.
 A koponya kiesik a falból, és hatalmas nyílás tárul eléd az alagútban. Ekkor kövek meg csontdarabok hullanak rád, és az átjáró beszakad. Több száz méterre a víz alatt, a tenger fenekén leled halálodat. Kalandod itt véget ér.
+244.
 Valamennyien szerencsésen visszaértek az ösvényhez. Lapozz a 111-re.
 245.
 Rövid kérdezősködés és alkudozás után találsz egy rabszolga-kereskedőt, aki hajlandó eladni a rabszolgáidat. Tedd próbára a SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 137-re. Ha nincs SZERENCSÉD lapozz a 189-re.
@@ -825,25 +826,31 @@ Rövid kérdezősködés és alkudozás után találsz egy rabszolga-kereskedőt
 Dobj három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE növeld utazási napjaid számát 5-tel a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy nagyobb, mint LEGÉNYSÉGED EREJE 6-tal növeld utazásod napjainak a számát a HAJÓNAPLÓDBAN. Ha a HAJÓNAPLÓDBAN lévő szám páros lapozz a 109-re, ha páratlan lapozz a 178-ra.
 247.
 Farkasszemet nézel a Sárkánygyíkkal. A szeme összeszűkül és kővé változtat! Kalandod itt véget ér.
+248.
 Az ajtó masszív kőből van; közepén díszesen faragott kőtáblát látsz. A tábla aljában lévő feliratot olyan régies nyelven írták, hogy gondot okoz neked a szöveg megfejtése. Szerinted azt jelenti:
 „Ahhoz, hogy üdvözöld Ut-Napishtimet, neked kell benyomni (kihúzni?) a kilincset az ajtóba (az ajtóból).” Megfogod a faragott táblát. Ha befelé nyomod az ajtóba lapozz a 258-ra, ha kifelé húzod lapozz a 281-re.
 249.
 Amikor kinyílik az ajtó, szinte áthatolhatatlan sötétség tárul fel mögötte, de az alig kivehető körvonalak között egy hatalmas szempárt látsz, amely mohón bámul rád. Visszahőkölsz, amikor a hatalmas vadállat bepréseli magát az ajtónyíláson át a verembe. Szarvak meredeznek széles fejéből, a hátából és a farkából. Morog. Ha megtámadod ezt a teremtményt lapozz a 399-re, ha más megoldást találsz ki lapozz a 93-ra.
 250.
 Lapozz az 50-re.
+251.
 Rúgásod elég rossz szögből érkezik, így csupán súrolja a szörny vállát. Rá se hederít a támadásodra, megforgat a levegőben, és odavág a barlang egyik falához. Szerencsésen esel, így elkerülöd a komoly sérülést vesztesz 1 ÉLETERŐ pontot. Négykézláb mászva a Küklopsz háta mögé kerülsz. Mit teszel?
-Ököllel belevágsz a térd-
-hajlatába?
-Lapozz a 115-re. Ököllel belevágsz a veséjébe? Lapozz a 347-re. Rávágsz a gerincére?
+Ököllel belevágsz a térd-hajlatába?
+Lapozz a 115-re.
+Ököllel belevágsz a veséjébe?
+Lapozz a 347-re.
+Rávágsz a gerincére?
 Lapozz a 132-re.
 252.
 A kereskedőhajó legénysége és utasai elszörnyedve nézik, hogy a Varázsló mit tesz veled. Odaugranak hozzá, és lefogják. Kezét vastag kötéllel kötözik össze, és a hajó fedélzetéről a tengerbe taszítják, hogy a cápák martaléka legyen. A kapitány felmászik az árboc kötélzetére, és lekiált neked: „Bocsáss meg, amiért ilyen méltatlan személyt vettünk fel a fedélzetre. Kegyes bocsánatodért esedezünk!” Legénységének tagjai és az utasok lelkesen helyeselnek. Átugrasz a kereskedőhajó fedélzetére, 120 Arany Tallért zsákmányolsz, és csupán két rabszolgát viszel magaddal, mert ilyen kedvesek voltak hozzád. Jelöld szerzeményeidet a Kalandlap Zsákmány rovatában. Mielőtt visszatérnél a Kísértet fedélzetére, engedélyt adsz a kereskedőknek a továbbhajózásra. Ha még mindig a Beltengeren akarsz hajózni a Trystazátonyok felé lapozz a 66-ra, ha irányt változtatva a nyugati partok felé akarsz menni lapozz a 157re, ha a Keleti-partvidék felé akarsz menni, hogy a szárazföldön portyázz lapozz a 10-re.
+253.
 A piacon sokféle ember megfordul, így aztán könynyen találsz köztük olyat, akit felvehetsz. Tedd próbára a SZERENCSÉDET! Ha SZERENCSÉD
 van lapozz a 62-re. Ha nincs SZERENCSÉD lapozz a 28-ra.
 254.
 Az ajtón benyitva sebtében elhagyott hálószobába jutsz. Ruhák, üres ládák és kegytárgyak hevernek szanaszét a földön és a baldachinos ágyon. Gyorsan átvizsgálod a szobát, és egy kis bőröndöt találsz, amelyet a szoba menekülő lakója felejtett ott, 98 Arany Tallér van benne. Hónod alá csapod a ládát, és távozol a szobából. Lapozz a 291-re.
 255.
 A vihar elül, az égbolt kitisztul, a tenger megnyugszik. Miközben leszerelitek a viharvitorlákat és felkészítitek a hajót a nyugodt hajózásra, a távolban észreveszed egy észak felől közeledő kishi hadihajó vitorláit és harci zászlóját. Csak úgy menekülhetsz el, ha a Trysta-zátonyok felé hajózol, melyek nem messze innen, délre találhatók. Ha erre mész lapozz a 119-re, ha itt maradsz és harcba szállsz a hadihajóval lapozz a 107-re.
+256.
 Görbe kardoddal beledöfsz a fehér macskába, de nem ejtesz rajta sebet. Lapozz a 322-re.
 257.
 Nyugat felé hajózva áthaladsz a Trysta-sziget északi és a Vulkánok szigete déli csücske között. Dobi három kockával! Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE növeld utazási napjaid számát 3-mal a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy több, mint LEGÉNYSÉGED EREJE növeld utazási napjaid számát 4-gyel a HAJÓNAPLÓDBAN. Ha a HAJÓNAPLÓDBAN lévő szám páros lapozz a 109-re, ha ez a szám páratlan lapozz a 27-re.
@@ -859,32 +866,35 @@ kapzsi vagy. „Oszd meg velünk a kincset mondják-, vagy nem megyünk tovább 
 Már jó ideje biztonságban hajózol, amikor az egyik hadihajóról váratlanul rátok lőnek, és a lövedék eltalálja az árbocodat. Fővitorlád fehér lepedőként terül szét a fedélzeten. Dobj három kockával! Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE lapozz a 83-ra. Ha a kapott összeg ugyanannyi vagy több, mint LEGÉNYSÉGED EREJE lapozz az 51-re.
 262.
 Amikor visszamentek a Kísértetre, a kikötő parancsnokától megtudjátok, hogy az Assurt átszelő folyó mentén, kissé följebb egy igen gazdag templom áll, amelyben a Holtak Papjai laknak. Ha elindulsz, hogy elkobozd a szentély kincseit lapozz a 335-re, ha ügyet sem vetsz erre az információra, és inkább Assurba mész, hogy ott újabb embereket vegyél fel a hajódra lapozz a 185-re, ha a Beltengeren akarsz portyázni kereskedőhajókra vadászva lapozz a 318-ra.
+263.
 Felértek a kőszirt tetejére, és szétnéztek a Kishiföldszoros széles fennsíkjain, amelyeken elszórtan szántóföldeket, erdőket és településeket is láttok. Néhány kilométerrel arrébb egy kisváros tűnik fel. Ha ezt egy közeli erdőn át közelítitek meg, lapozz a 353-ra. Ha inkább óvatosan átvágtok a kőszirt és a város között elhelyezkedő kukoricatáblákon lapozz a 328-ra.
 264.
 Az ajtó egy kis szobába nyílik. Magas falai belevesznek a fölötted izzó, gomolygó masszába, melynek kisugárzása melegséggel és jó érzéssel tölt el. Nyersz 4 ÉLETERŐ és 2 SZERENCSE pontot. Ebből a szobából nincs másik kijárat, így visszamész a kéménybe, és megpróbálkozol a másik ajtóval. Lapozz a 289-re.
 265.
 Minél magasabbra kapaszkodsz, a párkány annál labilisabbá és keskenyebbé válik. Egy kő hirtelen kizuhan a helyéből, te meg lezuhansz a barlang sötét mélyébe. Tedd próbára a SZERENCSÉDET! Ha SZERENCSÉD van, lapozz a 365-re, ha nincs SZERENCSÉD lapozz a 334-re.
+266.
 Nekifutásból jó erősen belerúgsz a szörny bordáiba: minden bizonnyal össze is törsz néhányat,  de a te lábad is megsérül vonj le mindkettőtöktől 2-2 ÉLETERŐ pontot. A Küklopsz nagy nehezen talpra áll, majd újra támad: megpróbál megragadni. Mit teszel?
-Repülőrúgással a lábába
-rúgsz?
+Repülőrúgással a lábába rúgsz?
 Lapozz a 319-re.
-Repülőrúgással a rekeszizmába
-rúgsz?
+Repülőrúgással a rekeszizmába rúgsz?
 Lapozz a 60-ra.
 Beleöklözöl a szemébe?
 Lapozz a 156-ra.
 267.
 Miután megölted a vadállatot, tovább folytatod az utadat, és magad mögött hagyod a fehéren tajtékzó vizet meg a hadihajókat. Sikeresen túljutottál a zátonyokon, és máris előtted van Trysta szigete. Ha a sziget felé mész tovább lapozz a 152-re, ha délnyugat felé mész Kishbe lapozz a 223-ra, ha az Ölyvre lapozz a 27-re, ha délkelet felé mész a Goth-csatorna irányába lapozz a 191-re.
+268.
 Legénységed néhány tagja elindul a legközelebbi part felé a hajó egyik csónakjával, és eltűnik a hajnali ködben. Néhány perccel később kiáltás hallatszik, majd lövések dördülnek, és csatazaj tölti meg a levegőt. Tűzjelzést adnak le a legközelebbi bástyáról; kürtök harsognak. Egy perc múlva elül a csatazaj, és egyetlen súlyosan sebesült legényed visszaevez a Kísértethez. „Védekeznek, kapitány!”
 nyögi ki, és összeesik. Vonj le 2 pontot LEGÉNYSÉGED EREJÉBŐL. Nincs más választásod, vissza kell fordulnod a folyón, és vissza kell menned a tengerre lapozz a 207-re.
 269.
 Keresel egy üres helyet a bazárban, és az arra sétálgató, árut mustrálgató reményteljes vevőid előtt kiállítod foglyaidat. Dobj egy kockával! Ha a kapott szám 1 vagy 2lapozz a 94-re. Ha a kapott szám 3 vagy 4 lapozz a 72-re. Ha a kapott szám  5 vagy 6 lapozz az 59-re.
+270.
 A Batárversenyeket a rakpart és a város között húzódó homokos részen tartják. A versenypálya egyik végében hatalmas versenygyíkokat sorakoztatnak fel, melyek aztán vágtázva rohannak a túlvégen cölöphöz kötözött Goblin felé. Az a Batár a győztes, amelyik elsőként mélyeszti bele a fogait a szerencsétlen teremtménybe. Húsz indulóból a következő három közül választhatsz egyet: Fazima, Awkspeed és el-Savak. Tetszés szerint 20 Arany Tallért, vagy 2 rabszolgát kell tenned az egyikre. Válaszd ki, melyik Batárra fogadsz, majd dobj egy kockával. Ha a kapott szám 1 vagy 2 lapozz a 321-re. Ha a kapott szám 3 vagy 4 lapozz a 348-ra. Ha a kapott szám 5 vagy 6 lapozz a 362-re.
 271.
 Alig tettél meg egy rövid útszakaszt, amikor a tengerből egy Óriás Homár bukkan elő, és rohamléptekkel indul el a parton, hogy a jó falat reményében megragadja egyik emberedet. Körülbelül hat méter hosszú testét vastag páncél fedi, és másfél méteres ollók fegyverként használja. Félelmetes ellenség. Legénységed védekezik.
 Óriás Homár
 ÜTÉS 9
 ERŐ 8 Ha a legényeid győznek lapozz a 116-ra.
+272.
 Felvontad a vitorlákat. Merre mész? Ha a Beltenger vizein akarsz portyázni gazdag kereskedőhajókra vadászva lapozz a 318-ra, ha a Keletipartvidék felé hajózol déli irányban lapozz a 10re.
 273.
 Fölfelé mész a völgy közepén. Már egészen közel jársz a gályához, amikor beszakad a lábad alatt a jég, és egy mély verembe zuhansz. Dobi két kockával, és a kapott összeget vond le ÉLETERŐ pontjaidból! Ha még mindig életben vagy, kimászol a veremből, és óvatos léptekkel továbbmész a gálya felé. Lapozz a 288-ra.
@@ -892,18 +902,19 @@ Fölfelé mész a völgy közepén. Már egészen közel jársz a gályához, am
 Miután a papokat legyőztétek, a lelkesedést kissé eltúlzó legénységed felgyújtja a vár templomát, így a lángok martaléka lesz csaknem minden kincs, amit győztesként zsákmányolhattatok volna. Mégis körülnézel, és 85 Arany Tallért, valamint 10 életben maradt papot találsz, akiket majd jó pénzért eladsz a rabszolgapiacon. (Jegyezd fel ezeket a Zsákmány rovatba.) Győztesen térsz vissza a Kísértet fedélzetére, és elhajózol Enraki szigetéről lapozz a 123-ra.
 275.
 A két hadihajó hatalmas evezőcsapásokkal be akarja fogni a Kísértetet, de ravasz manőverednek köszönhetően egy kis meglepetést okozol nekik. Tedd próbára a SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 313-ra. Ha nincs SZERENCSÉD lapozz a 382-re.
+276.
 Kissé felemelkedve fogaidat belemélyeszted a Küklopsz vaskos, hámló csuklójába, de beletörik a zápfogad. A szörny meglóbál a levegőben, majd a földhöz vág, és jó nagyot rúg beléd vesztesz 2 ÉLETERŐ pontot. A szörny azt hiszi, hogy elvesztetted az eszméletedet, ezért egy pillanatra hátat fordít neked. Ekkor nagy nehezen lábra állsz. Mit teszel?
-Könyököddel belevágsz a térd-
-hajlatába?
-Lapozz a 46-ra. Belebokszolsz a lábába?
+Könyököddel belevágsz a térd-hajlatába?
+Lapozz a 46-ra.
+Belebokszolsz a lábába?
 Lapozz a 115-re.
-Repülőrúgással a háta közepébe
-rúgsz?
+Repülőrúgással a háta közepébe rúgsz?
 Lapozz a 384-re.
 277.
 A Kísértet baleset nélkül evickél át a rendkívül keskeny csatornán, és végül is maga mögött hagyja a fehéren tajtékzó hullámokat és a hadihajókat. Sikeresen kikerülted a zátonyokat, és feltűnik előtted a Trysta-sziget. Ha a sziget felé mész lapozz a 152-re, ha délnyugatra indulsz Kishbe lapozz a 223-ra, ha az Ölyvre lapozz a 27-re, ha délkeletre, a Goth-csatorna felé lapozz a 191-re.
 278.
 Az a tudat, hogy ez egy Sárkánygyík, melynek egyetlen pillantása kővé dermeszt pánikszerű menekülésre késztet, és kirohansz a szobából. Inkább a díszterembe mész. Lapozz a 216-ra.
+279.
 Ha eddig nem tetted volna, most felvehetsz még néhány kalózt a hajódra lapozz a 371-re, ha ezt nem akarod, menj vissza a Kísértetre, és hagyd el Shurrupakot lapozz a 238-ra.
 280.
 Amikor kalózaid lefegyverzik az őröket, a sétahajó legénysége és a vendégek a tengerbe vetik magukat, és úszni kezdenek, mert inkább vállalják, hogy a krokodilok végezzenek velük, semmint hogy a te embereid kezébe kerüljenek. Sűrű, sötét füstfelhő gomolyog a gazdagon díszített hajó belsejéből menekülő tulajdonosai gyújtották fel. Átugrasz a fedélzetre, hogy megmenthess valamit a kincsből, mielőtt az egész hajó lángba borulna. Amikor lerohansz a hajó füstölgő belsejébe, két zárt ajtót pillantasz meg. Ha a bal oldali ajtót próbálod meg kinyitni lapozz a 214-re. Ha a jobb oldalit lapozz a 254-re.
@@ -911,10 +922,12 @@ Amikor kalózaid lefegyverzik az őröket, a sétahajó legénysége és a vend�
 Lassan kinyílik az ajtó, és egy nagy kriptában találod magadat. Egyetlenegy hatalmas szarkofág áll benne. A teteje szélén körös-körül a kővetkező felirat ismétlődik:
 UT-NAPISHTIM, A BÜNTETÉS VIZÉNEK ŐRZŐJE
 Ha kinyitod a szarkofág tetejét lapozz a 292-re, ha nem nyúlsz hozzá lapozz a 358-ra.
+282.
 A pálmák között áthaladva váratlan látvány tárul elétek. A sziget közepén egy nagy lagúnát találtok, amelyet a sziget túlsó feléről egy keskeny csatornán lehet megközelíteni. A lagúna közepén lehorgonyozva egy kis kalózhajót láttok. A hajó legénysége nagy igyekezettel éppen eltemet valamit a parton. Ha megtámadjátok őket lapozz a 393-ra, ha visszatértek a partra, hogy élelmet keressetek lapozz a 271-re.
 283.
 Az egész napos vad piaci alkudozás után meggyőződhetsz róla, hogy a kalóz életmód folytonos dáridói nem vonzzák a tehetséges és jó erőben lévő férfiak zömét. De a jó szerencse mégis veled van, amikor belebotlasz egy rabszolgakereskedőbe, akinek nemcsak túl sok, kalózoktól vásárolt rabszolgája van, hanem igen olcsón is adja őket. Minden 10 Arany Tallér után, amit kiadsz, 1-gyel növelheted LEGÉNYSÉGED EREJÉNEK pontszámait. Ugyanez a rabszolga-kereskedő mellesleg megjegyzi, hogy Assurtól néhány kilométerre a folyó mentén igen gazdag szentély áll. Miután összeszeded legényeidet, egy kis kirándulásra indulhatsz velük a folyó partján, hogy megkeresd az említett helyet és némi zsákmányt szerezz
 lapozz a 335-re. De elhajózhatsz a Beltengeren délkeleti irányba lapozz a 318-ra, vagy délre, a nyugati partvidék mentén lapozz a 45-re.
+284.
 Már csaknem leérsz a lépcsőn, amikor lent fényt látsz. Négy Trogloditát pillantasz meg, akik egy oldalfolyosó felől csoszognak a lépcső felé. Mindannyian lándzsával vannak felfegyverezve, és ketten közülük hatalmas ládát cipelnek. Elrejtőzöl előlük egy nagy szikla mögött. Úgy véled, a láda valami értékes holmit rejt. Mit teszel?
 Apró kavicsokat gurítasz le a lépcsőn, hogy eltereld a Trogloditák figyelmét, mielőtt megtámadnád őket?
 Lapozz a 112-re. Kardot rántva rájuk rontasz?
@@ -924,12 +937,14 @@ Kalózaid tüzes nyilakat röpítenek a várra; néhány nyílvessző a templomo
 Enraki papok
 ÜTÉS 10
 ERŐ 16 Ha a legénységed győz lapoz a 274-re.
+286.
 Egyik kalózod észrevesz a kerítésben egy kilazult gerendát. Négyen-öten nekiesnek, és kidöntik. Fegyvereitekkel kilopakodtok a fogságból, és rárohantok a gyanútlan falusiakra. Erős kalózaid nagy zűrzavart okoznak.
 Falusiak
 ÜTÉS 7
 ERŐ 6 Ha a legénységed győz lapozz a 192-re.
 287.
 Kiűzitek a kishi tengerészeket, és felgyújtjátok a hajójukat. Nincs elég időd rá, hogy átkutasd a lángoló hajót, így csupán rabszolgákat tudsz összeszedni a megmaradt tengerészek közül. Nincsenek sokan, de 11 olyan legényt találsz, akit esetleg eladhatsz jegyezd fel a Zsákmány rovatban. Ha a zátonyok között elhajózol a Trysta-szigetre lapozz a 164-re, ha délnyugat felé indulsz Kishbe lapozz a 223-ra, ha az Ölyvre mész lapozz a 204re, ha délkelet felé tartasz a Goth-csatornához lapozz a 191-re.
+288.
 Amikor odaérsz a zátonyra futott hajóhoz, felmászol a fedélzetére, és szembetalálod magad egy nagy, bozontos szőrű fehér vadállattal, mely épp a gálya egyik halott matrózát készül felfalni. Rád mordul, és rád vicsorítja agyarát. Megpróbálsz elmenekülni, de a vadállat rád támad, és hatalmas karmokban végződő mancsait feléd lendíti. Kardot rántva védekezel.
 Jégvad
 ÜGYESSÉG 9
@@ -941,17 +956,19 @@ Az ajtó egy nagy, erősen aládúcolt terembe nyílik, melynek közepén obszid
 Első oltárszolga
 ÜGYESSÉG 8 ÉLETERŐ 6
 Második oltárszolga ÜGYESSÉG 7 ÉLETERŐ 6 Ha legyőzöd őket, lapozz a 388-ra.
+290.
 A szörny felé rohansz, felugrasz a levegőbe, és fejbe rúgod. Kissé lehajtja a fejét, így a csizmád széle csak súrolja a koponyáját vonj le tőle 1 ÉLETERŐ pontot. Viszont sikerül elkapnia a bokádat, és annál fogva meglóbál néhányszor a levegőben. Mit teszel?
 Térdeddel mellbe rúgod?
-Lapozz a 122-re. Beleöklözöl a bordáiba?
+Lapozz a 122-re.
+Beleöklözöl a bordáiba?
 Lapozz a 372-re.
-Karateütéssel az ágyékába
-vágsz?
+Karateütéssel az ágyékába vágsz?
 Lapozz a 177-re.
 291.
 A sétahajó belseje olyan, akár egy tüzes kohó, már semmi remény nincs rá, hogy a hajó megmeneküljön. A Kísértet fedélzetére visszatérve látod, hogy legénységed Csupán három foglyot tudott ejteni a hajó matrózai közül. A Kísértettel megfordulsz, és Lagash mellett elhaladva a Beltenger felé csurogsz a folyón lefelé. Amint elhagyod a folyót, utadat állja egy piros vitorlás hadihajó, mely a város irányából érkezett. Dobj három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE lapozz  a 90-re. Ha a kapott összeg ugyanannyi vagy több, mint LEGÉNYSÉGED EREJE lapozz a 309-re.
 292.
 Nagy nehezen sikerül letolnod a földre a tetőt,  mely hatalmas robajjal darabokra törik. A zaj betölti a kriptát és a kripta mögötti barlangot. A szarkofág üres, csak egy jó erősnek látszó sisakot és egy zsákot találsz benne, amely 110 Arany Tallért tartalmaz. A fejedre teszed a sisakot, és átveted a válladon a zsákot. Lapozz a 358-ra.
+293.
 Shurrupak szegényei nagyon szegények, és néhány garasért mindent megtesznek, amit csak kérnek tőlük. Ennek ellenére nem lehet megjósolni, hogy azok, akiket itt megvásárolsz, később milyenek lesznek. Dobj egy kockával minden 50 Arany Tallér után, amit ezekért a szerencsétlen emberekért, akik a kalózéletet választják, kifizetsz. A kapott számot add hozzá LEGÉNYSÉGED EREJÉHEZ. Amikor a toborzással végzel lapozz a 180ra.
 294.
 Egy kereskedőhajó négyszögletes vitorlája és terebélyes teste bukkan fel a láthatáron. A hatalmas hajó jócskán meg van rakva, és valószínűleg fegyverekkel is bőven el van látva. A Keleti-partvidék felől nyugat felé tart, Kish városába. Ha megtámadod a hajót lapozz a 391-re, ha békén hagyod, és inkább tovább kutatsz a tengeren egy kisebb hajó után lapozz a 66-ra.
@@ -959,6 +976,7 @@ Egy kereskedőhajó négyszögletes vitorlája és terebélyes teste bukkan fel 
 Görbe kardoddal beledöfsz a macskába, de nem ejtesz rajta sebet. Lapozz a 322-re.
 296.
 Ahogy közeledsz, a két hajó harapófogóba fog. Az egyiket kikerülöd, de fennakadsz a másik orrdíszén. Sérült hajód kettétörik. Pórul járt legénységeddel együtt a tengerbe zuhansz, ahol a cápák melyek sohasem maradnak távol a tengeri csatáktól éhesen gyülekeznek. Kalandod itt véget ér.
+297.
 Amint lenyomod a kilincset, az ajtó nagy robajjal kicsapódik, és egy masszív, forgó kereket pillantasz meg a hátsó fal egyik mélyedésében. A kerék lecsúszik a tengelyről, éles pengék jelennek meg a szélén, és a szörnyű szerkezet halálos ívben száll feléd a levegőben. Tedd próbára a SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 169-re, ha nincs SZERENCSÉD lapozz a 2-re.
 298.
 „Gyere erre szól az idős teremtmény, és egy csapóajtóra mutat az egyik szobor talapzatában. Menj le itt. Ha visszajössz, átmehettek a hegyen!” Kinyitod a csapóajtót, és lemászol a sötétségbe. Gyéren megvilágított barlangba jutsz, melyben egy Küklopsz vár. A hatalmas egyszemű, ember formájú lény kiragadja a kezedből hüvelyében pihenő kardodat, és fölhajítja a barlang falában lévő fülkébe. „Na mondja -‚ most megküzdhetünk!” Fegyvertelenül kell vele megvívnod. Egy papírlapra jegyezd fel a 311-es számot; ez az a pont, ahová majd lapoznod kell, ha legyőzted a szörnyet vagyis ha ÉLETERŐ pontjainak száma eléri a nullát. Jegyezd fel azt is, hogy ÉLETERŐ pontjaidnak száma 16. Most pedig döntsd el, miképp küzdesz meg vele.
@@ -966,9 +984,9 @@ Mellbe rúgod?
 Lapozz a 206-ra.
 A vállába öklözöl?
 Lapozz a 91-re.
-Könyökkel belevágsz a bordái
-közé?
+Könyökkel belevágsz a bordái közé?
 Lapozz a 29-re.
+299.
 Miután megkaptad a két zsák aranyat a Négy Szél Királyától, adsz-e kíváncsiskodó legényeidnek 100 Arany Tallért, hogy ne kutassanak az aranyaid után? Ha igen lapozz a 32-re, ha nem lapozz a 379-re.
 300.
 Lapozz az 50-re.
@@ -980,19 +998,20 @@ Kereskedőhajó
 legénysége
 ÜTÉS 6
 ERŐ 6 Ha legyőzitek őket lapozz a 392-re.
+303.
 Legénységed kivág néhány fát, amelyet faltörő kosként tud majd használni. A zajra felfigyelnek a harcos papok, s miután rájönnek, hogy miben sántikáltok, nyilakkal és lándzsával felszerelt emberek lepik el a falakat, végül hangos csatakiáltásokat hallató legénységeddel megtámadod a főkaput. Faltörő kosotok hatalmas robajjal vág bele a kapuba. Nyílvesszők, lándzsák és kövek hullanak le embereidre vonj le 2 pontot LEGÉNYSÉGED EREJÉBŐL. Tedd próbára a SZERENCSÉDET!  Ha SZERENCSÉD van lapozz a 343-ra. Ha nincs SZERENCSÉD lapozz az 58-ra.
 304.
 Amikor felértek a hegy csúcsára, embereid hangosan zúgolódni kezdenek: „Ez őrültség, kapitány! mondja az első tiszted. Már négy embert vesztettünk az úton, és csak az isten tudja, hány katona leselkedik itt ránk! Vissza kell mennünk a hajóra, akkor még reménykedhetünk valamiben!” Ha engedsz legényeid unszolásának lapozz a 113-ra, ha kineveted őket, amiért ilyen gyávák, és megparancsolod nekik, hogy menjenek tovább lapozz a 155-re.
+305.
 Minden erődet összeszedve meglendíted a lábadat, és a teremtmény hónaljába rúgsz. Az nagyot ordítva elereszt, majd kezét a sérülésére szorítja vonj le 2 pontot az ÉLETEREJÉBŐL. Nem ütöd meg magad, fürgén a sérült Küklopsz mögé kerülsz. Mit teszel?
 Belebokszolsz veséjébe?
-Lapozz a 347-re. Könyököddel belevágsz a térd-
-hajlatába?
+Lapozz a 347-re. Könyököddel belevágsz a térd-hajlatába?
 Lapozz a 46-ra.
-Repülőrúgásal a háta közepébe
-rúgsz?
+Repülőrúgásal a háta közepébe rúgsz?
 Lapozz a 384-re.
 306.
 Úszó fadarabok tömkelege között hajózol ezek valószínűleg egy szerencsétlenül járt hajó darabjai. Az úszó hajódeszkák többségét hatalmas fogak törték darabokra. Csak néhány hordót találsz a roncsok között, amit érdemes elkobozni. Az egyikben kitűnő pálinka van, ami nagymértékben növeli legénységed jó hangulatát növeld LEGÉNYSÉGED EREJÉT 2 ponttal. Ha a Trysta-zátonyok felé hajózva a Beltenger vizein akarsz portyázni lapozz a 66-ra, ha irányt változtatva a nyugati partok felé indulsz lapozz a 157-re, ha a Keleti-partvidék felé mész, hogy ott a szárazföldön portyázz lapozz a 10-re.
+307.
 Miután legyőzted a Trogloditákat, kinyitod a ládájukat, és pontosan 100 Arany Tallért találsz benne. A zsákmányt nehezen cipelve az oldalfolyosón fölfelé indulsz. Pár száz méter után kijutsz a napvilágra. Az Ölyv-sziget erdeiben vagy. Amint a part felé mész, néhány embereddel találkozol, akik a többiekkel együtt a szigetet járták, hogy a nyomodra bukkanjanak. Győztesen térsz meg a Kísértet fedélzetére, és folytatod az utadat. Lapozz a 15-re.
 308.
 „Ott a végén, melletted” mondod a gyűrűben lévő drágakőre visszaemlékezve. „Helyes. Továbbmehetsz!” válaszol a Szalamander, és eltűnik. A lángok kihunynak. Átmész a termen, és kilépsz az ajtón. Lapozz a 339-re.
@@ -1002,26 +1021,26 @@ Hadihajó
 ÜTÉS 10
 ERŐ 8
 Ha el akarsz menekülni lapozz a 12-re. Ha kiállsz ellenük és legyőzöd őket lapozz a 135-re.
+310.
 A gyűrű hangos kattanással elmozdul. Válaszul a kripta egyik falának egy darabja kizuhan, és feltűnik egy meredeken fölfelé vezető lépcsősor. Felrohansz rajta, és máris a külvilágban találod magad, ugyanott, a hegyek lábánál, ahonnan oly rég elindultál. Visszamész oda, ahol a Kísértetet hagytad, és látod, hogy a legénységed megvárt, remélve, hogy hátha életben maradsz. Lapozz a 272-re.
 311.
 A Küklopsz eszméletlenül terül el a földön. Győztél. Felmászol a létrán, majd kimész a csapóajtón, ahol szembetalálod magad a bölcs öreg lénnyel, aki leküldött. Vihog, amikor megjelensz, majd átküld egy a falban lévő keskeny résen, és megmutatja, merre kell menned, hogy eljuss Nippur hegyének csúcsára. Lapozz a 36-ra.
+312.
 A lakoma végeztével a Király búcsút mond neked. Visszatérsz a Kísértetre, és elhagyjátok az öblöt, ahol lehorgonyoztatok. Ha a Király neked adta az északi és déli szeleket tartalmazó zsákokat, akkor mostantól kezdve, amikor azt az utasítást kapod, hogy dobj három kockával és vesd össze a kapott összeget a LEGÉNYSÉG EREJÉNEK pontszámával, mindig vonj le 4 pontot a dobott összegből. Merre mész tovább? Ha délkelet felé a Gothcsatorna irányába lapozz a 191-re, ha délnyugat felé az Ölyv-szigetre lapozz a 27-re.
 313.
 Hajód átverekszi magát a hadihajó evezőlapátjai között, de többször is nyílzápor zúdul rá a shurrupaki tengerészektől nyüzsgő többi hajóról vesztesz 2 LEGÉNYSÉG EREJE pontot. Miután sikerül átvágnod a hadihajók vonalán, észreveszed, hogy egy másik, kisebb hajóraj vett üldözőbe benneteket. Ha szélsebesen elhajózol a hajóraj előtt és a zátonyok felé indulsz lapozz a 261-re, ha átvágod a hajóraj vonalát, úgy, mint az előbb tetted lapozz a 237-re.
+314.
 Ha a vulkanikus szigetre hajóztok lapozz a 369re. Ha a pálmákkal borított szigetre mentek lapozz a 354-re.
 315.
 Lehorgonyzol a sziget egyik eldugott kis öblében, kikötsz, és néhány legényeddel elindulsz a parton a harcos papok templomerődítményébe. Nem sokkal a cél előtt, még mielőtt észrevehetnének benneteket, embereidet rejtekhelyükön hagyva, egyedül mész az erődítmény főkapuja felé. Lagashi követnek adod ki magad, és beengednek. Az apát elé vezetnek kihallgatásra. „Ó, fényes Asswr-sel-Dablo nagy tekintélyű apátja, észak vidékeinek igazságot és győzelmet hozó ura, nagybecsű barátodtól hozok üdvözletet és üzenetet számodra!” mondod. „Igen kedves tőled. Foglalj helyet, és teázz velem” válaszolja. Megteszed, amit mond. Kellemesen elbeszélgettek, majd így szólsz: „Tudomásomra jutott, hogy Lagash Wazija támadásra készül fellegvárad ellen, mert urai az adóterhek növelésével fenyegetik. Befolyásos barátaim vannak, ó, uram, és jó pénzért el
 tudnám érni, hogy ne téged támadjon meg” mondod, és meghajolsz előtte. Az apát felsóhajt, majd a szerzetes szolgája fülébe súgja: „Megalkuvó!” Megnyom egy gránátkövet a székében. Ekkor megnyílik alattad a föld, és egy mély verembe zuhansz vesztesz 2 ÉLETERŐ pontot! „Vakmerő kalóz szól nevetve az apát, aki a verem pereméről néz le rád. Az ajtók mögött megtudod, hogy mi lesz a sorsod” mondja, és rámutat négy ajtóra a verem négy falában. Mindegyik ajtóra más és más jelet véstek. Melyik ajtón nyitsz be?
-Amelyikre csillaghullást
-véstek?
+Amelyikre csillaghullást véstek?
 Lapozz a 380-ra.
-Amelyiken egy fordított háromszög
-van?
+Amelyiken egy fordított háromszög van?
 Lapozz a 327-re.
 Amelyiken egy kerék van?
 Lapozz a 297-re.
-Amelyiken egy fekvő félhold
-van?
+Amelyiken egy fekvő félhold van?
 Lapozz a 249-re.
 316.
 Miközben felfelé mászol a hegyen, lefelé gördülő kövek zaja üti meg a füledet, majd egy hatalmas sziklatömb röpül feléd a levegőben, és éppen a lábad előtt ér földet. Egy hasonlóan nagy szikladarab követi. „Állj! kiáltja egy mély hang a hegy tetejéről. Senki nem léphet hívatlanul a Muzzelmirek földjére!” Két Óriás, aki társai szemében tán kicsinek tűnik, de a te mércéd szerint hatalmas, fölötted áll az orom tetején. Mindkettő jókora farönköt tart a kezében fegyver gyanánt. Testüket állatbőr fedi. Ha legénységeddel megtámadod őket lapozz a 325-re, ha meg akarsz egyezni velük lapozz a 336-ra.
@@ -1076,15 +1095,18 @@ Lapozz a 164-re. Délnyugat felé mész Kishbe?
 Lapozz a 223-ra. Az Ölyv felé hajózol?
 Lapozz a 204-re. Északkelet felé tartasz, a Goth-csatorna irányába?
 Lapozz a 191-re.
+327.
 Amikor lenyomod a kilincset, az ajtó kicsapódik, több ezer liter víz ömlik a verembe, és egy szempillantás alatt megtölti. Miközben küzdesz, hogy a víz felszínén maradj, néhány sötét, kígyóhoz hasonló lényt látsz bekúszni az ajtón. Ezek a félelmetes Elverinek: vak, torz, emberevő édesvízi kígyók. Amikor megszimatolják (kétségkívül erős) szagodat támadásba lendülnek. Egyenként küzdj meg velük.
 Első Elverin ÜGYESSÉG 8 ÉLETERŐ 6
 Második Elverin  ÜGYESSÉG 7
 ÉLETERŐ 4 Ha legyőzöd őket lapozz a 65-re.
 328.
 Úgy suhantok át az aranyló táblák között, mint sötét farkasfalka, és egyre közelebb juttok Kish egyik városához. Tedd próbára a SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 47-re. Ha nincs SZERENCSÉD lapozz a 186-ra.
+329.
 Miután legyőztétek az őröket, átkutatjátok a karavánt lerángatjátok a ládákat, zsákokat és borral teli tömlőket a hatalmas, megpakolt vadállatokról. Zsákmányotok mégsem túl sok. Egy kisebb ládában 63 Arany Tallért találsz, és mindössze egyetlenegy Gyíkember marad, aki elég jó állapotban van ahhoz, hogy majd a rabszolgapiacon értékesítsd. Kissé csalódottan összeszeded lerészegedett legénységedet, és visszatérsz velük a Kísértet fedélzetére. Lapozz a 35-re.
 330.
 „A fogadás, az fogadás! mondja zordan elFazouk. Te nyertél!” Még mielőtt meggondolná magát, gyorsan elhagyod a kockajáték színterét. Ha még nem tetted volna, szerencsét próbálhatsz a Batárversenyen lapozz a 270-re, vagy a kiütős játékban lapozz a 48-ra, vagy ha akarod, elhagyhatod Calah városát lapozz a 262-re.
+331.
 Gyors visszavonulás után előbb éritek el a partot, mint a Huszárok. Ennek ellenére már nincs elég időtök, hogy feljussatok a Kísértet fedélzetére, mert a városi lovas hadsereg vágtatva utolér benneteket a parton. Legénységednek meg kell küzdenie velük.
 Szárnyas Huszárok
 ÜTÉS 11
@@ -1117,6 +1139,7 @@ Belerúgsz a vállába?
 Lapozz a 251-re.
 338.
 „Ó, jaj kiált a Szellem -‚ ez igazán szörnyű!” Dühös pillantást vet rád, és kezével kétségbeesetten feléd suhint. „Ó, ily rettenetes hírek hordozója, megátkozlak téged!” Vesztesz 2 SZERENCSE  és 2 ÜGYESSÉG pontot. Lapozz a 210-re.
+339.
 Egy hatalmas, üres szobában találod magad, csak a boszorkány áll egy kör közepén a földön. Egyik kezében egy tőrt, másikban egy fekete macskát tart. „Légy átkozott! mondja. Miért nem etted meg az ételedet, ügy, mint a többiek? Ezért meg kell hogy öljelek. Olyasmit kell tennem, amihez semmi kedvem sincs.” Ezután feldobja a macskát a levegőbe, és a tőrrel valamiféle jelet ír a levegőbe. A macska hirtelen öt különböző színű macskává változik; az öt macska furcsán lebeg. Támadást színlelve, nyávogva körülötted köröznek. Melyik állatra támadsz rá?
 A fekete macskára?
 Lapozz a 295-re.
@@ -1130,6 +1153,7 @@ A szürke macskára?
 Lapozz a 95-re.
 340.
 Dobi három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE, növeld utazási napjaid számát 2-vel a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy kevesebb, mint LEGÉNYSÉGED EREJE, növeld 3-mal az Utazási napjaid Számát a HAJÓNAPLÓDBAN. Lapozz a 378-ra.
+341.
 Legénységed nem képes megbirkózni a feladattal, amivel megbíztad őket. A Kísértet ráfut egy kicsi, de veszélyes sziklazátonyra, és a szürke karmok átszakítják a törzsét. Víz árasztja el a hajód belsejét, és a Kísértet elsüllyed! Kalandod itt véget ér.
 342.
 Abdul legényei egyszersmind azt is közlik veled, hogy mivel 50 napnál többet használtál el arra, hogy eljuss Nippurba elvesztetted a fogdást, függetlenül attól, mennyi Arany Tallérod van. Kalandod itt véget ér, vesztettél.
@@ -1138,6 +1162,7 @@ Ismét meglökitek a faltörő kosokat, és ezúttal a kapu ripityára törve ki
 Enraki papok
 ÜTÉS 9
 ERŐ 12 Ha te győzöl lapozz a 274-re.
+344.
 Miután legyőztétek az Óriásokat, legénységeddel átmásztok a hegyen, és egy nagy kiterjedésű homoktengerhez értek, mely egészen a látóhatárig nyúlik. Ezt a tájat látva elbátortalanodsz, és rájössz, kevés reményed van rá, hogy itt bármit is zsákmányolhass. Visszamentek a Kísértetre. Növeld 3-mal utazási napjaid számát a HAJÓNAPLÓDBAN, és lapozz a 272-re.
 345.
 Nincs kiút a ketrecből. Déltájban megjelennek a városi öregek, és közlik veletek, hogy a szigetük szent, így nem engedhetik, hogy bárki is életben maradjon, aki egyszer is látta. Ezért meg kell ölniük benneteket. Ekkor íjakkal felfegyverezve megjelenik a többi szigetlakó is, és tüzet nyit rátok. Kalandod itt véget ér.
@@ -1153,10 +1178,12 @@ Lapozz a 196-ra. Belerúgsz a bordáiba?
 Lapozz a 266-ra.
 348.
 A gyíkokat szabadon engedik! Kiéhezve rohannak a kijelölt útvonalon a halálra ítélt Goblin felé; Fazima egy-két orrhosszal megelőzi el-Savakot és Awkspeedet. Ha a győztesre fogadtál, annyi Arany Tallért (vagy annyi rabszolgát) nyersz, amennyit a verseny előtt megtettél. Ha ismét fogadsz egy következő Batárversenyen lapozz a 202-re, ha eddig még nem tetted volna, megpróbálkozhatsz a kiütős játékkal, lapozz a 48-ra, vagy a kockajátékkal lapozz a 236-ra.
+349.
 Néhány legényeddel és az összes rabszolgáddal elindulsz a piacra. Iszonyatos forgatagba kerültök, a Shurrupak és Marad közötti háború eredményeként száz meg száz maradbeli katona esett fogságba és a legtöbbet ide hozták, hogy rabszolgának adják el őket, tehát a kínálat nagy, de az ár alacsony. Ha ügynökre bízod rabszolgáid eladását
 lapozz a 245-re, ha magad próbálod meg eladni őket lapozz a 269-re.
 350.
 Aranyhalmaitok látszólag egyformák, ezért nehéz eldönteni, hogy kinek van több Arany Tallérja. Leültök, hogy megszámoljátok egymás aranyát, és egy óra elteltével kiderül, hogy Abdulnak valamivel több van, mint neked. Kijelenti, hogy ő a győztes és ő az évszázad kalóza. Elvesztetted a fogadást.
+351.
 „Legyen hát a farönk egyezik bele Mog. Akarod Ogmog farönkjét, vagy van sajátod?” Kölcsönkéred legénységed egyik tagjának botját, majd azt ajánlod az Óriásnak, hogy mindketten álljatok egyegy homokkőre, amiből ezen a vidéken elég sok van, és onnan próbáljátok egymást megütni. Aki elsőnek üti le a másikat, az győz. Az Óriás így szól: „Mivel te apró teremtmény vagy, megengedem, hogy te üss elsőnek.” Körülbelül két méter távolságban felálltok egymással szemben. Ha a fejére célzol lapozz a 375-re, ha a lábára lapozz a 394-re.
 352.
 Nekifutásból a szörny fejére ugrasz, megragadod a szarvánál fogva, és a hátára veted magad. Félelmetesen nagyot ugrik, hogy ledobjon a hátáról, de ezzel csak neked segít, hogy kijuthass a veremből. Sikerül megragadnod a peremét. Miközben  az apát nevet, mert arra számít, hogy a vadállat szarvai odalent elpusztítanak, te kimászol, és kimész a terembe. Lapozz a 225-re.
@@ -1181,9 +1208,11 @@ ERŐ 8
 Ha el akarsz menekülni, megteheted, de ne felejtsd el levonni az érte járó büntetést lapozz a 241-re. Ha harcba szállsz a hadihajóval és legyőzöd lapozz a 22-re.
 358.
 A szarkofág fölött egy nagy kőgyűrű csüng le a mennyezetről. A gyűrűn körben felirat látszik: ugyanazon a réges-régi nyelven írták, amelyet a kriptába vezető ajtón olvastál. „Told be (húzd meg) a jobb (rosszabb) életnek (halálnak) ezt a kulcsát, vagy viseld el Ut-Napishtim büntetését.” Felállsz a szarkofág tetejére, és belekapaszkodsz a gyűrűbe. Ha meghúzod 310-re, ha betolod lapozz a 16ra.
+359.
 A szentély egy kopár völgyre néz. Amikor nekitámaszkodsz az oldalának, hogy megszemléld a kilátást, hirtelen félelem és kétségbeesés kerít hatalmába. E barátságtalan, idegen hely olyan sötét és komor, hogy elhagy az önbizalmad vesztesz 2 SZERENCSE pontot. Visszamész embereidhez, és félve továbbvezeted őket az ösvényen. Lapozz az 52-re.
 360.
 Amikor megfogod a drágakövet, megbénul a kezed. A bálvány nyelve lassan visszahúzódik a szájába, és magával ragadja karodat, melyet a torkában elhelyezett körkörösen forgó pengék őrölni kezdenek. Vesztesz 4 ÉLETERŐ és 1 ÜGYESSÉG pontot. Végül sikerül valahogy megszabadulnod. Úgy döntesz, hogy ott hagyod a drágakövet, ahol van, és inkább magaddal viszed az egész szobrot. Lapozz a 228-ra.
+361.
 Végigszaladsz a szörny kemény hátán, majd föl-le ugrálsz rajta. A Küklopsz hatalmasakat nyög vonj le tőle 2 ÉLETERŐ pontot. A szörny ledob a hátáról, feláll, majd neked ront, hogy elkapjon. Mit teszel?
 Repülőugrással fejbe rúgod?
 Lapozz a 290-re.
@@ -1197,9 +1226,11 @@ Lapozz a 74-re.
 A gyíkok elindulnak a startvonaltól, de a te favoritod félúton megbotlik, és elnyúlik a földön. Elveszted a pénzedet (vagy a rabszolgáidat), amibe fogadtál. Ha egy újabb Batárversenyen fogadsz lapozz a 202-re, ha még nem tetted volna, megpróbálkozhatsz a kiütős játékkal lapozz a 236-ra.
 363.
 A láthatáron nincs semmi, hajónak színét se látod. Tedd próbára a SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 306-ra. Ha nincs SZERENCSÉD lapozz a 333-ra.
+364.
 Legénységeddel visszavonulsz az erdőbe, míg a Kísértet fölfelé indul a part mentén, hogy néhány nap múlva találkozzatok. Növeld 3-mal utazási napjaid számát a HAJÓNAPLÓDBAN. A magasból látod, amint a kishi hadsereg összeszedelődzködik, és déli irányban hazafelé indul Kirkukból. Öszszeszeded az embereidet és ismét lemész a városba. Sajnos a kishi hadsereg megelőzött benneteket, és teljesen kifosztotta a várost. Dobj két kockával: amennyit dobsz, annyi rabszolgát szerzel az elszegényedett városlakók közül. Amikor a Kísértet odaér hozzátok, elhajózhatsz a part mentén lefelé, Kish irányába lapozz a 223-ra, vagy a Trysta-zátonyok felé a Beltengeren lapozz a 66ra.
 365.
 Lecsúszol a barlang oldalában, útközben kövekbe és sziklákba ütközöl, de elég lassan csúszol, nem sérülsz meg komolyabban. Elég közel kötsz ki ahhoz a lépcsőhöz, amelyen az előbb nem akartál lemenni. Leporolod a ruhádat, és lefelé indulsz a lépcsőn. Lapozz a 284-re.
+366.
 Egy kört rajzolnak a földre, és ennek a közepébe álltok Moggal. Az Óriás előrelép, széttárja a karját, majd hatalmas ütést mér a fejedre. Ennek következtében kirepülsz a körből, és átzuhansz a túlvilágra... Kalandod itt véget ér.
 367.
 Mikor jelt adsz, kalózaid hangos ordítással rohamozzák meg a falakat. Hirtelen lándzsákkal és íjakkal felszerelt emberek jelennek meg a fal peremén, és tüzet nyitnak embereidre. Legénységed viszonzásul csáklyákat hajít feléjük, létrákat támaszt a falhoz, és felmászik a vár védőihez. A csata megkezdődik.
@@ -1208,35 +1239,41 @@ Enraki kalózok
 ERŐ 16 Ha a te legénységed győz lapozz a 274-re.
 368.
 Átadod az Aranyat az embereidnek. Vonj le 100 Aranyat a Zsákmányodból. Lapozz a 312-re.
+369.
 Lehorgonyzol a nyugodt lagúnában, és legényeiddel megközelíted a szigetet, amelyet homokos part ölel körül, míg a parton túli részeket sűrű dzsungel borítja. Ha a parton mész körbe lapozz a 23-ra, ha a dzsungel felé indulsz lapozz a 42-re.
 370.
 Egy balhoroggal kiütöd az Ogrét a ringből. Annyi Arany Tallért nyersz, ahányat megtettél, amikor fogadtál. Ha egy újabb kiütős játékban akarsz részt venni, ezúttal már egy új bajnokkal lapozz a 385re, vagy ha eddig még nem tetted volna szerencsét próbálhatsz a Batárversenyen lapozz a 270re, vagy a kockajátékban lapozz a 236-ra.
+371.
 Hol keresel újabb embereket elvesztett kalózaid helyébe?
 A dokkokban?
 Lapozz a 233-ra.
 A piacon?
-Lapozz a 253-ra. A város nyomortanyáin és szegénynegyedében?
+Lapozz a 253-ra.
+A város nyomortanyáin és szegénynegyedében?
 Lapozz a 293-ra.
 372.
 Nekifeszülsz a Küklopsz testének, és megpróbálod magad ellökni, de hiába. A szörnyet még csak fel sem ingerli elkeseredett igyekezeted,  meglendít, és a feje fölött átrepítve földhöz vág vesztesz 2 ÉLETERŐ pontot. Megrázod magad, talpra állsz, és szembefordulsz ellenfeleddel. Mit teszel?
 Behúzol egyet a vállára?
 Lapozz a 91-re.
-Karateütéssel a hónaljába
-vágsz?
+Karateütéssel a hónaljába vágsz?
 Lapozz a 337-re.
 Repülőrúgással mellbe rúgod?  Lapozz a 206-ra.
+373.
 Visszavonulás közben rájössz, hogy nem is tudod pontosan, merre menj tovább (hacsak nem lefelé). Keresztülvágtok a szakadékon, és meglepetten látod, hogy mindkét peremen több száz havasi vadállat jelenik meg. Legényeid pánikba esnek, és futva menekülnek, amikor föntről egyre nagyobb sebességgel és egyre több havat görgetve hatalmas jeges lavina kezd lefelé gurulni. Egy újabb lavina az előzőkkel egyesülve mindannyiótokat maga alá temet. Kalandod itt véget ér.
 374.
 Miután megölted a Krellt, átkutatod a barlangját, és megtalálod, amit keresel a Sókoponyát. Visszamész a Tengeri Tündérekhez, és átadod nekik a kincset, melyért hálából meggyorsítják utadat. Minden alkalommal, amikor azt az utasítást kapod majd, hogy dobj három kockával a LEGÉNYSÉGED EREJÉÉRT, csak két kockával kell dobnod. Visszaúszol a víz felszínére, felmászol a Kísértet fedélzetére és elhajózol. Merre mész? Ha délre, Marad felé lapozz a 191-re, ha délnyugat felé a Beltengerre, a Trysta-zátonyok felé lapozz a 66ra.
+375.
 Egy jó erős suhintással nagyot csapsz az Óriás feje búbjára. „Ó szól, de a szeme se rebben. Most rajtam a sor!” A magasba emeli a farönköt, vadul meglendíti a levegőben, és elhajítja. A farönk lever a homokkőről, és jó pár méterrel arrébb landolsz. Dobj két kockával, és a kapott összeget vond le ÉLETERŐDBŐL. Ha még mindig életben vagy, vereséget szenvedtél, és legényeid visszaviszik összetört testedet a Kísértet fedélzetére. Lapozz a 272-re.
 376.
 Assurig eseménytelenül telik az út, a horizonton egy hajó sem bukkan fel, az idő viszont pocsék. Kikötsz, és egyenesen a központi piactér felé mész, hogy körülnézz a matrózok között, nem állna-e be néhány közülük hozzád kalóznak. Tedd próbára a SZERENCSÉDET! Ha SZERENCSÉD
 van lapozz a 283-ra. Ha nincs SZERENCSÉD lapozz a 146-ra.
 377.
 A Szalamander egy szemvillanás alatt eltűnik, amikor végzetes csapásod lesújt rá. Most már egyedül mész tovább, és a terem végében lévő ajtón át távozol. Lapozz a 339-re.
+378.
 Mélyen behajózol a Beltengerbe, Shurrupaktól délre, Nippur felé tartasz növeld 2 nappal utazási idődet a HAJÓNAPLÓDBAN! Minél délebbre mész, a tenger annál viharosabbá és az időjárás annál kiszámíthatatlanabbá válik. Egy este, amikor a természetellenes fagyos köd alig egy méterre csökkenti a látótávolságot, fénylő jéghegyet pillantasz meg a tengeren. A Kísértet szélsebesen száguld e fehér jégtömb felé. Tedd próbára a SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 166-ra. Ha nincs SZERENCSÉD lapozz a 193-ra.
 379.
 Néhány legényed, aki még mindig azt hiszi, hogy a zsákokban olyan kincsek rejlenek, amelyeket nem akarsz velük megosztani, besurran a kabinodba, amíg a fedélzeten tartózkodsz. A legények megtalálják a zsákot, amelyben a déli szél van, és kinyitják hogy megnézzék, vajon miért rejtegeted előlük. A déli szél kiszökken a zsákból, üvöltve körbezúg a kabinodban, majd az ablakon át távozik. Bőszen tombol odakint, és az általa kavart vihar észak felé viszi vissza a Kísértetet. Három hétig tombol a viharos szél, és maga előtt tolja a hajódat. Végül elül, és a Kísértet ott köt ki Tak partjai közelében, ahonnan elindultál. Már nincs elég időd arra, hagy ismét elindulj Nippurba. A fogadást elvesztetted! Kalandod itt véget ér.
+380.
 Amikor lenyomod a kilincset, az ajtó kicsapódik. Egy mélyedésből hosszú vastüskék röpülnek ki, és a falhoz szögeznek. Azonnal meghalsz.
 381.
 A teremtmény abbahagyja a támadást, és te azt hiszed, hogy visszavonult. Továbbmész az alagúton, majd egy sötét barlangba érsz. Durva lépcső vezet le az áthatolhatatlan sötétségbe. A lépcső mellett rozoga párkány húzódik a barlang egyik oldalában, amely szintén a sötétbe vész. Ha a párkányon mész tovább lapozz a 265-re, ha a lépcsőn mész le lapozz a 284-re.
@@ -1245,16 +1282,20 @@ Hajód átverekszi magát a hadihajó evezőlapátjai között, de olyan közel 
 Hirtelen megállásra kényszerülve elkeseredetten nézitek, hogyan siklik mellétek egy másik hadihajó. Az ellenséges hajó matrózai átugrálnak a Kísértet fedélzetére, és lesújtanak kalózaidra. Kalandod itt véget ér.
 383.
 „Ezért meglakolsz! szól a Tündér. Megátkozunk, és megkérjük apánkat, a tengert, hogy vegye körül a hajódat kagylókkal és tengeri növényekkel. Sose fogjon szelet a vitorlád.” Szavait követve hatalmas levegőbuborék tör elő a korhadó hajódeszkák közül, magával ragad, és felvisz az elsüllyedt gályáról a víz felszínére. Felmászol a Kísértet fedélzetére. Mostantól kezdve ha bármikor azt az utasítást kapod, hogy dobj három kockával LEGÉNYSÉGED EREJÉÉRT, egyáltalán ne dobj, hanem vedd úgy, mintha dobtál volna és a kapott összeg nagyobb lenne, mint LEGÉNYSÉGED EREJE. Merre indulsz tovább? Ha a Beltengeren hajózol a Trysta-zátonyok felé lapozz a 66-ra, ha délnek mész a Keleti-partvidék felé, Marad irányába lapozz a 191-re.
+384.
 Felugrasz a levegőbe, és hátba rúgod a Küklopszot. A szörny összecsuklik és rád zuhan! Mindketten vesztetek 2 ÉLETERŐ pontot! Mit teszel, miután kimászol a szörny alól?
 Állon vágod?
-Lapozz a 196-ra. Föl-le ugrálsz a hátán?
-Lapozz a 361-re. Ágyékon rúgod?
+Lapozz a 196-ra.
+Föl-le ugrálsz a hátán?
+Lapozz a 361-re.
+Ágyékon rúgod?
 Lapozz a 224-re.
 385.
 A következő fordulóban egy szőrös  vadember ellen állsz ki, akit Kish nyugati vidékein fogtak el és képeztek ki gladiátor-rabszolgának. Döntsd el, milyen összegben fogadsz, máris kezdődhet a párviadal.
 Vadember
 ÜGYESSÉG 12
 Ha te győzöl lapozz a 101-re. Ha vesztesz lapozz a 37-re.
+386.
 A szigethez közeledve látod, hogy több száz szigetlakó dobokat verve és virágkoszorúkat lóbálva fut le a partra. Az emberek bőre világos, és hosszú lenhajukat egyetlen copfba fonva viselik. Szemmel láthatólag igen boldogok, hogy itt vagytok. Ha partra szálltok és élelmet kértek tőlük lapozz a 324re, ha egy másik szigetre hajóztok lapozz a 314re.
 387.
 Egy délről érkező viharba kerülsz, amely megnehezíti a haladást, de legénységednek mégis sikerül tartania az eredeti útirányt. Miután a vihar elcsendesedik, a távolban megpillantod a célt Nippur szigetét. Ha utad során a Négy Szél Királyától két zsákot kaptál lapozz a 299-re, ha nem lapozz a 32-re.
@@ -1270,29 +1311,25 @@ Teljes sebességgel száguldasz a Kísértettel, és csakhamar a lomha keresked�
 Árny
 ÜGYESSÉG 11 ÉLETERŐ 6
 Ha legyőzöd, lapozz a 252-re.
+392.
 Amikor a hajó kapitánya látja, hogy legénységét lemészárolták, átvág a tömegen, és találomra kiüt egy hajógerendát. A kereskedőhajó süllyedni kezd. Végül a kapitány a félelemtől őrjöngve magához szorítja az arannyal teli zsákot, és a fedélzetről a sós habokba veti magát. Fáradozásaidért mindössze 5 matrózt kapsz, akiket majd eladhatsz rabszolgának. A Trysta-zátonyok nem messze innen, délre helyezkednek el. Ha közöttük áthajózva a Trysta-szigetre akarsz menni lapozz a 164-re, ha délnyugat felé inkább Kishbe mész lapozz a 223ra, ha az Ölyvre mész lapozz a 204-re, ha délkelet felé a Goth-csatornán hajózol tovább lapozz a 191-re.
 393.
 Fegyvert rántotok, és embereiddel együtt odalopakodtok a mit sem sejtő kalózokhoz. Hangos csatakiáltással rájuk törtök.
 Kalózok
 ÜTÉS 10
 ERŐ 6 Ha legyőzitek őket lapozz a 154-re.
+394.
 Minden erődet összeszedve az Óriás lábához vágod a husángot, de az célt téveszt és a homokkőhöz csapódik. „Haha! nevet Mog -‚ ezt elvétetted!” Ám a homokkő az Óriás súlyától, no meg a husángod ütésétől darabokra hullik. Mog meglendíti farönkjét, elveszíti az egyensúlyát, és a földre zuhan.
 „Hát jó mondja a vállát vonogatva -‚ azt hiszem, te győztél!” Tedd próbára a SZERENCSÉDET! Ha SZERENCSÉD van lapozz az 56-ra. Ha nincs SZERENCSÉD lapozz a 344-re.
 395.
 Visszavertétek a rátok támadó hajót, de már nem volt időtök kifosztani. Mivel egyszerű hadihajó volt, nem tartottak rajta aranyat, viszont sikerül szert tenned 5 rabszolgára. Ezenkívül megszerzed a kormányrudat; úgy érzed, valami titokzatos erő mozgatja. Ez a szerzeményed, bár nem működik a Kísérteten, mégis jó hatással van legényeid hangulatára nyersz 2 SZERENCSE pontot. Ha az Ölyv felé indulsz lapozz a 27-re. Ha a Gothcsatorna felé mész lapozz a 178-ra.
+396.
 Miután lehordod őket, megszégyenülten lesütik a szemüket és morognak valamit az orruk alatt. A fegyelem ismét helyreállt. Lapozz a 312-re.
 397.
 A kockavetőbarlang csupa rom. El-Fazouk és emberei teteme a lábaid előtt hever. A játékbarlang épen maradt részeiben a nézősereg a dulakodás végeztével abbahagyja a bámészkodást, ki-ki viszszatér megkezdett játékához. Helyreáll a rend a gazemberek között folytatódik a szokásos civakodás. Átkutatod régi ellenfeled holttestét, és egy 55 Arany Tallért tartalmazó zsákot találsz jelöld a Zsákmány rovatban! Ha még nem próbáltad volna meg, részt vehetsz egy kiütős versenyben lapozz a 48-ra, vagy egy Batárversenyben lapozz a 270re, vagy hagyd el Calah városát lapozz a 262-re.
+398.
 Amikor átúszol a repedésen, az összezárul mögötted, és beszorulsz egy körülbelül negyven méter hosszú üregbe. Az üreg nem más, mint egy hatalmas kagyló sziklákkal körülvett szája. Ez a lény túl sokáig tart fogva, és a varázsital, amit megittál, közben erejét veszti. Kalandod itt véget ér.
 399.
 Meglendíted a kardodat, és fejbe vágod a vadállatot. Kardod pengéje darabokra törik. A teremtmény hatalmasat nyögve rád támad beléd döfi kemény szarvait, és a verem falához lapít. Kalandod itt véget ér.
 400.
 „Tessék mondod Abdulnak, és felcsapod a ládád fedelét. A benne lévő Arany sokkal több, mint amennyi Abdulnak van. Én nyertem! Én vagyok a legnagyobb gazember, én vagyok a városok legjelesebb fosztogatója!” Abdul elismerve sikeredet fejet hajt előtted. „Te nyertél!”
-RAKÉTA KÖNYVKIADÓ Kft.
-Felelős kiadó: Veress Mariann
-Alföldi Nyomda 2794.66-14-2 Debrecen, 1990 Felelős vezető: Szabó Viktor vezérigazgató Felelős szerkesztő: Ladányi Katalin
-Műszaki szerkesztő: Horváth Péter Kiadványszám 17 ° Megjelent 10,3 (A/5) ív terjedelemben, Platin betűtípusból szedve ISBN 963 02 8048 5
-ISSN 0864-814X
-Könyv és játék az, amit a kezedben tartasz. A főhős TE vagy.
-A Beltenger északi csücskében lévő Tak városa kalózok, tolvajok, gengszterek félelmetes tanyája. Ebben a velejéig romlott, züllött városban két mohó, kegyetlen, rettegett kalóz él. Kettőjük izgalmas tengeri versenyének, portyázó körútjainak végén fog eldőlni, hogy ki lesz a Kalózok Királya, az egész szigetvilág koronázatlan ura. Az egyik kalóz Abdul, a Mészáros. A másik TE vagy!
-TE döntöd el, mikor, melyik utat választod, milyen csellel kerülsz ki a csapdákból, melyik teremtménnyel csapsz össze.
