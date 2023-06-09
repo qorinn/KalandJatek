@@ -89,6 +89,8 @@ main {
 }
 .middle .card {
   max-width: 20vw;
+  height: 500px;
+  max-height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -108,7 +110,6 @@ main {
   text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.26);
 }
 .middle .card .cardBody {
-  margin-top: 75%;
   margin-bottom: 75px;
 }
 .middle .card .cardBody p {

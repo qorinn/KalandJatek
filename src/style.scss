@@ -85,6 +85,8 @@ main{
     height: calc(100vh - 100px);
     .card{
         max-width: 20vw;
+        height: 500px;
+        max-height: 500px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -103,7 +105,6 @@ main{
             }
         }
         .cardBody{
-            margin-top: 75%;
             margin-bottom: 75px;
             p{
                 text-align: justify;

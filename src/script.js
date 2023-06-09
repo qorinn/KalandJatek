@@ -45,3 +45,9 @@ function getCardContent(cardID) {
         })
         .then((JsonData) => {card.innerHTML = JsonData[cardID].cardContent, cardNum.innerHTML = JsonData[cardID].cardID});
 };
+
+
+window.addEventListener('load', function() {
+    getCardContent(1);
+    console.log('Page loaded');
+  });
