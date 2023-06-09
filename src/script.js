@@ -38,9 +38,10 @@ function toggleMap(){
 
 function getCardContent(cardID) {
     card = document.getElementsByClassName("cardBody")[0];
+    cardNum = document.getElementById('cardNum');
     fetch("../json/cards.json")
         .then((res) => {
             return res.json();
         })
-        .then((JsonData) => card.innerHTML = JsonData[cardID].cardContent);
+        .then((JsonData) => {card.innerHTML = JsonData[cardID].cardContent, cardNum.innerHTML = JsonData[cardID].cardID});
 };
