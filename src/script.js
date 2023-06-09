@@ -34,3 +34,13 @@ function toggleMap(){
     }
 
 }
+
+
+function getCardContent(cardID) {
+    card = document.getElementsByClassName("cardBody")[0];
+    fetch("../json/cards.json")
+        .then((res) => {
+            return res.json();
+        })
+        .then((JsonData) => card.innerHTML = JsonData[cardID].cardContent);
+};
