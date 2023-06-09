@@ -92,33 +92,28 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 20px solid transparent;
-  -o-border-image: url(../img/border.jpg) 55 stretch;
-     border-image: url(../img/border.jpg) 55 stretch;
-  border-radius: 2px;
-  padding: 10px;
+  padding: 0px 25px;
+  position: relative;
   margin-bottom: 20px;
-  border-radius: 15px;
 }
 .middle .card .cardHeader {
+  margin-top: 60px;
   text-align: center;
+  position: relative;
 }
 .middle .card .cardHeader p {
-  border: 1px solid black;
-  padding: 10px;
-  margin: 10px;
-  font-size: 1.2rem;
+  padding: 20px;
+  font-size: 2rem;
   font-family: "UnifrakturCook";
-  background-color: rgba(0, 0, 0, 0.2);
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.26);
 }
 .middle .card .cardBody {
-  margin-top: 100%;
+  margin-top: 75%;
+  margin-bottom: 75px;
 }
 .middle .card .cardBody p {
   text-align: justify;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 .middle .choices {
   width: 100%;
@@ -127,14 +122,14 @@ main {
   align-items: center;
 }
 .middle .choices button {
-  padding: 10px 15px;
+  padding: 10px 30px 15px 30px;
+  position: relative;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-family: "UnifrakturCook";
-  border: 15px solid transparent;
-  -o-border-image: url(../img/border.png) 30 round;
-     border-image: url(../img/border.png) 30 round;
   background-color: transparent;
+  border: none;
+  color: #ececec;
 }
 .middle .diceContainer {
   width: 100%;
@@ -144,6 +139,12 @@ main {
   margin-top: 20px;
 }
 
+.right {
+  display: grid;
+  height: calc(100vh - 100px);
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto-fill, 1fr);
+}
 .right .titleBox {
   width: 100%;
 }
@@ -158,9 +159,10 @@ main {
 }
 .right .stuffs {
   display: grid;
+  height: calc(100vh - 200px);
   gap: 10px;
   grid-template-columns: 1fr 1fr;
-  grid-auto-rows: minmax(100px, 320px);
+  grid-template-rows: minmax(100px, calc(100vh - 100px));
   grid-template-areas: "l r" "b b";
 }
 .right .stuffs .equipment {
@@ -168,6 +170,7 @@ main {
   border: 1px solid black;
   position: relative;
   overflow-y: scroll;
+  height: 100%;
 }
 .right .stuffs .equipment h3 {
   background-color: rgba(0, 0, 0, 0.2);
@@ -247,4 +250,29 @@ main {
 
 .display-none {
   display: none;
+}
+
+.borderTR {
+  position: absolute;
+  height: 100%;
+  width: 120%;
+  background-color: transparent;
+  z-index: -1;
+  background: url(../img/card-bg.png);
+  background-position: center;
+  background-size: 130% 100%;
+  background-repeat: no-repeat;
+}
+
+.btn-bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background-image: url(../img/btn-bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=style.css.map */

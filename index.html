@@ -41,22 +41,31 @@
                 </div>
             </div>
             <div class="map">
-                <img src="img/locations/calah.png" alt="térkép" id="map" style="border: 2px solid black;cursor: pointer;" onclick="toggleMap()">
+                <img src="img/locations/calah.png" alt="térkép" id="map" style="border: 2px solid black;cursor: pointer; backdrop-filter: blur(10px);" onclick="toggleMap()">
             </div>
         </section>
         <section class="middle">
             <div class="cardContainer">
                 <div class="card">
+                    <div class="borderTR"></div>
                     <div class="cardHeader">
-                        <p>Kártya szám/név</p>
+                        <p>
+                            Kártya szám/név
+                        </p>
                     </div>
                     <div class="cardBody">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, natus corporis. Corrupti, nemo. Assumenda rem voluptatibus cum reprehenderit odit repellendus?</p>
                     </div>
                 </div>
                 <div class="choices">
-                    <button type="button">Opció 1</button>
-                    <button type="button">Opció 2</button>
+                    <button type="button">
+                        <div class="btn-bg"></div>
+                        Opció 1
+                    </button>
+                    <button type="button">
+                        <div class="btn-bg"></div>
+                        Opció 2
+                    </button>
                 </div>
                 <div class="diceContainer">
                     <div class="dice" id="dice1" onclick="randomNum('szamTarolo1', 'finalNumber1');randomNum('szamTarolo2', 'finalNumber2')">
