@@ -28,7 +28,7 @@ jsonCardsFile = open('cards.json', 'w', encoding='utf-8')
 jsonCardsFile.write(json.dumps(preWriteCardsArray, ensure_ascii=False, sort_keys=False, indent = 2))
 jsonCardsFile.close()
 
-waaa = open('cards.json', 'r', encoding='utf-8')
+waaa = open('../json/cards.json', 'r', encoding='utf-8')
 cardsJsonArray = json.loads(waaa.read())
 print(cardsJsonArray[22]["cardID"])
 
