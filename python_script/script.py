@@ -30,6 +30,4 @@ jsonCardsFile.close()
 
 waaa = open('../json/cards.json', 'r', encoding='utf-8')
 cardsJsonArray = json.loads(waaa.read())
-print(cardsJsonArray[22]["cardID"])
-
-
+waaa.close()
