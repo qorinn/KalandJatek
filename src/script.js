@@ -1,17 +1,29 @@
-var healthStrVal = document.getElementById("hp").value;
-var health = healthStrVal.split('/');
-
-const pseudoHp = document.getElementById('hpIndicator');
-pseudoHp.style.height = health[0] + '%';
-
-function checkHealth() {
-    var healthStrVal = document.getElementById("hp").value;
-    var health = healthStrVal.split('/');
-    var healthAmount = health[0]/health[1]*100
+function checkStat(id) {
+    var dynamicVal = document.getElementById(id).textContent;
+    if (id === "hp" || id === "compnum" || id === "compstren"){
+        var tomb = dynamicVal.split('/');
+        var statAmount = tomb[0]/tomb[1]*100;
+        localStorage.setItem(id, tomb[0]);
+    }
+    else{
+        var statAmount = dynamicVal/12*100;
+        localStorage.setItem(id, dynamicVal);
+    }
   
-    const pseudoHp = document.getElementById('hpIndicator');
-    pseudoHp.style.height = healthAmount + '%';
+    const pseudoHp = document.getElementById(id+'Indicator');
+    pseudoHp.style.height = statAmount + '%';
 }
+
+function handleChange(event, id) {
+    var newValue = event.target.value;
+    checkStat(id);
+}
+
+var skill = document.getElementById('skill');
+skill.addEventListener('change', function(event) {
+    handleChange(event, "skill");
+});
+
 
 
 var prevoiusMap;
@@ -39,15 +51,22 @@ function toggleMap(){
 function getCardContent(cardID) {
     card = document.getElementsByClassName("cardBody")[0];
     cardNum = document.getElementById('cardNum');
-    fetch("../json/cards.json")
+    fetch("../json/output.json")
         .then((res) => {
             return res.json();
         })
-        .then((JsonData) => {card.innerHTML = JsonData[cardID].cardContent, cardNum.innerHTML = JsonData[cardID].cardID});
+        .then((JsonData) => {card.innerHTML = JsonData[cardID].cardContent, cardNum.innerHTML = JsonData[cardID].cardID + ". Kártya", localStorage.setItem('cardID', JsonData[cardID].cardID)});
 };
 
 
 window.addEventListener('load', function() {
-    getCardContent(1);
+    getCardContent(localStorage.getItem('cardID'));
+    checkStat("skill");
+    checkStat("hp");
+    checkStat("luck");
+    checkStat("compnum");
+    checkStat("compstren");
     console.log('Page loaded');
   });
+
+  console.log(localStorage);
