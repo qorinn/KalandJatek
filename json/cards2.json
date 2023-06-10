@@ -23,8 +23,8 @@
     "cardContent": "HAJÓNAPLÓDBAN 1-gyel növeled a tengeren töltött napok számát. Amikor eléred a Gothcsatorna legkeskenyebb pontját, a horizonton hadihajók tűnnek fel, amelyek hosszú csatasorban felétek tartanak. Mikor közelebb érsz hozzájuk, látod, hogy több száz shurrupaki felségjelű hadigálya közeledik. A Vulkánok-szigetétől csaknem a Keleti-partvidékig húzódik soruk. Visszafordulsz északnak, hogy elkerüld az összecsapást ezzel a hatalmas flottával, de egy másik flottával találod szemben magad, amely Marad irányából közeledik. Rájössz, hogy a két városállam valószínűleg harcban áll egymással, és te véletlenül csöppentél e hatalmas tengeri csata közepébe. A két hajóhad nagyjából egyforma, de talán a maradbeli a nagyobb, mert ott minden evezőlapátnál öt ember ül. Ha a maradbeliek vonalát áttörve biztonságos vizekre akarsz hajózni<br><strong>Lapozz a 43-ra</strong><br>Ha a shurrupaki hajók vonalán törsz át<br><strong>Lapozz a 127re</strong>",
     "cardTo": [43, 127],
     "map": "goth",
-    "statupdate": [
-      {"1": 5}
+    "statp": [
+      {"6": 1}
     ]
   },
   {
