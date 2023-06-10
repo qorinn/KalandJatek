@@ -23,7 +23,7 @@
     "cardContent": "HAJÓNAPLÓDBAN 1-gyel növeled a tengeren töltött napok számát. Amikor eléred a Gothcsatorna legkeskenyebb pontját, a horizonton hadihajók tűnnek fel, amelyek hosszú csatasorban felétek tartanak. Mikor közelebb érsz hozzájuk, látod, hogy több száz shurrupaki felségjelű hadigálya közeledik. A Vulkánok-szigetétől csaknem a Keleti-partvidékig húzódik soruk. Visszafordulsz északnak, hogy elkerüld az összecsapást ezzel a hatalmas flottával, de egy másik flottával találod szemben magad, amely Marad irányából közeledik. Rájössz, hogy a két városállam valószínűleg harcban áll egymással, és te véletlenül csöppentél e hatalmas tengeri csata közepébe. A két hajóhad nagyjából egyforma, de talán a maradbeli a nagyobb, mert ott minden evezőlapátnál öt ember ül. Ha a maradbeliek vonalát áttörve biztonságos vizekre akarsz hajózni<br><strong>Lapozz a 43-ra</strong><br>Ha a shurrupaki hajók vonalán törsz át<br><strong>Lapozz a 127re</strong>",
     "cardTo": [43, 127],
     "map": "goth",
-    "statp": [
+    "statupdate": [
       {"6": 1}
     ]
   },
@@ -40,8 +40,7 @@
   {
     "cardID": 7,
     "cardContent": "Dobj három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE<br><strong>Lapozz a 387-re</strong><br>Ha a kapott összeg ugyanannyi vagy több, mint LEGÉNYSÉGED EREJE<br><strong>Lapozz a 356-ra</strong>",
-    "cardTo": [387, 356],
-    "spin": [3, 4]
+    "cardTo": [387, 356]
   },
   {
     "cardID": 8,
@@ -78,9 +77,9 @@
     "cardID": 14,
     "cardContent": "„Ó, jaj! kiált a Szellem. Ez igazán szörnyű!” Dühös pillantást vet rád, és kezével kétségbeesetten suhint feléd. „Ó, ily rettenetes hírek hordozója, megátkozlak téged!” Vesztesz 2 SZERENCSE  és 2 ÜGYESSÉG pontot. <strong>Lapozz a 210-re</strong>",
     "cardTo": [210],
-    "statm": [
-      {"1": 2},
-      {"3": 2}
+    "statupdate": [
+      {"1": -2},
+      {"3": -2}
     ]
   },
   {
@@ -102,8 +101,8 @@
     "cardID": 18,
     "cardContent": "A szörny hosszú karjának egy gyors mozdulatával vadul visszavág, félrelöki a kezedet, amellyel ütni készülsz, majdnem eltöri. <strong>Vesztesz 1 ÉLETERŐ pontot!</strong> Amikor hátraugranál, a Küklopsz megragadja a bal karodat, és a levegőbe emel. Mit teszel?<br>Egy tenyeres ütéssel rávágsz könyöke belső oldalára?<br><strong>Lapozz a 187-re</strong><br>Belerúgsz a vállába?<br><strong>Lapozz a 251-re</strong><br>Visszakézből a könyökébe vágsz?<br><strong>Lapozz a 145-re</strong>",
     "cardTo": [187, 251, 145],
-    "statm": [
-      {"2": 1}
+    "statupdate": [
+      {"2": -1}
     ]
   },
   {
@@ -126,7 +125,7 @@
     "cardID": 22,
     "cardContent": "A kishi tengerészeket legyőztétek, hadihajójuk lángokban áll. Átugrotok az ellenséges hajó fedélzetére, átkutatjátok, és a fedélzetmester kabinjában egy ládát találtok, benne 27 Arany Tallérral. A csatát túlélt tengerészek sorában 3 remek fickót találsz, akiket majd a Keleti-partvidék rabszolgapiacán fogsz értékesíteni. Sietve elhagyjátok a hadihajót, és Assur felé folytatjátok utatokat.<br><strong>Lapozz a 376-ra</strong>",
     "cardTo": [376],
-    "statp": [
+    "statupdate": [
       {"7": 27},
       {"8": 3}
     ]
@@ -135,15 +134,15 @@
     "cardID": 23,
     "cardContent": "Néhány száz métert a homokban tesztek meg, mígnem váratlanul beomlik a part a lábatok alatt, és egy nyálkás testű szörny bukkan elő, mely csápjával megragadja néhány kalózodat, és elindul velük a tenger felé. Vonj le 2 pontot LEGÉNYSÉGED EREJÉBŐL. Félelemtől megrémült embereid követelik, hogy vezesd vissza őket a Kísértet fedélzetére. Ha megparancsolod nekik, hogy folytassák az utat a part mentén<br><strong>Lapozz a 86-ra,</strong> ha azt javasolod, hogy inkább a szárazföld belseje felé menjetek tovább<br><strong>Lapozz a 42-re</strong>",
     "cardTo": [86, 42],
-    "statm": [
-      {"4": 2}
+    "statupdate": [
+      {"4": -2}
     ]
   },
   {
     "cardID": 24,
     "cardContent": "Három napon át várod a faluban az arra vetődő szerencsétlen kereskedőket, hogy búvóhelyedről lecsaphass rájuk, de egy lélek sem jön. Végül türelmed elfogy, és úgy döntesz, nem fecséreled itt tovább az időt, hanem visszamész a Kísértetre, hogy máshol próbálj szerencsét. Miután visszatértél a hajódra, 3 nappal növeld utazásod idejét a HAJÓNAPLÓDBAN, és <strong>Lapozz a 35-re</strong>",
     "cardTo": [35],
-    "statp": [
+    "statupdate": [
       {"6": 3}
     ]
   },
