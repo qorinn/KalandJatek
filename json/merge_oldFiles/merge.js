@@ -1,11 +1,11 @@
 const fs = require('fs');
 
 // Read the contents of cardscopy_modified.txt
-const cardscopyFilePath = 'cardscopy_modified.txt';
+const cardscopyFilePath = 'json/merge_oldFiles/original_cards.txt';
 const cardscopyContent = fs.readFileSync(cardscopyFilePath, 'utf8');
 
 // Read the contents of modified_output.txt
-const modifiedOutputFilePath = 'modified_output.txt';
+const modifiedOutputFilePath = 'json/merge_oldFiles/modified_output.txt';
 const modifiedOutputContent = fs.readFileSync(modifiedOutputFilePath, 'utf8');
 
 // Split the modified output content into lines
@@ -29,7 +29,7 @@ cardscopyContent.split('\n').forEach((line) => {
 const mergedText = mergedLines.join('\n');
 
 // Write the merged output to a new file
-const mergedFilePath = 'merged_output.txt';
+const mergedFilePath = 'json/merge_oldFiles/output.txt';
 fs.writeFileSync(mergedFilePath, mergedText, 'utf8');
 
 console.log(`Merged output has been written to ${mergedFilePath}`);

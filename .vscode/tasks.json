@@ -5,7 +5,7 @@
         "label": "Run Program",
         "type": "shell",
         "command": "node",
-        "args": ["json/replace.js"],
+        "args": ["json/merge_oldFiles/replace.js"],
         "group": {
           "kind": "build",
           "isDefault": true

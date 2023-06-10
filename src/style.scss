@@ -139,6 +139,14 @@ main{
             max-height: calc(100vh - 200px);
             transition: .3s;
         }
+        i{
+            font-size: 2.5rem;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.425);
+            position: absolute;
+            right: 50px;
+            top: 15px;
+            cursor: pointer;
+        }
     }
 }
 .middle{
@@ -149,7 +157,7 @@ main{
     justify-content: flex-end;
     height: 100vh;
     .card{
-        max-width: 22.5vw;
+        width: 22.5vw;
         height: clamp(300px, 60svh, 700px);
         display: flex;
         flex-direction: column;
@@ -168,26 +176,73 @@ main{
             }
         }
         .cardBody{
-            margin-top: 10px;
-            overflow: auto;
+            margin-top: 15px;
+            overflow-y: auto;
             text-align: justify;
-            font-size: 1.2rem;
+            font-size: 1.3rem;
+            p{
+                margin-right: 15px;
+                padding-bottom: 5px;
+            }
         }
+        .pageSwap{
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            button{
+                position: absolute;
+                font-size: 3rem;
+                border: none;
+                background-color: transparent;
+                cursor: pointer;
+                transition: .3s;
+                &:hover{
+                    font-size: 3.2rem;
+                }
+            }
+            #backwards{
+                bottom: 8px;
+                left: -10px;
+                transform: rotate(40deg);
+            }
+            #forwards{
+                bottom: 8px;
+                right: -10px;
+                transform: rotate(-40deg);
+            }
+        }
+    }
+    .choicesFlex{
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        button{
+            width: 200px;
+            height: 50px;
+        }
+    }
+    .choicesGrid{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(100px, 200px));
+        row-gap: 10px;
+        justify-content: space-evenly;
+        grid-auto-rows: minmax(50px, 50px);
     }
     .choices{
         width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+        height: 150px;
         button{
-            padding: 10px 30px 15px 30px;
             position: relative;
             cursor: pointer;
-            font-size: 1.5rem;
+            font-size: 2rem;
             font-family: 'UnifrakturCook';
             background-color: transparent;
             border: none;
             color: #ececec;
+            &:hover .btn-bg{
+                opacity: 1;
+            }
         }
     }
     .diceContainer{
@@ -312,10 +367,6 @@ main{
     font-family: 'UnifrakturCook';
 }
 
-.display-none{
-    display: none;
-}
-
 .borderTR{
     position: absolute;
     height: 100%;
@@ -332,6 +383,23 @@ main{
     position: absolute;
     height: 100%;
     width: 100%;
+    transform: translateY(2.5px);
+    background-color: transparent;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-image: url(../img/btn-bg-blue.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: .9;
+    transition: opacity .3s;
+}
+
+.btn-bg-re{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform: translateY(2.5px);
     background-color: transparent;
     z-index: -1;
     top: 0;
@@ -339,8 +407,34 @@ main{
     background-image: url(../img/btn-bg.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    opacity: .9;
+    transition: opacity .3s;
 }
 
 strong{
     font-weight: bold;
+}
+.display-none{
+    display: none !important;
+}
+/* Width and height of the scrollbar track */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Background color of the scrollbar track */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f13d;
+    border-radius: 99px;
+}
+
+/* Color of the scrollbar handle */
+::-webkit-scrollbar-thumb {
+    background-color: #88888885;
+    border-radius: 99px;
+}
+
+/* Hover styles for the scrollbar */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ff000049;
 }

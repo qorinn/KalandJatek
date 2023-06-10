@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 // Read the content from 'cards.txt' file
-fs.readFile('cards.txt', 'utf8', (err, data) => {
+fs.readFile('json/merge_oldFiles/output.txt', 'utf8', (err, data) => {
   if (err) {
     console.error('Error reading file:', err);
     return;
@@ -14,7 +14,7 @@ fs.readFile('cards.txt', 'utf8', (err, data) => {
   const outputString = data.replace(pattern, '<strong>Lapozz $1</strong>');
 
   // Write the results to a new file
-  fs.writeFile('output.txt', outputString, 'utf8', (err) => {
+  fs.writeFile('json/merge_oldFiles/cards.txt', outputString, 'utf8', (err) => {
     if (err) {
       console.error('Error writing file:', err);
       return;

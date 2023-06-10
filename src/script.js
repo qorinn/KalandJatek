@@ -14,23 +14,15 @@ function checkStat(id) {
     pseudoHp.style.height = statAmount + '%';
 }
 
-function handleChange(event, id) {
-    var newValue = event.target.value;
-    checkStat(id);
-}
 
-var skill = document.getElementById('skill');
-skill.addEventListener('change', function(event) {
-    handleChange(event, "skill");
-});
-
-
+//TOGGLE MAP
 
 var prevoiusMap;
 function toggleMap(){
     var stats = document.getElementById("statsContainer");
     var map = document.getElementById('map');
     var currentMap = map.getAttribute('src');
+    var magnify = document.getElementById('magnifying');
     var terkepPath = "/img/terkep.png";
 
     if (currentMap != terkepPath){
@@ -41,31 +33,122 @@ function toggleMap(){
 
     if (stats.classList.contains('display-none')) {
        map.setAttribute("src", terkepPath)
+       magnify.style.right = '100px';
+       magnify.classList.remove('fa-magnifying-glass-plus');
+       magnify.classList.add('fa-magnifying-glass-minus');
     } else {
         map.setAttribute("src", prevoiusMap);
+        magnify.style.right = '50px';
+        magnify.classList.add('fa-magnifying-glass-plus');
+        magnify.classList.remove('fa-magnifying-glass-minus');
     }
 
 }
 
+//LOCAL STORAGE AND CARD HANDLER
+
+if (localStorage.getItem('cardID') === undefined){
+    localStorage.setItem('cardID', 1);
+} 
 
 function getCardContent(cardID) {
-    card = document.getElementsByClassName("cardBody")[0];
-    cardNum = document.getElementById('cardNum');
-    fetch("../json/output.json")
+    var card = document.getElementsByClassName("cardBody")[0];
+    var cardNum = document.getElementById('cardNum');
+    fetch("../json/cards2.json")
         .then((res) => {
             return res.json();
         })
-        .then((JsonData) => {card.innerHTML = JsonData[cardID].cardContent, cardNum.innerHTML = JsonData[cardID].cardID + ". Kártya", localStorage.setItem('cardID', JsonData[cardID].cardID)});
-};
+        .then((jsonData) => {
+            card.innerHTML = "<p>"+jsonData[cardID].cardContent+"</p>"; 
+            cardNum.innerHTML = jsonData[cardID].cardID + ". Kártya";
+            
+            Object.keys(jsonData[cardID]).forEach((key) => {
+                if (key === 'map') {
+                    var map = document.getElementById('map');
+                    map.setAttribute('src', "img/locations/" + jsonData[cardID][key] + ".png");
+                    localStorage.setItem("map", jsonData[cardID][key]+".png");
+                }
+            });
+
+            var container = document.getElementById('choices');
+            container.innerHTML = ''; 
+            if (jsonData[cardID].cardTo.length > 0) {
+                jsonData[cardID].cardTo.forEach((option) => {
+                    if (jsonData[cardID].cardTo.length === 1){
+                        container.classList.remove("choicesGrid");
+                        container.classList.add("choicesFlex");
+                    }
+                    else{
+                        container.classList.remove("choicesFlex");
+                        container.classList.add("choicesGrid");
+                    }
+                    var optionElement = document.createElement('button');
+                    var optionBg = document.createElement('div');
+                    optionBg.classList = 'btn-bg';
+                    optionElement.id = option;
+                    optionElement.innerText = option;
+                    optionElement.disabled = true;
+                    optionElement.style.opacity = "0.5";
+                    setTimeout(() => enableBtn(optionElement), 2000);
+                    optionElement.addEventListener('click', function() {
+                        getCardContent(option);
+                        console.log('Heading to '+option);
+                    });
+                    container.appendChild(optionElement);
+                    optionElement.appendChild(optionBg);
+                });
+            } else {
+                container.classList.remove("choicesGrid");
+                container.classList.add("choicesFlex");
+                var restartBtn = document.createElement('button');
+                var restartBg = document.createElement('div');
+                restartBg.classList = 'btn-bg-re';
+                restartBtn.id = 'restart';
+                restartBtn.innerText = 'Újrakezdés';
+                restartBtn.disabled = true;
+                restartBtn.style.opacity = "0.5";
+                setTimeout(() => enableBtn(restartBtn), 1000);
+                restartBtn.addEventListener('click', function() {
+                    getCardContent(0);
+                    console.log('Restarting game');
+                });
+                container.appendChild(restartBtn);
+                restartBtn.appendChild(restartBg);
+            };
+            
+            localStorage.setItem('cardID', jsonData[cardID].cardID);
+        });
+}
+function enableBtn(button){
+    button.disabled = false;
+    button.style.opacity = "1";
+}
+
+var backwards = document.getElementById('backwards');
+backwards.addEventListener("click", function() {
+    let thisCard = parseInt(localStorage.getItem('cardID'));
+    let prevCard = thisCard - 1; //csak hogy olvashatóbb legyen
+    getCardContent(prevCard);
+});
+
+var forwards = document.getElementById('forwards');
+forwards.addEventListener("click", function() {
+    let thisCard = parseInt(localStorage.getItem('cardID'));
+    let nextCard = thisCard + 1;
+    getCardContent(nextCard);
+});
+
 
 
 window.addEventListener('load', function() {
     getCardContent(localStorage.getItem('cardID'));
-    checkStat("skill");
-    checkStat("hp");
-    checkStat("luck");
-    checkStat("compnum");
-    checkStat("compstren");
+    var map = document.getElementById('map');
+    map.setAttribute("src", "img/locations/"+localStorage.getItem('map'));
+    checkStat('skill');
+    checkStat('hp');
+    checkStat('luck');
+    checkStat('compnum');
+    checkStat('compstren');
     console.log('Page loaded');
   });
 

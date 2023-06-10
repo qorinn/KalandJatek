@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="src/style.css">
     <link rel="stylesheet" href="src/dobokocka.css">
     <link href='https://fonts.googleapis.com/css?family=UnifrakturCook:700' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/35956c1f37.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main>
@@ -46,7 +47,8 @@
                 </div>
             </div>
             <div class="map">
-                <img src="img/locations/calah.png" alt="térkép" id="map" style="border: 2px solid black;cursor: pointer; backdrop-filter: blur(10px);" onclick="toggleMap()">
+                <img alt="térkép" id="map" style="border: 2px solid black;cursor: pointer; backdrop-filter: blur(10px);" onclick="toggleMap()">
+                <i class="fa-solid fa-magnifying-glass-plus" id="magnifying" onclick="toggleMap()"></i>
             </div>
         </section>
         <section class="middle">
@@ -61,31 +63,32 @@
                     <div class="cardBody">
                         <p>------Betöltés------</p>
                     </div>
-                </div>
-                <div class="choices">
-                    <button type="button">
-                        <div class="btn-bg"></div>
-                        Opció 1
-                    </button>
-                    <button type="button">
-                        <div class="btn-bg"></div>
-                        Opció 2
-                    </button>
-                </div>
-                <div class="diceContainer">
-                    <div class="dice" id="dice1" onclick="randomNum('szamTarolo1', 'finalNumber1');randomNum('szamTarolo2', 'finalNumber2')">
-                        <div id="szamTarolo1">
-                            <p id="finalNumber1">6</p>
-                        </div>
-                    </div>
-                    <div class="dice" id="dice2" onclick="randomNum('szamTarolo2', 'finalNumber2');randomNum('szamTarolo1', 'finalNumber1')">
-                        <div id="szamTarolo2">
-                            <p id="finalNumber2">6</p>
-                        </div>
+                    <div class="pageSwap">
+                        <button type="button" id="backwards">
+                            <i class="fa-solid fa-share fa-rotate-180"></i>
+                        </button>
+                        <button type="button" id="forwards">
+                            <i class="fa-solid fa-share fa-flip-vertical"></i>
+                        </button>
                     </div>
                 </div>
             </div>
-            <div id="eredmeny">Eredmény: </div>
+            <div class="choices" id="choices">
+
+            </div>
+            <div class="diceContainer display-none">
+                <div class="dice" id="dice1" onclick="randomNum('szamTarolo1', 'finalNumber1');randomNum('szamTarolo2', 'finalNumber2')">
+                    <div id="szamTarolo1">
+                        <p id="finalNumber1">6</p>
+                    </div>
+                </div>
+                <div class="dice" id="dice2" onclick="randomNum('szamTarolo2', 'finalNumber2');randomNum('szamTarolo1', 'finalNumber1')">
+                    <div id="szamTarolo2">
+                        <p id="finalNumber2">6</p>
+                    </div>
+                </div>
+            </div>
+            <div id="eredmeny" class="display-none">Eredmény: </div>
         </section>
         <section class="right">
             <div class="titleBox">
