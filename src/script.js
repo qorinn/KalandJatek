@@ -1,19 +1,48 @@
 function checkStat(id) {
-    var dynamicVal = document.getElementById(id).textContent;
+    localStorage.setItem(id, document.getElementById(id).textContent);
+    var dynamicVal = localStorage.getItem(id);
     if (id === "hp" || id === "compnum" || id === "compstren") {
         var tomb = dynamicVal.split('/');
         var statAmount = tomb[0] / tomb[1] * 100;
-        localStorage.setItem(id, tomb[0]);
+        localStorage.setItem(id, dynamicVal);
     }
     else {
         var statAmount = dynamicVal / 12 * 100;
         localStorage.setItem(id, dynamicVal);
     }
 
-    const pseudoHp = document.getElementById(id + 'Indicator');
-    pseudoHp.style.height = statAmount + '%';
+    if (id !== "diary" && id !== "gold" && id !== "slaves") {
+        const pseudoHp = document.getElementById(id + 'Indicator');
+        pseudoHp.style.height = statAmount + '%';
+    }
 }
 
+function calcStats(id, value){
+    if (id === "hp" || id === "compnum" || id === "compstren"){
+        let idVal = localStorage.getItem(id);
+        let idBox = document.getElementById(id);
+        let x = idVal.split('/');
+        let calcId = Number(x[0]) + value;
+        console.log(calcId);
+        if (calcId < 0){ idBox.innerText = 0+"/"+x[1];}
+        else if (calcId > x[1]){ idBox.innerText = x[1]+"/"+x[1];}
+        else{ idBox.innerText = calcId+"/"+x[1];}
+        checkStat(id);
+    }
+    else{
+        let idVal = localStorage.getItem(id);
+        let idBox = document.getElementById(id);
+        let calcId = Number(idVal) + value;
+        console.log(calcId);
+        if (calcId < 0){ idBox.innerText = 0;}
+        else if (calcId > 12){
+            if (id === "skill" || id === "luck") {idBox.innerText = 12;}
+            else{ idBox.innerText = calcId;}
+        }
+        else{ idBox.innerText = calcId;}
+        checkStat(id);
+    }
+}
 
 //TOGGLE MAP
 
@@ -69,33 +98,30 @@ function getCardContent(cardID) {
                     localStorage.setItem("map", jsonData[cardID][key] + ".png");
                 }
             });
-            let stats = {
-                3: document.getElementById("luck"),
-                4: document.getElementById("compnum"),
-                5: document.getElementById("compstren"),
-                6: document.getElementById("diary"),
-                7: document.getElementById("gold"),
-                8: document.getElementById("slave")
-            }
+
+            const keyToIdMap = {
+                "1": "skill",
+                "2": "hp",
+                "3": "luck",
+                "4": "compnum",
+                "5": "compstren",
+                "6": "diary",
+                "7": "gold",
+                "8": "slaves"
+            };
             Object.keys(jsonData[cardID]).forEach((key) => {
-                let statsToUpdate = jsonData[cardID].statupdate;
                 if (key === 'statupdate') {
-                    console.log("behatolás");
-                    for (var i = 0; i < statsToUpdate.length; i++) {
-                        var item = statsToUpdate[i];
+                    jsonData[cardID].statupdate.forEach(function (item) {
                         Object.keys(item).forEach(function (key) {
                             var value = item[key];
-                            switch (key) {
-                                case "1":
-                                    document.getElementById("skill").textContent += value;
-                                case "2":
-                                    let hps = document.getElementById("hp").textContent.split('/')
-                                    document.getElementById("hp").textContent = hps[1] + "/" + hp[0] + value;
-                            }
+                            var segedId = keyToIdMap[key];
+                            console.log(segedId, value);
+                            calcStats(segedId, value);
                         });
-                    }
+                    });
                 }
             });
+              
 
             var container = document.getElementById('choices');
             container.innerHTML = '';
@@ -177,6 +203,9 @@ window.addEventListener('load', function () {
     checkStat('luck');
     checkStat('compnum');
     checkStat('compstren');
+    checkStat('diary');
+    checkStat('gold');
+    checkStat('slaves');
     console.log('Page loaded');
 });
 
