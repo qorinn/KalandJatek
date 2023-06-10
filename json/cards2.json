@@ -221,8 +221,8 @@
   },
   {
     "cardID": 39,
-    "cardContent": "Egyfolytában azt hajtogatja, hogy enned kell, de amikor engedsz az erőszaknak és a szádhoz emeled a levessel teli tálat, legényeid valamennyien eszméletüket vesztve borulnak az asztalra. Még<br>ennél is aggasztóbb az a változás, amit észreveszel rajtuk juh, kecske és disznó alakot öltöttek. Eldobod a leveses tálat, odaugrasz a hozzád legközelebb ülő társadhoz, és ébresztgetni kezded.<br>„Röff” csak ennyit tud kinyögni. A boszorkány bemenekült a házba, biztosan azért, mert még mindig emberi formád van. Elindulsz, hogy megkeresd, és eljutsz egy kis előszobába, ahonnan egy nagy díszterem nyílik. Odabent tűz lobog a tűzhelyen. A boszorkánynak nyoma sincs. Ha bemész a terembe <strong>Lapozz a 216-ra, ha az oldalajtón mész be lapozz a 22 7-re</strong>",
-    "cardTo": [216, 22, 7]
+    "cardContent": "Egyfolytában azt hajtogatja, hogy enned kell, de amikor engedsz az erőszaknak és a szádhoz emeled a levessel teli tálat, legényeid valamennyien eszméletüket vesztve borulnak az asztalra. Még<br>ennél is aggasztóbb az a változás, amit észreveszel rajtuk juh, kecske és disznó alakot öltöttek. Eldobod a leveses tálat, odaugrasz a hozzád legközelebb ülő társadhoz, és ébresztgetni kezded.<br>„Röff” csak ennyit tud kinyögni. A boszorkány bemenekült a házba, biztosan azért, mert még mindig emberi formád van. Elindulsz, hogy megkeresd, és eljutsz egy kis előszobába, ahonnan egy nagy díszterem nyílik. Odabent tűz lobog a tűzhelyen. A boszorkánynak nyoma sincs. Ha bemész a terembe <strong>Lapozz a 216-ra, ha az oldalajtón mész be lapozz a 227-re</strong>",
+    "cardTo": [216, 227]
   },
   {
     "cardID": 40,
@@ -272,7 +272,7 @@
   {
     "cardID": 49,
     "cardContent": "Lehorgonyzol a gőzölgő vulkanikus lagúnában, és legényeiddel a partra evezel. Buja növényzettel, egzotikus állatokkal és ezer meg ezer különféle rovarral teli dzsungel szélén álltok. Ha a sziget közepén lévő hegy magasabb lejtői felé indultok el<br><strong>Lapozz a 151-re; ha a sík vidékeken maradtok és a dzsungelt kutatjátok át lapozz a 184-re</strong>",
-    "cardTo": []
+    "cardTo": [151, 184]
   },
   {
     "cardID": 50,
@@ -282,7 +282,7 @@
   {
     "cardID": 51,
     "cardContent": "A Kísértet bénán áll a vízben, mialatt legénységed eredménytelenül kísérletezik a vitorlák helyreállításával. Az egyik hatalmas hadihajó nekiront a Kísértetnek‚ és beszakítja a farát. Legényeiddel a cápákkal teli vízbe zuhansz. Kalandod itt véget ér.",
-    "cardTo": [151, 184]
+    "cardTo": []
   },
   {
     "cardID": 52,
@@ -531,7 +531,7 @@
   },
   {
     "cardID": 101,
-    "cardContent": "Kiütöd a vadembert, és annyi Aranyat szedsz öszsze, amennyiben eredetileg fogadtál, aztán elhagyod az arénát. Ha eddig még nem próbáltad volna, részt vehetsz egy Batárversenyen <strong>Lapozz a 270-re, vagy kockavető versenyen lapozz a 236ra</strong> De el is hagyhatod Calahot <strong>Lapozz a 262-re</strong>",
+    "cardContent": "Kiütöd a vadembert, és annyi Aranyat szedsz öszsze, amennyiben eredetileg fogadtál, aztán elhagyod az arénát. Ha eddig még nem próbáltad volna, részt vehetsz egy Batárversenyen <strong>Lapozz a 270-re, vagy kockavető versenyen lapozz a 236-ra</strong> De el is hagyhatod Calahot <strong>Lapozz a 262-re</strong>",
     "cardTo": [270, 236, 262]
   },
   {
