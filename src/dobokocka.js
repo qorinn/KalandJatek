@@ -2,6 +2,7 @@ var previousNumber;
 var calc = 0;
 
 function randomNum(szamtarid, finalnumid) {
+  console.log(szamtarid, finalnumid)
   var diceBox = document.getElementById(szamtarid);
   previousNumber = document.getElementById(finalnumid).textContent;
 

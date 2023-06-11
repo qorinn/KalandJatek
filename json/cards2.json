@@ -40,7 +40,9 @@
   {
     "cardID": 7,
     "cardContent": "Dobj három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE<br><strong>Lapozz a 387-re</strong><br>Ha a kapott összeg ugyanannyi vagy több, mint LEGÉNYSÉGED EREJE<br><strong>Lapozz a 356-ra</strong>",
-    "cardTo": [387, 356]
+    "cardTo": [387, 356],
+    "btndisabled": true,
+    "throw": ["3", "4", "387", "356"]
   },
   {
     "cardID": 8,
@@ -406,7 +408,7 @@
   },
   {
     "cardID": 76,
-    "cardContent": "A Kísértettel kihajózol a Beltenger vizeire. Dobj hám kockával. Ha az eredmény kevesebb, mint LEGÉNYSÉGED EREJE, növeld 4 nappal utazásod idejét a HAJÓNAPLÓBAN. Ha a kapott összeg ugyanannyi vagy nagyobb, mint LEGÉNYSÉGED EREJE, akkor 5 nappal növeld utazásod idejét a HAJÓNAPLÓBAN. Hamarosan megérkezel a hegyekkel borított Enraki-sziget legészakibb csücskéhez, Asswr-sel-Dablo harcos papjainak szülőföldjére. Ezek az ijesztő szent emberek, akiket a harc istenei fegyvereztek fel és akiket a kő istenei védelmeznek, a sziget középső, hófödte, meredek hegységének alsó lejtőin lévő erődítményben laknak. Ezek az emberek nagyon gazdagok. Háromféleképpen foszthatod meg őket a vagyonuktól:<br>Közvetlen támadást mérsz az<br>erődítményre<br><strong>Lapozz a 231-re</strong> Valamilyen csellel bejutsz az erődítménybe,<br>ahol mindent elcsensz, amit<br>csak tudsz<br><strong>Lapozz a 315-re</strong><br>A hegyen átmászva az erődítmény háta mögé kerülsz, és onnan támadod meg azt a pontot, amelyiket szerinted a<br>legkevésbé védik<br><strong>Lapozz a 188-ra</strong>",
+    "cardContent": "A Kísértettel kihajózol a Beltenger vizeire. Dobj három kockával. Ha az eredmény kevesebb, mint LEGÉNYSÉGED EREJE, növeld 4 nappal utazásod idejét a HAJÓNAPLÓBAN. Ha a kapott összeg ugyanannyi vagy nagyobb, mint LEGÉNYSÉGED EREJE, akkor 5 nappal növeld utazásod idejét a HAJÓNAPLÓBAN. Hamarosan megérkezel a hegyekkel borított Enraki-sziget legészakibb csücskéhez, Asswr-sel-Dablo harcos papjainak szülőföldjére. Ezek az ijesztő szent emberek, akiket a harc istenei fegyvereztek fel és akiket a kő istenei védelmeznek, a sziget középső, hófödte, meredek hegységének alsó lejtőin lévő erődítményben laknak. Ezek az emberek nagyon gazdagok. Háromféleképpen foszthatod meg őket a vagyonuktól:<br>Közvetlen támadást mérsz az<br>erődítményre<br><strong>Lapozz a 231-re</strong> Valamilyen csellel bejutsz az erődítménybe,<br>ahol mindent elcsensz, amit<br>csak tudsz<br><strong>Lapozz a 315-re</strong><br>A hegyen átmászva az erődítmény háta mögé kerülsz, és onnan támadod meg azt a pontot, amelyiket szerinted a<br>legkevésbé védik<br><strong>Lapozz a 188-ra</strong>",
     "cardTo": [231, 315, 188]
   },
   {
@@ -1616,7 +1618,7 @@
   },
   {
     "cardID": 318,
-    "cardContent": "A Kísértet a Beltenger nyugodt vizeit szeli; az őrszem az árbockosárból állandóan szemmel tartja a látóhatárt, nem tűnik-e fel valamilyen hajó. Dobj<br>három kockával. Ha az eredmény kevesebb, mint LEGÉNYSÉGED EREJE, növeld utazási napjaid számát 4-gyel a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy nagyobb, mint LEGÉNYSÉGED EREJE, 5 nappal növeld utazási napjaid számát a HAJÓNAPLÓDBAN. Ha a HAJÓNAP-<br>LÓDBAN szereplő napok száma páros <strong>Lapozz a 363-ra, ha ez a szám páratlan lapozz a 294-re</strong>",
+    "cardContent": "A Kísértet a Beltenger nyugodt vizeit szeli; az őrszem az árbockosárból állandóan szemmel tartja a látóhatárt, nem tűnik-e fel valamilyen hajó. Dobj három kockával. Ha az eredmény kevesebb, mint LEGÉNYSÉGED EREJE, növeld utazási napjaid számát 4-gyel a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy nagyobb, mint LEGÉNYSÉGED EREJE, 5 nappal növeld utazási napjaid számát a HAJÓNAPLÓDBAN. Ha a HAJÓNAP-<br>LÓDBAN szereplő napok száma páros <strong>Lapozz a 363-ra, ha ez a szám páratlan lapozz a 294-re</strong>",
     "cardTo": [363, 294]
   },
   {

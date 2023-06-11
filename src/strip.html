@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+const input = {
+  0
+: 
+"cardID: 1, Lapozz az 55-re., Lapozz a 20-ra., Lapozz a 76-ra.\n",
+1
+: 
+"cardID: 4, lapozz a 43-ra., lapozz a 127re.\n",
+2
+: 
+"cardID: 7, lapozz a 387-re., lapozz a 356-ra.\n",
+3
+: 
+"cardID: 10, lapozz a 44-re, ha az orránál lévőn át lapozz a 33-ra.\n",
+4
+: 
+"cardID: 12, Lapozz a 90-re.\n",
+5
+: 
+"cardID: 13, lapozz a 152-re, ha délkelet felé veszed az utadat, a Goth-csatorna felé lapozz a 191-re, ha délnyugati irányba, Kish felé mész lapozza 223-ra, ha pedig az Ölyv felé lapozz a 27-re.\n",
+6
+: 
+"cardID: 14, Lapozz a 210-re.\n",
+7
+: 
+"cardID: 15, Lapozz a 301-re., Lapozz a 140-re., Lapozz a 340-re.\n",
+8
+: 
+"cardID: 18, Lapozz a 187-re., Lapozz a 251-re., Lapozz a 145-re.\n",
+9
+: 
+"cardID: 19, lapozz a 296-ra; ha az utolsó pillanatban elfordulsz, hogy nekimenj az egyik hajó evezőinek és szétroncsold azokat lapozz a 275-re.\n",
+10
+: 
+"cardID: 20, lapozz a 143-ra., lapozz a 79-re.\n",
+11
+: 
+"cardID: 22, Lapozz a 376-ra.\n",
+12
+: 
+"cardID: 23, lapozz a 86-ra, ha azt javasolod, hogy inkább a szárazföld belseje felé menjetek tovább lapozz a 42-re.\n",
+13
+: 
+"cardID: 24, lapozz a 35-re.\n",
+14
+: 
+"cardID: 27, lapozz a 67-re., lapozz a 92-re.\n",
+15
+: 
+"cardID: 28, lapozz a 180-ra.\n",
+16
+: 
+"cardID: 29, Lapozz a 251-re., Lapozz a 305-re., Lapozz a 145-re.\n",
+17
+: 
+"cardID: 30, lapozz a 160-ra, ha egyedül mész lapozz a 138ra.\n",
+18
+: 
+"cardID: 31, Lapozz a 210-re.\n",
+19
+: 
+"cardID: 32, lapozz a 342-re, ha a HAJÓNAPLÓDBAN 50 vagy ennél kevesebb utazási napod van lapozz a 213-ra.\n",
+20
+: 
+"cardID: 33, Lapozz a 21-re., Lapozz az 57-re.\n",
+21
+: 
+"cardID: 34, Lapozz a 19-re.\n",
+22
+: 
+"cardID: 35, lapozz a 171-re., lapozz a 211-re, vagy akár elhajózhatsz észak  felé, hogy lerohand az Enraki-szigetet lapozz a 76-ra.\n",
+23
+: 
+"cardID: 36, lapozz a 400ra.\n",
+24
+: 
+"cardID: 37, lapozz a 270-re, vagy a kockaversenyen lapozz a 236-ra; vagy hagyd el Calahot lapozz a 262-re.\n",
+25
+: 
+"cardID: 38, lapozz a 133-ra., lapozz a 120-ra.\n",
+26
+: 
+"cardID: 39, lapozz a 216-ra, ha az oldalajtón mész be lapozz a 22 7-re.\n",
+27
+: 
+"cardID: 40, Lapozz a 15-re.\n",
+28
+: 
+"cardID: 41, Lapozz a 176-ra.\n",
+29
+: 
+"cardID: 42, lapozz az 54-re, ha megküzdesz vele lapozz a 70-re.\n",
+30
+: 
+"cardID: 43, lapozz a 208-ra.\n",
+31
+: 
+"cardID: 44, lapozz a 75-re., lapozz a 383-ra.\n",
+32
+: 
+"cardID: 45, Lapozz a 102-re., Lapozz a 223-ra., Lapozz a 66-ra.\n",
+33
+: 
+"cardID: 46, Lapozz a 266-ra., Lapozz a 224-re., Lapozz a 196-ra.\n",
+34
+: 
+"cardID: 47, lapozz a 80-ra.\n",
+35
+: 
+"cardID: 48, lapozz a 370-re., lapozz a 323-ra.\n",
+36
+: 
+"cardID: 49, lapozz a 151-re; ha a sík vidékeken maradtok és a dzsungelt kutatjátok át lapozz a 184-re.\n",
+37
+: 
+"cardID: 52, lapozz a 30-ra, ha nem törődsz vele és inkább továbbmész a kolostor felé\nlapozz a 111-re.\n",
+38
+: 
+"cardID: 53, lapozz a 69-re, ha a szobrot nézed meg közelebbről lapozz a 88-ra.\n",
+39
+: 
+"cardID: 54, lapozz a 386-ra, vagy a pálmafákkal benőtt szigetre\nlapozz a 354-re.\n",
+40
+: 
+"cardID: 55, lapozz a 68-ra., Lapozz a 181-re.\n",
+41
+: 
+"cardID: 56, Lapozz a 272-re.\n",
+42
+: 
+"cardID: 57, Lapozz a 44-re.\n",
+43
+: 
+"cardID: 58, Lapozz a 123-ra.\n",
+44
+: 
+"cardID: 59, Lapozz a 279-re.\n",
+45
+: 
+"cardID: 60, Lapozz a 235-re., Lapozz a 177-re., Lapozz a 139-re.\n",
+46
+: 
+"cardID: 61, Lapozz a 15-re.\n",
+47
+: 
+"cardID: 62, lapozz a 180-ra.\n",
+48
+: 
+"cardID: 63, lapozz a 125-re.\n",
+49
+: 
+"cardID: 64, lapozz a 268-ra, ha inkább visszahajózol a tengerre lapozz a 207-re.\n",
+50
+: 
+"cardID: 65, Lapozz a 225-re.\n",
+51
+: 
+"cardID: 66, lapozz a 103-ra, ha észak felé veszed az utadat, hogy ott várd ki a rossz időt lapozz a 142-re.\n",
+52
+: 
+"cardID: 67, lapozz a 117-re.\n",
+53
+: 
+"cardID: 68, lapozz a 87-re., lapozz  a 175-re.\n",
+54
+: 
+"cardID: 69, lapozz a 99-re., lapozz a 6-ra.\n",
+55
+: 
+"cardID: 70, lapozz a 163-ra, ha nincs lapozz a 110-re.\n",
+56
+: 
+"cardID: 71, lapozz a 301-re, ha a Beltenger közepén áthajózva Nippur felé indulsz el, amilyen gyorsan csak tudsz lapozz a 340-re.\n",
+57
+: 
+"cardID: 72, Lapozz a 279-re.\n",
+58
+: 
+"cardID: 73, lapozz a 48-ra, vagy a kockajátékkal lapozz a 236-ra., lapozz a 262-re.\n",
+59
+: 
+"cardID: 74, Lapozz a 235-re., Lapozz a 122-re., Lapozz a 372-re.\n",
+60
+: 
+"cardID: 75, lapozz a 105-re; ha belenézel az egyik lyukba lapozz a 89re.\n",
+61
+: 
+"cardID: 76, Lapozz a 231-re., Lapozz a 315-re., Lapozz a 188-ra.\n",
+62
+: 
+"cardID: 77, lapozz a 215-re; ha inkább visszamentek a hajóra lapozz a 176-ra.\n",
+63
+: 
+"cardID: 78, lapozz a 229-re; ha inkább továbbmész az alagútban lapozz a 240-re.\n",
+64
+: 
+"cardID: 79, lapozz a 194-re, ha feladod, és inkább visszamész a Kísértetre lapozz a 35-re.\n",
+65
+: 
+"cardID: 80, lapozz a 97-re.\n",
+66
+: 
+"cardID: 81, lapozz a 397-re.\n",
+67
+: 
+"cardID: 82, Lapozz a 60-ra., Lapozz a 319-re., Lapozz a 290-re.\n",
+68
+: 
+"cardID: 83, lapozz a 301-re; ha a Déli-tengeren vágsz át, és amilyen gyorsan csak lehet, Nippur felé tartasz lapozz a 340-re.\n",
+69
+: 
+"cardID: 84, lapozz a 253-ra; ha a város nyomornegyedébe mész lapozz a 293-ra.\n",
+70
+: 
+"cardID: 85, lapozz a 162-re.\n",
+71
+: 
+"cardID: 86, lapozz a 182-re.\n",
+72
+: 
+"cardID: 87, lapozz a 12-re., lapozz a 135-re.\n",
+73
+: 
+"cardID: 88, lapozz a 114re, ha jobbra lapozz a 165-re.\n",
+74
+: 
+"cardID: 89, Lapozz a 105-re.\n",
+75
+: 
+"cardID: 90, lapozz a 76-ra; ha a Keleti-part mentén akarsz felfelé hajózni, a Holtak Folyóihoz lapozz a 197-re.\n",
+76
+: 
+"cardID: 91, Lapozz a 305-re., Lapozz a 276-ra., Lapozz a 187-re.\n",
+77
+: 
+"cardID: 92, lapozz a 124-re.\n",
+78
+: 
+"cardID: 93, lapozz a 352-re; ha futva megkerülöd a szörnyet és kimész azon az ajtón, amelyen ő jött be lapozz a 8-ra.\n",
+79
+: 
+"cardID: 94, Lapozz a 279-re.\n",
+80
+: 
+"cardID: 95, Lapozz a 7-re.\n",
+81
+: 
+"cardID: 97, lapozz a 141-re, ha gyorsan visszaparancsolod őket a Kísértetre lapozz a 113-ra.\n",
+82
+: 
+"cardID: 98, lapozz 94-re., lapozz a 24-re.\n",
+83
+: 
+"cardID: 99, Lapozz a 179-re.\n",
+84
+: 
+"cardID: 100, Lapozz az 50-re.\n",
+85
+: 
+"cardID: 101, lapozz a 270-re, vagy kockavető versenyen lapozz a 236ra., lapozz a 262-re.\n",
+86
+: 
+"cardID: 102, lapozz a 121re.\n",
+87
+: 
+"cardID: 103, lapozz a 13-ra., lapozz a 172-re.\n",
+88
+: 
+"cardID: 104, lapozz a 76-ra, ha Viszont a Keleti-partvidék mentén elhajózol a Holtak Folyóihoz lapozz a 197-re.\n",
+89
+: 
+"cardID: 105, lapozz a 136-ra, ha a barlangban haladsz tovább lefelé lapozz a 148-ra.\n",
+90
+: 
+"cardID: 106, Lapozz a 73-ra.\n",
+91
+: 
+"cardID: 107, lapozz a 332-re., lapozz a 287-re.\n",
+92
+: 
+"cardID: 108, lapozz a 26-ra, ha nem fogadod el, és csak azt veszed magadhoz, amire a Kísérteten majd szükségetek lesz lapozz a 39-re.\n",
+93
+: 
+"cardID: 109, lapozz a 395-re.\n",
+94
+: 
+"cardID: 110, lapozz a 219-re.\n",
+95
+: 
+"cardID: 111, lapozz a 149-re, ha tüzes nyílvesszőkkel felgyújtjátok a templomot és ezzel zavart okoztok a védők sorában lapozz a 285-re.\n",
+96
+: 
+"cardID: 112, Lapozz a 130-ra.\n",
+97
+: 
+"cardID: 113, lapozz a 246-ra; ha az Ölyv-sziget felől mész ki erre a tengerre lapozz a 27-re.\n",
+98
+: 
+"cardID: 114, lapozz a 9-re, ha a kapott összeg ugyanannyi vagy kevesebb, mint ÉLETERŐ pontjaid száma lapozz a 129-re.\n",
+99
+: 
+"cardID: 115, Lapozz a 361-re., Lapozz a 224-re., Lapozz a 82-re.\n",
+100
+: 
+"cardID: 116, Lapozz a 7-re.\n",
+101
+: 
+"cardID: 117, lapozz a 49-re,  ha a tengerszoroson át a Déli-tengerre hajózol ki lapozz a 15-re.\n",
+102
+: 
+"cardID: 118, Lapozz a 73-ra.\n",
+103
+: 
+"cardID: 119, lapozz a 134re., lapozz a 159-re.\n",
+104
+: 
+"cardID: 120, lapozz a 4-re, ha nyugat felé, az Ölyv irányába lapozz a 257-re.\n",
+105
+: 
+"cardID: 121, lapozz a 331re, ha a város utcáin át a Martu-Amurru-hegy erdőségeibe menekültök lapozz a 355-re.\n",
+106
+: 
+"cardID: 122, Lapozz a 91-re., Lapozz a 18-ra., Lapozz a 337-re.\n",
+107
+: 
+"cardID: 123, lapozz a 318-ra; vagy ha legénységed tagjai közül néhányan elestek volna, elhajózhatsz a semleges Assur városába, hogy ott felvehess egypár új embert lapozz a 171-re., lapozz a 211-re, vagy elhajózhatsz a Keleti-partvidékre, hogy ott egy kis szárazföldi portyázásra menj lapozz a 197-re.\n",
+108
+: 
+"cardID: 124, lapozz a 78-ra; ha lerohansz a hegyoldalon a lenti erdőkbe lapozz a 61-re.\n",
+109
+: 
+"cardID: 125, lapozz a 173-ra, ha felmászol a kéménybe lapozz a 199-re.\n",
+110
+: 
+"cardID: 126, Lapozz a 322-re.\n",
+111
+: 
+"cardID: 127, lapozz a 34-re., lapozz a 19-re.\n",
+112
+: 
+"cardID: 128, Lapozz a 113-ra.\n",
+113
+: 
+"cardID: 129, Lapozz a 179-re.\n",
+114
+: 
+"cardID: 130, lapozz a 307-re.\n",
+115
+: 
+"cardID: 131, Lapozz a 73-ra.\n",
+116
+: 
+"cardID: 132, Lapozz a 361-re., Lapozz a 266-ra., Lapozz a 82-re.\n",
+117
+: 
+"cardID: 133, lapozz a 4-re, ha nyugatnak mész az Ölyv felé lapozz a 257-re.\n",
+118
+: 
+"cardID: 134, lapozz a 170-re, ha a keskenyebben lapozz a 198-ra.\n",
+119
+: 
+"cardID: 135, lapozz a 76-ra., lapozz a 197-re.\n",
+120
+: 
+"cardID: 136, lapozz a 201-re, hanem nyúlsz semmihez és továbbmész a folyosón lapozz a 168-ra.\n",
+121
+: 
+"cardID: 137, Lapozz a 279-re.\n",
+122
+: 
+"cardID: 138, lapozz a 209-re., lapozz a 17-re.\n",
+123
+: 
+"cardID: 139, Lapozz a 18-ra., Lapozz a 29-re., Lapozz a 206-ra.\n",
+124
+: 
+"cardID: 140, lapozz a 64-re, ha nincs SZERENCSÉD lapozz a 25-re.\n",
+125
+: 
+"cardID: 141, lapozz a 128-ra.\n",
+126
+: 
+"cardID: 142, lapozz a 255-re, ha páratlan\nlapozz a 212-re.\n",
+127
+: 
+"cardID: 143, lapozz a 98-ra.\n",
+128
+: 
+"cardID: 144, lapozz a 3-ra, ha valahogy megpróbálsz harcolva kikeveredni szorult helyzetedből lapozz a 81-re.\n",
+129
+: 
+"cardID: 145, Lapozz a 132-re., Lapozz a 46-ra., Lapozz a 347-re.\n",
+130
+: 
+"cardID: 146, lapozz a 335-re; ha inkább elhagyod Assurt és délkeleti irányba hajózol el, a Beltengerre lapozz a 318-ra.\n",
+131
+: 
+"cardID: 147, Lapozz az 53-ra.\n",
+132
+: 
+"cardID: 148, lapozz a 398ra, ha visszamész a barlangban az előbb látott oldalfolyosóhoz lapozz a 136-ra.\n",
+133
+: 
+"cardID: 149, lapozz a 274-re.\n",
+134
+: 
+"cardID: 150, Lapozz az 50-re.\n",
+135
+: 
+"cardID: 151, lapozz a 78-ra.\n",
+136
+: 
+"cardID: 152, lapozz a 41-re, ha inkább továbbmész, és megnézed, mit zsákmányolhatsz a szigeten lapozz a 77re.\n",
+137
+: 
+"cardID: 154, Lapozz a 7-re.\n",
+138
+: 
+"cardID: 156, Lapozz a 139-re., Lapozz a 372-re., Lapozz a 235-re.\n",
+139
+: 
+"cardID: 157, Lapozz a 102-re., Lapozz a 223-ra.\n",
+140
+: 
+"cardID: 158, Lapozz az 53-ra.\n",
+141
+: 
+"cardID: 159, lapozz a 234-re.\n",
+142
+: 
+"cardID: 160, lapozz a 220-ra, ha visszamész a szakadékon az ösvényhez és azon haladsz tovább lapozz a 244-re.\n",
+143
+: 
+"cardID: 161, Lapozz a 307-re.\n",
+144
+: 
+"cardID: 162, lapozz a 183-ra, ha fölmászol a Pióca fészkébe lapozz a 199-re.\n",
+145
+: 
+"cardID: 163, Lapozz a 219-re.\n",
+146
+: 
+"cardID: 164, Lapozz a 152-re.\n",
+147
+: 
+"cardID: 165, Lapozz a 179-re.\n",
+148
+: 
+"cardID: 166, lapozz a 221-re, ha inkább továbbhajózol a jéghegy mellett és délre indulsz lapozz a 217-re.\n",
+149
+: 
+"cardID: 167, Lapozz a 386-ra., Lapozz a 369-re., Lapozz a 354-re.\n",
+150
+: 
+"cardID: 168, lapozz a 374-re.\n",
+151
+: 
+"cardID: 169, Lapozz a 380-ra., Lapozz a 327-re., Lapozz a 249-re.\n",
+152
+: 
+"cardID: 170, lapozz a 267-re.\n",
+153
+: 
+"cardID: 171, lapozz a 376-ra; ha ez a szám páros lapozz a 357-re.\n",
+154
+: 
+"cardID: 173, lapozz a 289-re, ha nincs SZERENCSÉD lapozz az 5-re.\n",
+155
+: 
+"cardID: 175, lapozz a 104-re.\n",
+156
+: 
+"cardID: 177, Lapozz a 18-ra., Lapozz a 337-re., Lapozz a 29-re.\n",
+157
+: 
+"cardID: 178, lapozz a 38-ra, ha folytatod az utadat lapozz a 4re.\n",
+158
+: 
+"cardID: 179, lapozz a 218-ra, ha közelebbről is szemügyre veszed a köveket lapozz a 190-re, ha nem nyúlsz semmihez és a hátsó ajtóhoz mész lapozz a 248-ra.\n",
+159
+: 
+"cardID: 180, lapozz a 349-re, vagy térj vissza a Kísértetre lapozz a 238-ra.\n",
+160
+: 
+"cardID: 181, lapozz a 280-ra.\n",
+161
+: 
+"cardID: 183, lapozz a 338-ra, ha azt, hogy keletről lapozz a 259-re, ha azt, hogy nyugatról lapozz a 14-re, ha azt, hogy délről lapozz a 31-re.\n",
+162
+: 
+"cardID: 184, lapozz a 40-re.\n",
+163
+: 
+"cardID: 185, lapozz a 283-ra., lapozz a 146-ra.\n",
+164
+: 
+"cardID: 186, lapozz a 128-ra.\n",
+165
+: 
+"cardID: 187, Lapozz a 115-re., Lapozz a 132-re., Lapozz a 384-re.\n",
+166
+: 
+"cardID: 188, lapozz a 359-re, ha továbbmész az ösvényen lapozz az 52-re.\n",
+167
+: 
+"cardID: 189, Lapozz a 279-re.\n",
+168
+: 
+"cardID: 190, lapozz a 205-re.\n",
+169
+: 
+"cardID: 191, lapozz a 38-ra, ha továbbmész a Goth-csatorna felé lapozz a 4-re, ha nyugati irányba indulsz az Ölyv felé, a Trysta-sziget déli partjai mellett lapozz a 257-re.\n",
+170
+: 
+"cardID: 192, Lapozz a 314-re.\n",
+171
+: 
+"cardID: 194, Lapozz a 329-re.\n",
+172
+: 
+"cardID: 195, Lapozz a 240-re.\n",
+173
+: 
+"cardID: 196, Lapozz a 156-ra., Lapozz a 74-re., Lapozz a 60-ra.\n",
+174
+: 
+"cardID: 197, lapozz a 239-re, ha inkább átvizsgálsz néhány vágatot, abban a reményben, hogy elrejtett kincset találsz lapozz a 226-ra.\n",
+175
+: 
+"cardID: 198, lapozz a 277-re., lapozz a 341-re.\n",
+176
+: 
+"cardID: 199, lapozz a 264-re, ha a jobb oldalin lapozz a 289re.\n",
+177
+: 
+"cardID: 200, Lapozz az 50-re.\n",
+178
+: 
+"cardID: 201, lapozz a 243-ra.\n",
+179
+: 
+"cardID: 202, lapozz a 118-ra, ha a kapott szám 3 vagy 4, lapozz a 131-re, ha a kapott szám 5 vagy 6 lapozz a 106-ra.\n",
+180
+: 
+"cardID: 203, Lapozz a 322-re.\n",
+181
+: 
+"cardID: 204, lapozz a 27-re.\n",
+182
+: 
+"cardID: 205, lapozz a 218-ra, vagy menj tovább a másik ajtóhoz lapozz a 248-ra.\n",
+183
+: 
+"cardID: 206, Lapozz a 145-re., Lapozz a 305-re., Lapozz a 276-ra.\n",
+184
+: 
+"cardID: 207, lapozz a 108-ra, ha messzire hajózol a kishi partoktól a Beltenger közepe felé lapozz a 340-re.\n",
+185
+: 
+"cardID: 208, lapozz a 153-ra, ha inkább egy kisebb shurrupaki gályával próbálsz szerencsét lapozz a 127-re.\n",
+186
+: 
+"cardID: 209, Lapozz a 111-re.\n",
+187
+: 
+"cardID: 210, Lapozz a 289-re.\n",
+188
+: 
+"cardID: 211, Lapozz a 48-ra., Lapozz a 270-re., Lapozz a 236-ra.\n",
+189
+: 
+"cardID: 212, lapozz a 302-re, ha ráijesztesz a hajó kapitányára, és megparancsolod, hogy harc nélkül adja át az összes Aranyát lapozz a 326-ra.\n",
+190
+: 
+"cardID: 213, lapozz a 298-ra, ha nem veszitek figyelembe ezt a fenyegetést, hanem egyenesen átmentek a nyíláson lapozz a 389-re.\n",
+191
+: 
+"cardID: 214, Lapozz a 291-re.\n",
+192
+: 
+"cardID: 215, lapozz a 260-ra, ha nem lapozz a 312-re.\n",
+193
+: 
+"cardID: 216, lapozz a 308-ra., lapozz a 317-re.\n",
+194
+: 
+"cardID: 217, lapozz a 108-ra, vagy a Három Nővér-szigeten lapozz a 167-re.\n",
+195
+: 
+"cardID: 218, lapozz a 11-re, ha inkább elhagyod a hálófülkét és a csarnok túlsó végében lévő ajtóhoz mész lapozz a 248-ra, vagy ha még nem tetted volna meg, vizsgáid meg a tojás alakú követ lapozz a 190-re.\n",
+196
+: 
+"cardID: 219, lapozz a 386-ra, vagy a pálmákkal borított szigetre lapozz a 354-re.\n",
+197
+: 
+"cardID: 220, lapozz a 373-ra.\n",
+198
+: 
+"cardID: 221, lapozz a 273-ra, ha a jéghegy oldalában mászol föl és úgy közelíted meg a gályát lapozz a 288-ra.\n",
+199
+: 
+"cardID: 222, lapozz a 66-ra, ha irányt változtatsz és elindulsz  a nyugati partok felé lapozz a 157-re, ha a Keletipartvidék felé tartasz, hogy egy kis szárazföldi\n",
+200
+: 
+"cardID: 223, lapozz a 263-ra., lapozz a 242-re.\n",
+201
+: 
+"cardID: 224, Lapozz a 290-re., Lapozz a 156-ra., Lapozz a 74-re.\n",
+202
+: 
+"cardID: 225, lapozz a 390-re.\n",
+203
+: 
+"cardID: 226, lapozz a 147-re.\n",
+204
+: 
+"cardID: 227, lapozz a 278-ra., lapozz a 247-re.\n",
+205
+: 
+"cardID: 228, lapozz a 45-re, ha délkelet felé hajózol a Beltengerre, kereskedőhajók után kutatva lapozz a 318-ra.\n",
+206
+: 
+"cardID: 229, lapozz a 195-re, ha nincs lapozz a 174-re.\n",
+207
+: 
+"cardID: 230, lapozz a 42-re, ha visszamész a Kísértetre és ha még nem tetted volna elhajózol a „rendezett” szigetre lapozz a 386-ra, ha a pálmafákkal borított szigetre mész lapozz a 354-re.\n",
+208
+: 
+"cardID: 231, lapozz a 367-re, ha a főkapun át próbálsz meg bejutni lapozz a 303-ra.\n",
+209
+: 
+"cardID: 232, Lapozz a 168-ra.\n",
+210
+: 
+"cardID: 233, lapozz a 84-re.\n",
+211
+: 
+"cardID: 234, lapozz a 164-re,  ha délnyugat felé, Kishbe mentek lapozz a 223ra, ha az Ölyv-szigetre mentek lapozz a 204-re, ha délkeletnek mentek a Goth-csatorna felé lapozz a 191-re.\n",
+212
+: 
+"cardID: 235, Lapozz a 91-re., Lapozz a 29-re., Lapozz a 206-ra.\n",
+213
+: 
+"cardID: 236, lapozz a 330-ra; ha nem lapozz a 144-re.\n",
+214
+: 
+"cardID: 237, lapozz a 71-re, ha nem akarsz vagy nem tudsz fizetni lapozz a 96-ra.\n",
+215
+: 
+"cardID: 238, lapozz a 167-re, ha a nyílt tenger felé veszed az irányt  és Nippurba tartasz lapozz a 378-ra.\n",
+216
+: 
+"cardID: 239, lapozz a 158-ra, ha ismét eltorlaszolod a kövekkel az alagút bejáratát és folytatod az utadat a hegyen át lapozz a 316ra.\n",
+217
+: 
+"cardID: 240, lapozz a 381-re.\n",
+218
+: 
+"cardID: 241, Lapozz a 318-ra.\n",
+219
+: 
+"cardID: 242, Lapozz a 304-re.\n",
+220
+: 
+"cardID: 244, Lapozz a 111-re.\n",
+221
+: 
+"cardID: 245, lapozz a 137-re., lapozz a 189-re.\n",
+222
+: 
+"cardID: 246, lapozz a 109-re, ha páratlan lapozz a 178-ra.\n",
+223
+: 
+"cardID: 248, lapozz a 258-ra, ha kifelé húzod lapozz a 281-re.\n",
+224
+: 
+"cardID: 249, lapozz a 399-re, ha más megoldást találsz ki lapozz a 93-ra.\n",
+225
+: 
+"cardID: 250, Lapozz az 50-re.\n",
+226
+: 
+"cardID: 251, Lapozz a 115-re., Lapozz a 347-re., Lapozz a 132-re.\n",
+227
+: 
+"cardID: 252, lapozz a 66-ra, ha irányt változtatva a nyugati partok felé akarsz menni lapozz a 157re, ha a Keleti-partvidék felé akarsz menni, hogy a szárazföldön portyázz lapozz a 10-re.\n",
+228
+: 
+"cardID: 253, lapozz a 62-re., lapozz a 28-ra.\n",
+229
+: 
+"cardID: 254, Lapozz a 291-re.\n",
+230
+: 
+"cardID: 255, lapozz a 119-re, ha itt maradsz és harcba szállsz a hadihajóval lapozz a 107-re.\n",
+231
+: 
+"cardID: 256, Lapozz a 322-re.\n",
+232
+: 
+"cardID: 257, lapozz a 109-re, ha ez a szám páratlan lapozz a 27-re.\n",
+233
+: 
+"cardID: 258, lapozz a 281-re.\n",
+234
+: 
+"cardID: 259, Lapozz a 210-re.\n",
+235
+: 
+"cardID: 260, lapozz a 368-ra, ha egyszerűen közlöd velük, hogy ostobák, amiért nem hisznek neked lapozz a 396-ra.\n",
+236
+: 
+"cardID: 261, lapozz a 83-ra., lapozz az 51-re.\n",
+237
+: 
+"cardID: 262, lapozz a 335-re, ha ügyet sem vetsz erre az információra, és inkább Assurba mész, hogy ott újabb embereket vegyél fel a hajódra lapozz a 185-re, ha a Beltengeren akarsz portyázni kereskedőhajókra vadászva lapozz a 318-ra.\n",
+238
+: 
+"cardID: 263, lapozz a 353-ra., lapozz a 328-ra.\n",
+239
+: 
+"cardID: 264, Lapozz a 289-re.\n",
+240
+: 
+"cardID: 265, lapozz a 365-re, ha nincs SZERENCSÉD lapozz a 334-re.\n",
+241
+: 
+"cardID: 266, Lapozz a 319-re., Lapozz a 60-ra., Lapozz a 156-ra.\n",
+242
+: 
+"cardID: 267, lapozz a 152-re, ha délnyugat felé mész Kishbe lapozz a 223-ra, ha az Ölyvre lapozz a 27-re, ha délkelet felé mész a Goth-csatorna irányába lapozz a 191-re.\n",
+243
+: 
+"cardID: 268, lapozz a 207-re.\n",
+244
+: 
+"cardID: 269, lapozz a 94-re., lapozz a 72-re., lapozz az 59-re.\n",
+245
+: 
+"cardID: 270, lapozz a 321-re., lapozz a 348-ra., lapozz a 362-re.\n",
+246
+: 
+"cardID: 271, lapozz a 116-ra.\n",
+247
+: 
+"cardID: 272, lapozz a 318-ra, ha a Keletipartvidék felé hajózol déli irányban lapozz a 10re.\n",
+248
+: 
+"cardID: 273, Lapozz a 288-ra.\n",
+249
+: 
+"cardID: 274, lapozz a 123-ra.\n",
+250
+: 
+"cardID: 275, lapozz a 313-ra., lapozz a 382-re.\n",
+251
+: 
+"cardID: 276, Lapozz a 46-ra., Lapozz a 115-re., Lapozz a 384-re.\n",
+252
+: 
+"cardID: 277, lapozz a 152-re, ha délnyugatra indulsz Kishbe lapozz a 223-ra, ha az Ölyvre lapozz a 27-re, ha délkeletre, a Goth-csatorna felé lapozz a 191-re.\n",
+253
+: 
+"cardID: 278, Lapozz a 216-ra.\n",
+254
+: 
+"cardID: 279, lapozz a 371-re, ha ezt nem akarod, menj vissza a Kísértetre, és hagyd el Shurrupakot lapozz a 238-ra.\n",
+255
+: 
+"cardID: 280, lapozz a 214-re., lapozz a 254-re.\n",
+256
+: 
+"cardID: 281, lapozz a 292-re, ha nem nyúlsz hozzá lapozz a 358-ra.\n",
+257
+: 
+"cardID: 282, lapozz a 393-ra, ha visszatértek a partra, hogy élelmet keressetek lapozz a 271-re.\n",
+258
+: 
+"cardID: 283, lapozz a 335-re., lapozz a 318-ra, vagy délre, a nyugati partvidék mentén lapozz a 45-re.\n",
+259
+: 
+"cardID: 284, Lapozz a 112-re., Lapozz a 130-ra., Lapozz a 161-re.\n",
+260
+: 
+"cardID: 286, lapozz a 192-re.\n",
+261
+: 
+"cardID: 287, lapozz a 164-re, ha délnyugat felé indulsz Kishbe lapozz a 223-ra, ha az Ölyvre mész lapozz a 204re, ha délkelet felé tartasz a Goth-csatornához lapozz a 191-re.\n",
+262
+: 
+"cardID: 288, lapozz a 320-ra.\n",
+263
+: 
+"cardID: 289, lapozz a 388-ra.\n",
+264
+: 
+"cardID: 290, Lapozz a 122-re., Lapozz a 372-re., Lapozz a 177-re.\n",
+265
+: 
+"cardID: 291, lapozz  a 90-re., lapozz a 309-re.\n",
+266
+: 
+"cardID: 292, Lapozz a 358-ra.\n",
+267
+: 
+"cardID: 293, lapozz a 180ra.\n",
+268
+: 
+"cardID: 294, lapozz a 391-re, ha békén hagyod, és inkább tovább kutatsz a tengeren egy kisebb hajó után lapozz a 66-ra.\n",
+269
+: 
+"cardID: 295, Lapozz a 322-re.\n",
+270
+: 
+"cardID: 297, lapozz a 169-re, ha nincs SZERENCSÉD lapozz a 2-re.\n",
+271
+: 
+"cardID: 298, Lapozz a 206-ra., Lapozz a 91-re., Lapozz a 29-re.\n",
+272
+: 
+"cardID: 299, lapozz a 32-re, ha nem lapozz a 379-re.\n",
+273
+: 
+"cardID: 300, Lapozz az 50-re.\n",
+274
+: 
+"cardID: 301, lapozz a 349-re, ha előbb újabb kalózokat vásárolsz a hajódra lapozz a 371-re.\n",
+275
+: 
+"cardID: 302, lapozz a 392-re.\n",
+276
+: 
+"cardID: 303, lapozz a 343-ra., lapozz az 58-ra.\n",
+277
+: 
+"cardID: 304, lapozz a 113-ra, ha kineveted őket, amiért ilyen gyávák, és megparancsolod nekik, hogy menjenek tovább lapozz a 155-re.\n",
+278
+: 
+"cardID: 305, Lapozz a 347-re., Lapozz a 46-ra., Lapozz a 384-re.\n",
+279
+: 
+"cardID: 306, lapozz a 66-ra, ha irányt változtatva a nyugati partok felé indulsz lapozz a 157-re, ha a Keleti-partvidék felé mész, hogy ott a szárazföldön portyázz lapozz a 10-re.\n",
+280
+: 
+"cardID: 307, Lapozz a 15-re.\n",
+281
+: 
+"cardID: 308, Lapozz a 339-re.\n",
+282
+: 
+"cardID: 309, lapozz a 12-re., lapozz a 135-re.\n",
+283
+: 
+"cardID: 310, Lapozz a 272-re.\n",
+284
+: 
+"cardID: 311, Lapozz a 36-ra.\n",
+285
+: 
+"cardID: 312, lapozz a 191-re, ha délnyugat felé az Ölyv-szigetre lapozz a 27-re.\n",
+286
+: 
+"cardID: 313, lapozz a 261-re, ha átvágod a hajóraj vonalát, úgy, mint az előbb tetted lapozz a 237-re.\n",
+287
+: 
+"cardID: 314, lapozz a 369re., lapozz a 354-re.\n",
+288
+: 
+"cardID: 315, Lapozz a 380-ra., Lapozz a 327-re., Lapozz a 297-re., Lapozz a 249-re.\n",
+289
+: 
+"cardID: 316, lapozz a 325-re, ha meg akarsz egyezni velük lapozz a 336-ra.\n",
+290
+: 
+"cardID: 317, lapozz a 377-re.\n",
+291
+: 
+"cardID: 318, lapozz a 363-ra, ha ez a szám páratlan lapozz a 294-re.\n",
+292
+: 
+"cardID: 319, Lapozz a 177-re., Lapozz a 139-re., Lapozz a 122-re.\n",
+293
+: 
+"cardID: 320, Lapozz a 217-re.\n",
+294
+: 
+"cardID: 321, lapozz a 202-re, vagy ha eddig még nem tetted volna, megpróbálkozhatsz a kiütős játékkal lapozz a 48-ra, vagy a kockajátékkal lapozz a 236-ra.\n",
+295
+: 
+"cardID: 322, Lapozz a 295-re., Lapozz a 256-ra., Lapozz a 203-ra., Lapozz a 126-ra., Lapozz a 95-re.\n",
+296
+: 
+"cardID: 323, lapozz a 385-re; ha a Batárversenyen veszel részt (abban az esetben, ha még nem próbáltad volna) lapozz a 270-re, ha a kockajátékkal próbálkozol lapozz a 236-ra.\n",
+297
+: 
+"cardID: 324, lapozz a 286-ra, ha nincs SZERENCSÉD lapozz a 345-re.\n",
+298
+: 
+"cardID: 325, lapozz a 344-re.\n",
+299
+: 
+"cardID: 326, Lapozz a 164-re., Lapozz a 223-ra., Lapozz a 204-re., Lapozz a 191-re.\n",
+300
+: 
+"cardID: 327, lapozz a 65-re.\n",
+301
+: 
+"cardID: 328, lapozz a 47-re., lapozz a 186-ra.\n",
+302
+: 
+"cardID: 329, Lapozz a 35-re.\n",
+303
+: 
+"cardID: 330, lapozz a 270-re, vagy a kiütős játékban lapozz a 48-ra, vagy ha akarod, elhagyhatod Calah városát lapozz a 262-re.\n",
+304
+: 
+"cardID: 331, lapozz a 346-ra.\n",
+305
+: 
+"cardID: 332, lapozz a 164-re, ha délnyugat felé mész Kishbe lapozz a 223-ra, ha az Ölyvre tartasz lapozz a 204-re, ha a Goth-csatorna felé igyekszel délkeleti irányba lapozz a 191-re.\n",
+306
+: 
+"cardID: 333, lapozz a 222-re.\n",
+307
+: 
+"cardID: 335, lapozz a 63-ra, ha a lépcsőn lapozz a 85-re.\n",
+308
+: 
+"cardID: 336, lapozz a 366ra, ha valami mást ajánlasz, például egy farönkkel vívott küzdelmet lapozz a 351-re.\n",
+309
+: 
+"cardID: 337, Lapozz a 276-ra., Lapozz a 187-re., Lapozz a 251-re.\n",
+310
+: 
+"cardID: 338, Lapozz a 210-re.\n",
+311
+: 
+"cardID: 339, Lapozz a 295-re., Lapozz a 256-ra., Lapozz a 203-ra., Lapozz a 126-ra., Lapozz a 95-re.\n",
+312
+: 
+"cardID: 340, Lapozz a 378-ra.\n",
+313
+: 
+"cardID: 343, lapozz a 274-re.\n",
+314
+: 
+"cardID: 344, lapozz a 272-re.\n",
+315
+: 
+"cardID: 346, lapozz a 223-ra, ha a Beltengeren mész tovább a Trysta-zátonyok felé lapozz a 66-ra.\n",
+316
+: 
+"cardID: 347, Lapozz a 82-re., Lapozz a 196-ra., Lapozz a 266-ra.\n",
+317
+: 
+"cardID: 348, lapozz a 202-re, ha eddig még nem tetted volna, megpróbálkozhatsz a kiütős játékkal, lapozz a 48-ra, vagy a kockajátékkal lapozz a 236-ra.\n",
+318
+: 
+"cardID: 349, lapozz a 245-re, ha magad próbálod meg eladni őket lapozz a 269-re.\n",
+319
+: 
+"cardID: 351, lapozz a 375-re, ha a lábára lapozz a 394-re.\n",
+320
+: 
+"cardID: 352, Lapozz a 225-re.\n",
+321
+: 
+"cardID: 353, lapozz a 47-re.\n",
+322
+: 
+"cardID: 354, lapozz a 271-re, ha a sziget belseje felé indultok lapozz a 282-re.\n",
+323
+: 
+"cardID: 355, lapozza 364-re, ha visszatérsz a Kísértet fedélzetére és lefelé hajózol Kish irányába lapozz a 223ra, ha a Beltengeren mész tovább a Trystazátonyok felé lapozz a 66-ra.\n",
+324
+: 
+"cardID: 357, lapozz a 241-re., lapozz a 22-re.\n",
+325
+: 
+"cardID: 358, lapozz a 16ra.\n",
+326
+: 
+"cardID: 359, Lapozz az 52-re.\n",
+327
+: 
+"cardID: 360, Lapozz a 228-ra.\n",
+328
+: 
+"cardID: 361, Lapozz a 290-re., Lapozz a 319-re., Lapozz a 74-re.\n",
+329
+: 
+"cardID: 362, lapozz a 202-re, ha még nem tetted volna, megpróbálkozhatsz a kiütős játékkal lapozz a 236-ra.\n",
+330
+: 
+"cardID: 363, lapozz a 306-ra., lapozz a 333-ra.\n",
+331
+: 
+"cardID: 364, lapozz a 223-ra, vagy a Trysta-zátonyok felé a Beltengeren lapozz a 66ra.\n",
+332
+: 
+"cardID: 365, Lapozz a 284-re.\n",
+333
+: 
+"cardID: 367, lapozz a 274-re.\n",
+334
+: 
+"cardID: 368, Lapozz a 312-re.\n",
+335
+: 
+"cardID: 369, lapozz a 23-ra, ha a dzsungel felé indulsz lapozz a 42-re.\n",
+336
+: 
+"cardID: 370, lapozz a 385re, vagy ha eddig még nem tetted volna szerencsét próbálhatsz a Batárversenyen lapozz a 270re, vagy a kockajátékban lapozz a 236-ra.\n",
+337
+: 
+"cardID: 371, Lapozz a 233-ra., Lapozz a 253-ra., Lapozz a 293-ra.\n",
+338
+: 
+"cardID: 372, Lapozz a 91-re., Lapozz a 337-re., Lapozz a 206-ra.\n",
+339
+: 
+"cardID: 374, lapozz a 191-re, ha délnyugat felé a Beltengerre, a Trysta-zátonyok felé lapozz a 66ra.\n",
+340
+: 
+"cardID: 375, Lapozz a 272-re.\n",
+341
+: 
+"cardID: 376, lapozz a 283-ra., lapozz a 146-ra.\n",
+342
+: 
+"cardID: 377, Lapozz a 339-re.\n",
+343
+: 
+"cardID: 378, lapozz a 166-ra., lapozz a 193-ra.\n",
+344
+: 
+"cardID: 381, lapozz a 265-re, ha a lépcsőn mész le lapozz a 284-re.\n",
+345
+: 
+"cardID: 383, lapozz a 66-ra, ha délnek mész a Keleti-partvidék felé, Marad irányába lapozz a 191-re.\n",
+346
+: 
+"cardID: 384, Lapozz a 196-ra., Lapozz a 361-re., Lapozz a 224-re.\n",
+347
+: 
+"cardID: 385, lapozz a 101-re., lapozz a 37-re.\n",
+348
+: 
+"cardID: 386, lapozz a 324re, ha egy másik szigetre hajóztok lapozz a 314re.\n",
+349
+: 
+"cardID: 387, lapozz a 299-re, ha nem lapozz a 32-re.\n",
+350
+: 
+"cardID: 388, lapozz a 360-ra, ha megpróbálod a szobrot a talapzatról leemelni, hogy kividd várakozó embereidhez lapozz a 228-ra.\n",
+351
+: 
+"cardID: 390, Lapozz a 123-ra.\n",
+352
+: 
+"cardID: 391, lapozz a 252-re.\n",
+353
+: 
+"cardID: 392, lapozz a 164-re, ha délnyugat felé inkább Kishbe mész lapozz a 223ra, ha az Ölyvre mész lapozz a 204-re, ha délkelet felé a Goth-csatornán hajózol tovább lapozz a 191-re.\n",
+354
+: 
+"cardID: 393, lapozz a 154-re.\n",
+355
+: 
+"cardID: 394, lapozz az 56-ra., lapozz a 344-re.\n",
+356
+: 
+"cardID: 395, lapozz a 27-re., lapozz a 178-ra.\n",
+357
+: 
+"cardID: 396, Lapozz a 312-re.\n",
+358
+: 
+"cardID: 397, lapozz a 48-ra, vagy egy Batárversenyben lapozz a 270re, vagy hagyd el Calah városát lapozz a 262-re.\n",
+};
+
+const output = Object.entries(input).map(([key, value]) => {
+  const matches = value.match(/(\d+)/g);
+  const cardID = value.match(/cardID: (\d+)/);
+  if (matches && cardID) {
+    const numbers = matches.slice(1).map(Number);
+    return `cardID: ${cardID[1]}; "cardTo": [${numbers.join(", ")}]`;
+  }
+  return "";
+}).join("\n",);
+
+console.log(output);
+
+    </script>
+</body>
+</html>

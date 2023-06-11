@@ -44,6 +44,29 @@ function calcStats(id, value){
     }
 }
 
+function ThrowDice(i) {
+    randomNum("szamTarolo" + i, "finalNumber" + i);
+    removeClick();
+}
+function removeClick(){
+    var dices = document.querySelectorAll('.dice');
+    dices.forEach(function(dice) {
+        dice.removeEventListener('click', ThrowDice);
+    });
+}
+function throwDice(dsz, id, lap){
+    for (let i = 1; i <= dsz; i++) {
+        let dice = document.getElementById('dice'+i);
+        dice.classList.remove('display-none');
+        dice.addEventListener('click', ThrowDice(i));
+    }
+    let eredmeny = document.getElementById('eredmeny');
+    eredmeny.classList.remove('display-none');
+    let comaprison = localStorage.getItem('id');
+    console.log(comaprison+"comparison");
+
+}
+
 //TOGGLE MAP
 
 var prevoiusMap;
@@ -121,6 +144,20 @@ function getCardContent(cardID) {
                     });
                 }
             });
+
+            Object.keys(jsonData[cardID]).forEach((key) => {
+                if (key === 'throw') {
+                    let item = jsonData[cardID].throw;
+                    let dobasszam = item[0];
+                    let kulcs = keyToIdMap[item[1]];
+                    let lapozz = [];
+                    for (let i = 2; i < jsonData[cardID].throw.length; i++){
+                        lapozz.push(item[i]);
+                    } 
+                    console.log(dobasszam, kulcs, lapozz);
+                    throwDice(dobasszam, kulcs, lapozz);
+                }
+            });
               
 
             var container = document.getElementById('choices');
@@ -142,7 +179,15 @@ function getCardContent(cardID) {
                     optionElement.innerText = option;
                     optionElement.disabled = true;
                     optionElement.style.opacity = "0.5";
-                    setTimeout(() => enableBtn(optionElement), 2000);
+
+                    Object.keys(jsonData[cardID]).forEach((key) => {
+                        if (key === 'btndisabled') {
+                            if (jsonData[cardID].btndisabled !== true) {
+                                setTimeout(() => enableBtn(optionElement), 2000);
+                            }
+                        }
+                    });
+
                     optionElement.addEventListener('click', function () {
                         getCardContent(option);
                         console.log('Heading to ' + option);
@@ -168,6 +213,8 @@ function getCardContent(cardID) {
                 container.appendChild(restartBtn);
                 restartBtn.appendChild(restartBg);
             };
+
+
 
             localStorage.setItem('cardID', jsonData[cardID].cardID);
         });

@@ -91,19 +91,6 @@
             <div class="choices" id="choices">
 
             </div>
-            <div class="diceContainer display-none">
-                <div class="dice" id="dice1" onclick="randomNum('szamTarolo1', 'finalNumber1');randomNum('szamTarolo2', 'finalNumber2')">
-                    <div id="szamTarolo1">
-                        <p id="finalNumber1">6</p>
-                    </div>
-                </div>
-                <div class="dice" id="dice2" onclick="randomNum('szamTarolo2', 'finalNumber2');randomNum('szamTarolo1', 'finalNumber1')">
-                    <div id="szamTarolo2">
-                        <p id="finalNumber2">6</p>
-                    </div>
-                </div>
-            </div>
-            <div id="eredmeny" class="display-none">Eredmény: </div>
         </section>
         <section class="right">
             <div class="titleBox">
@@ -132,6 +119,24 @@
                     </div>
                 </div>
             </div>
+            <div class="diceContainer">
+                <div class="dice display-none" id="dice1">
+                    <div id="szamTarolo1">
+                        <p id="finalNumber1">6</p>
+                    </div>
+                </div>
+                <div class="dice display-none" id="dice2">
+                    <div id="szamTarolo2">
+                        <p id="finalNumber2">6</p>
+                    </div>
+                </div>
+                <div class="dice display-none" id="dice3">
+                    <div id="szamTarolo3">
+                        <p id="finalNumber3">6</p>
+                    </div>
+                </div>
+            </div>
+            <div id="eredmeny" class="display-none">Eredmény: </div>
         </section>
     </main>
     <script src="src/dobokocka.js"></script>

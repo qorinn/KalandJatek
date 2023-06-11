@@ -1,0 +1,111 @@
+0: "cardID: 6, szerencsétlenségedre a sziklatömb épp ekkor omlik le, és rázuhan kilógó fél oldaladra az ajtó másik oldalán.\n"
+​
+1: "cardID: 13, szerencse különös kegye folytán a Kísértet nem sérült meg.\n"
+​
+2: "cardID: 14, SZERENCSE  és 2 ÜGYESSÉG pontot.\n"
+​
+3: "cardID: 24, szerencsétlen kereskedőket, hogy búvóhelyedről lecsaphass rájuk, de egy lélek sem jön., szerencsét.\n"
+​
+4: "cardID: 27, SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 67-re., SZERENCSÉD lapozz a 92-re.\n"
+​
+5: "cardID: 31, SZERENCSE  és 1 ÜGYESSÉG pontot! Lapozz a 210-re.\n"
+​
+6: "cardID: 35, szerencsét próbálhatsz a játékbarlangokban lapozz a 211-re, vagy akár elhajózhatsz észak  felé, hogy lerohand az Enraki-szigetet lapozz a 76-ra.\n"
+​
+7: "cardID: 38, SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 133-ra., SZERENCSÉD lapozz a 120-ra.\n"
+​
+8: "cardID: 58, szerencsésen eléritek a hajót, és a part mentén lefelé indultok.\n"
+​
+9: "cardID: 62, szerencse azonban veled van, amikor rábukkansz egy kalózhajó teljes legénységére, akik szerencsejátékokon sok pénzt vesztettek, és ezért elvették a hajójukat.\n"
+​
+10: "cardID: 63, SZERENCSE pontot.\n"
+​
+11: "cardID: 68, szerencse azonban nem kedvez neked.\n"
+​
+12: "cardID: 69, SZERENCSÉDET! Ha SZERENCSÉD van, lapozz a 99-re., SZERENCSÉD, lapozz a 6-ra.\n"
+​
+13: "cardID: 82, szerencsétlenségedre észreveszi, amint közeledsz, és beleharap a karodba vesztesz 1 ÉLETERŐ pontot.\n"
+​
+14: "cardID: 86, SZERENCSÉDET! Ha SZERENCSÉD van la-\npozz a 230-ra, ha nincs SZERENCSÉD lapozz a 182-re.\n"
+​
+15: "cardID: 96, szerencsétlen legényeidre, akiket kegyetlenül lemészárolnak.\n"
+​
+16: "cardID: 98, SZERENCSÉDET! Ha SZERENCSÉD van lapozz 94-re., SZERENCSÉD lapozz a 24-re.\n"
+​
+17: "cardID: 103, SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 13-ra., SZERENCSÉD lapozz a 172-re.\n"
+​
+18: "cardID: 123, szerencsésnek érzed magad, azt is megteheted, hogy szerencsét próbálsz Calah játékbarlangjaiban lapozz a 211-re, vagy elhajózhatsz a Keleti-partvidékre, hogy ott egy kis szárazföldi portyázásra menj lapozz a 197-re.\n"
+​
+19: "cardID: 140, SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 64-re, ha nincs SZERENCSÉD lapozz a 25-re.\n"
+​
+20: "cardID: 160, szerencsés: elsodorja őket a hótömeg.\n"
+​
+21: "cardID: 173, SZERENCSÉDET! Ha SZERENCSÉD van,\nlapozz a 289-re, ha nincs SZERENCSÉD lapozz az 5-re.\n"
+​
+22: "cardID: 185, SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 283-ra., SZERENCSÉD lapozz a 146-ra.\n"
+​
+23: "cardID: 193, szerencsétlenül járt hajódat, és valamennyien a hullámsírban végzitek.\n"
+​
+24: "cardID: 201, SZERENCSÉDET! Ha SZERENCSÉD van la-\npozz a 232-re, ha nincs SZERENCSÉD lapozz a 243-ra.\n"
+​
+25: "cardID: 208, szerencsét lapozz a 127-re.\n"
+​
+26: "cardID: 220, SZERENCSÉDET! Ha SZERENCSÉD van la-\npozz a 244-re., SZERENCSÉD lapozz a 373-ra.\n"
+​
+27: "cardID: 227, SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 278-ra., SZERENCSÉD lapozz a 247-re.\n"
+​
+28: "cardID: 232, szerencsét hoz, de itt, a tenger alatt ez kétszeresen igaz., SZERENCSE pontot.\n"
+​
+29: "cardID: 236, szerencsétlenségedre egy régi hiteleződdel hoz Össze, akit Jiamil el-Fazouknak hívnak., szerencsejátékon vesztetted el.\n"
+​
+30: "cardID: 242, szerencsétlenül jár, a mélybe zuhan.\n"
+​
+31: "cardID: 244, szerencsésen visszaértek az ösvényhez.\n"
+​
+32: "cardID: 245, SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 137-re., SZERENCSÉD lapozz a 189-re.\n"
+​
+33: "cardID: 251, Szerencsésen esel, így elkerülöd a komoly sérülést vesztesz 1 ÉLETERŐ pontot.\n"
+​
+34: "cardID: 253, SZERENCSÉDET! Ha SZERENCSÉD\nvan lapozz a 62-re., SZERENCSÉD lapozz a 28-ra.\n"
+​
+35: "cardID: 264, SZERENCSE pontot.\n"
+​
+36: "cardID: 265, SZERENCSÉDET! Ha SZERENCSÉD van, lapozz a 365-re, ha nincs SZERENCSÉD lapozz a 334-re.\n"
+​
+37: "cardID: 270, szerencsétlen teremtménybe.\n"
+​
+38: "cardID: 275, SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 313-ra., SZERENCSÉD lapozz a 382-re.\n"
+​
+39: "cardID: 283, szerencse mégis veled van, amikor belebotlasz egy rabszolgakereskedőbe, akinek nemcsak túl sok, kalózoktól vásárolt rabszolgája van, hanem igen olcsón is adja őket.\n"
+​
+40: "cardID: 293, szerencsétlen emberekért, akik a kalózéletet választják, kifizetsz.\n"
+​
+41: "cardID: 297, SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 169-re, ha nincs SZERENCSÉD lapozz a 2-re.\n"
+​
+42: "cardID: 303, SZERENCSÉDET!  Ha SZERENCSÉD van lapozz a 343-ra., SZERENCSÉD lapozz az 58-ra.\n"
+​
+43: "cardID: 306, szerencsétlenül járt hajó darabjai.\n"
+​
+44: "cardID: 324, SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 286-ra, ha nincs SZERENCSÉD lapozz a 345-re.\n"
+​
+45: "cardID: 328, SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 47-re., SZERENCSÉD lapozz a 186-ra.\n"
+​
+46: "cardID: 330, szerencsét próbálhatsz a Batárversenyen lapozz a 270-re, vagy a kiütős játékban lapozz a 48-ra, vagy ha akarod, elhagyhatod Calah városát lapozz a 262-re.\n"
+​
+47: "cardID: 338, SZERENCSE  és 2 ÜGYESSÉG pontot.\n"
+​
+48: "cardID: 346, Szerencsétlenségedre nekik is eszükbe jut az, ami neked, és kiforgatják a várost minden vagyonából.\n"
+​
+49: "cardID: 359, SZERENCSE pontot.\n"
+​
+50: "cardID: 363, SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 306-ra., SZERENCSÉD lapozz a 333-ra.\n"
+​
+51: "cardID: 370, szerencsét próbálhatsz a Batárversenyen lapozz a 270re, vagy a kockajátékban lapozz a 236-ra.\n"
+​
+52: "cardID: 376, SZERENCSÉDET! Ha SZERENCSÉD\nvan lapozz a 283-ra., SZERENCSÉD lapozz a 146-ra.\n"
+​
+53: "cardID: 378, SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 166-ra., SZERENCSÉD lapozz a 193-ra.\n"
+​
+54: "cardID: 394, SZERENCSÉDET! Ha SZERENCSÉD van lapozz az 56-ra., SZERENCSÉD lapozz a 344-re.\n"
+​
+55: "cardID: 395, SZERENCSE pontot.\n"
