@@ -39,10 +39,10 @@
   },
   {
     "cardID": 7,
-    "cardContent": "Dobj három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE<br><strong>Lapozz a 387-re</strong><br>Ha a kapott összeg ugyanannyi vagy több, mint LEGÉNYSÉGED EREJE<br><strong>Lapozz a 356-ra</strong>",
+    "cardContent": "Dobj három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYEJSÉGED EREJE<br><strong>Lapozz a 387-re</strong><br>Ha a kapott összeg ugyanannyi vagy több, mint LEGÉNYSÉGED EREJE<br><strong>Lapozz a 356-ra</strong>",
     "cardTo": [387, 356],
     "btndisabled": true,
-    "throw": ["3", "4", "387", "356"]
+    "throw": ["3", "4"]
   },
   {
     "cardID": 8,
@@ -58,7 +58,10 @@
     "cardID": 10,
     "cardContent": "Tovább hajózva elhaladsz a Keleti-partvidék Tűztengernek nevezett kopár, vörös homokdombjai mellett ez a vidék a terméketlen föld színéről kapta a nevét. Dobj három kockával! Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE, utazási napjaid számát növeld 5-tel a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy több, mint LEGÉNYSÉGED EREJE növeld 6-tal utazási napjaid számát a HAJÓNAPLÓDBAN. Egy este, amikor a nap éppen lenyugvóban van, a Kísértet mellett foszforeszkáló hajóroncsot veszel észre a vízen. Vitorláidat leeresztve lehorgonyozol, és a hajó korlátján át fejest ugrasz a tengerbe, hogy közelebbről megszemléld a roncsot. Egy kereskedőhajót látsz, amely a sekély vízben fekszik. Törzsén két óriási lyuk tátong egyik a tatnál, a másik az orrnál.<br>Melyiken úszol be?<br>Ha a hajó tatjánál lévő lyukon át<br><strong>Lapozz a 44-re,</strong><br>ha az orránál lévőn át <strong>lapozz a 33-ra</strong>",
     "cardTo": [44, 33],
-    "map": "tuztenger"
+    "map": "tuztenger",
+    "btndisabled": true,
+    "throw": ["3", "4"],
+    "statCalc": ["6", "5", "6"]
   },
   {
     "cardID": 11,
@@ -1038,8 +1041,8 @@
   },
   {
     "cardID": 202,
-    "cardContent": "A következő futamban tizenhat gyík vesz részt, de te Csupán négyet szúrsz ki, akik között a verseny eldőlhet: Omar Shazi, Sárkánygyík, Wazi Biin és el-Savak. Az egyikre 20 Arany Tallért vagy 2 rabszolgát kell tenned, te döntsd el, melyik megoldást választod. Döntsd el, melyik Batárra fogadsz, majd dobj egy kockával. Ha a kapott szám 1 vagy 2 <strong>Lapozz a 118-ra, ha a kapott szám 3 vagy 4, lapozz a 131-re, ha a kapott szám 5 vagy 6 lapozz a 106-ra</strong>",
-    "cardTo": [118, 3, 4, 131, 5, 6, 106]
+    "cardContent": "A következő futamban tizenhat gyík vesz részt, de te Csupán négyet szúrsz ki, akik között a verseny eldőlhet: Omar Shazi, Sárkánygyík, Wazi Biin és el-Savak. Az egyikre 20 Arany Tallért vagy 2 rabszolgát kell tenned, te döntsd el, melyik megoldást választod. Döntsd el, melyik Batárra fogadsz, majd dobj egy kockával. Ha a kapott szám 1 vagy 2 <strong>Lapozz a 118-ra,</strong> ha a kapott szám 3 vagy 4, <strong>lapozz a 131-re,</strong> ha a kapott szám 5 vagy 6 <strong>lapozz a 106-ra</strong>",
+    "cardTo": [118, 131, 106]
   },
   {
     "cardID": 203,

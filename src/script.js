@@ -44,27 +44,46 @@ function calcStats(id, value){
     }
 }
 
-function ThrowDice(i) {
-    randomNum("szamTarolo" + i, "finalNumber" + i);
+
+let globaldsz;
+function ThrowDice(dsz) {
+    for (let i = 1; i <= dsz; i++) {
+        randomNum("szamTarolo" + i, "finalNumber" + i);
+    }
     removeClick();
 }
 function removeClick(){
     var dices = document.querySelectorAll('.dice');
     dices.forEach(function(dice) {
         dice.removeEventListener('click', ThrowDice);
+        dice.disabled = true;
     });
 }
-function throwDice(dsz, id, lap){
+function diceClickHandler(){
+    console.log(globaldsz);
+    ThrowDice(globaldsz);
+    globaldsz = 0;
+}
+function throwDice(dsz, id, lap, bool, calcId, calcVal){
+    globaldsz = dsz;
     for (let i = 1; i <= dsz; i++) {
         let dice = document.getElementById('dice'+i);
         dice.classList.remove('display-none');
-        dice.addEventListener('click', ThrowDice(i));
+        dice.addEventListener('click', diceClickHandler);
+    }
+    if (id === "hp" || id === "compnum" || id === "compstren"){
+        let idVal = localStorage.getItem(id);
+        let x = idVal.split('/');
+        let comaprison = x[0];
+        console.log(comaprison+" comparison");
+    }
+    else{
+        let comaprison = localStorage.getItem(id);
+        console.log(comaprison+" comparison");
     }
     let eredmeny = document.getElementById('eredmeny');
     eredmeny.classList.remove('display-none');
-    let comaprison = localStorage.getItem('id');
-    console.log(comaprison+"comparison");
-
+    
 }
 
 //TOGGLE MAP
@@ -145,17 +164,49 @@ function getCardContent(cardID) {
                 }
             });
 
+            var kisseged;
             Object.keys(jsonData[cardID]).forEach((key) => {
-                if (key === 'throw') {
-                    let item = jsonData[cardID].throw;
-                    let dobasszam = item[0];
-                    let kulcs = keyToIdMap[item[1]];
-                    let lapozz = [];
+                var item;
+                var dobasszam;
+                var kulcs;
+                var lapozz;
+                var bool = false;
+                var calcId;
+                var calcVal;
+
+                if (key === 'throw'){
+                    kisseged = 'throw';
+                }
+                if (kisseged === 'throw') {
+
+                    var dices = document.querySelectorAll('.dice');
+                    dices.forEach(dice => {
+                        dice.disabled = false;
+                        dice.style.opacity = 1;
+                    });
+                    item = jsonData[cardID].throw;
+                    dobasszam = item[0];
+                    kulcs = keyToIdMap[item[1]];
+                    lapozz = [];
                     for (let i = 2; i < jsonData[cardID].throw.length; i++){
                         lapozz.push(item[i]);
-                    } 
-                    console.log(dobasszam, kulcs, lapozz);
-                    throwDice(dobasszam, kulcs, lapozz);
+                    }
+                    throwDice(dobasszam, kulcs, lapozz, bool, calcId, calcVal);
+                }
+                else{
+                    var dices = document.querySelectorAll('.dice');
+                    dices.forEach(dice => {
+                        dice.disabled = true;
+                        dice.style.opacity = 0.5;
+                    });
+                }
+                if (key === 'valami'){
+                    console.log(key[0]);
+                    bool = true;
+                    calcId = key[0];
+                    calcVal = key[1];
+                    throwDice(dobasszam, kulcs, lapozz, bool, calcId, calcVal);
+                    console.log(dobasszam, kulcs, lapozz, bool, calcId, calcVal);
                 }
             });
               
