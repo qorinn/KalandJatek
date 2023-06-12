@@ -3,7 +3,8 @@
     "cardID": 0,
     "cardContent": "A Kísértet nevű kalózhajó kapitánya vagy. Tapasztalt gyilkos bandáddal végig kell tarolnod a Beltenger partvidékét, hogy legnagyobb riválisoddal, Abdullal, a Mészárossal folytatott versenyedben elegendő aranyat és foglyot ejthess. Mindketten esküdt ellenségei vagytok a civilizált világnak, és úgy tartanak számon benneteket mint a legnagyobb kalózkapitányokat. Most mégis versenyezned kell vele, hogy kiderüljön, melyikőtök a legnagyobb kalóz. Mielőtt útra kelnél, meg kell győződnöd róla, hogy milyen erős vagy te magad és milyen kitartó hajód legénysége.",
     "cardTo": [1],
-    "map": "tak"
+    "map": "tak",
+    "throw": ["1", "2", "1", "1", "2"]
   },
   {
     "cardID": 1,

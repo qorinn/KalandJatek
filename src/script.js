@@ -1,3 +1,16 @@
+const keyToIdMap = {
+    "1": "skill",
+    "2": "hp",
+    "3": "luck",
+    "4": "compnum",
+    "5": "compstren",
+    "6": "diary",
+    "7": "gold",
+    "8": "slaves"
+};
+var defaultLuck;
+
+
 function checkStat(id) {
     localStorage.setItem(id, document.getElementById(id).textContent);
     var dynamicVal = localStorage.getItem(id);
@@ -17,14 +30,30 @@ function checkStat(id) {
     }
 }
 
-function calcStats(id, value){
+function calcStats(id, value, nulladik){
     if (id === "hp" || id === "compnum" || id === "compstren"){
         let idVal = localStorage.getItem(id);
         let idBox = document.getElementById(id);
         let x = idVal.split('/');
-        let calcId = Number(x[0]) + value;
+        if (nulladik) {
+            console.log("nulladik");
+            if (id === "hp"){
+                console.log("setting " + id);
+                var calcId = value + 12;
+            }
+            else{
+                console.log("setting " + id);
+                var calcId = value + 6;
+            }
+            idBox.innerText = String(calcId)+"/"+String(calcId);
+            console.log(String(calcId)+"/"+String(calcId));
+        }
+        else{
+            var calcId = Number(x[0]) + value;
+            console.log("nem nulladik");
+        }
         console.log(calcId);
-        if (calcId < 0){ idBox.innerText = 0+"/"+x[1];}
+        if (calcId < 0){ idBox.innerText = 0+"/"+x[1]; console.log("meghaltál");}
         else if (calcId > x[1]){ idBox.innerText = x[1]+"/"+x[1];}
         else{ idBox.innerText = calcId+"/"+x[1];}
         checkStat(id);
@@ -32,11 +61,29 @@ function calcStats(id, value){
     else{
         let idVal = localStorage.getItem(id);
         let idBox = document.getElementById(id);
-        let calcId = Number(idVal) + value;
+        if (nulladik) {
+            console.log("setting " + id);
+            var calcId = value + 6;
+            console.log("nulladik");
+        }
+        else{
+            var calcId = Number(idVal) + value;
+            console.log("nem nulladik");
+
+        }
         console.log(calcId);
         if (calcId < 0){ idBox.innerText = 0;}
-        else if (calcId > 12){
-            if (id === "skill" || id === "luck") {idBox.innerText = 12;}
+        if (id === "luck") {
+            defaultLuck = calcId;
+            if (calcId > defaultLuck) {
+                idBox.innerText = defaultLuck;
+            }
+            else{
+                idBox.innerText = calcId;
+            }
+        }
+        if (calcId > 12){
+            if (id === "skill") {idBox.innerText = 12;}
             else{ idBox.innerText = calcId;}
         }
         else{ idBox.innerText = calcId;}
@@ -72,7 +119,7 @@ function calcStats(id, value){
     }
 }
 
-
+var nulladik = false;
 var globaldszkl = 0;
 var globaldszk;
 function ThrowDice(dsz) {
@@ -111,18 +158,29 @@ function BtnEnable(){
 function diceClickHandler(){
     ThrowDice(globaldszk[globaldszkl]);
     globaldszkl++;
-    throwDice(globaldszkl, globaldszk);
+    if (globaldszkl <= globaldszk.length) {
+        setTimeout(function(){
+            throwDice(globaldszkl, globaldszk);
+        }, 3001);
+    }
+    if (nulladik) {
+        setTimeout(function(){
+            let eredmenyBox = document.getElementById('eredmeny').textContent;
+            let x = eredmenyBox.split(": ");
+            console.log(typeof parseInt(x[1]));
+            calcStats(keyToIdMap[globaldszkl], parseInt(x[1]), true);
+        }, 3001);
+    }
 }
 function throwDice(index, dszk){
-    console.log("index "+typeof index);
-    console.log("dszk "+typeof dszk);
-    console.log("vmi "+dszk[index]);
-    for (let i = 0; i <= dszk[index]; i++) {
+    for (let i = 1; i <= dszk[index]; i++) {
+        console.log(i+" kocka");
         let dice = document.getElementById('dice'+i);
         dice.disabled = false;
         dice.style.opacity = 1;
         dice.addEventListener('click', diceClickHandler);
     }
+    console.log("throwing available");
     /*
     if (id === "hp" || id === "compnum" || id === "compstren"){
         let idVal = localStorage.getItem(id);
@@ -184,6 +242,13 @@ function getCardContent(cardID) {
             card.innerHTML = "<p>" + jsonData[cardID].cardContent + "</p>";
             cardNum.innerHTML = jsonData[cardID].cardID + ". Kártya";
 
+            if (jsonData[cardID].cardID === 0){
+                nulladik = true;
+            }
+            else{
+                nulladik = false;
+            }
+
             Object.keys(jsonData[cardID]).forEach((key) => {
                 if (key === 'map') {
                     var map = document.getElementById('map');
@@ -192,16 +257,7 @@ function getCardContent(cardID) {
                 }
             });
 
-            const keyToIdMap = {
-                "1": "skill",
-                "2": "hp",
-                "3": "luck",
-                "4": "compnum",
-                "5": "compstren",
-                "6": "diary",
-                "7": "gold",
-                "8": "slaves"
-            };
+
             Object.keys(jsonData[cardID]).forEach((key) => {
                 if (key === 'statupdate') {
                     jsonData[cardID].statupdate.forEach(function (item) {
@@ -219,11 +275,6 @@ function getCardContent(cardID) {
             Object.keys(jsonData[cardID]).forEach((key) => {
                 var item;
                 var dobasszam;
-                var kulcs;
-                var lapozz;
-                var bool = false;
-                var calcId;
-                var calcVal;
 
                 if (key === 'throw'){
                     kisseged = 'throw';
@@ -240,7 +291,6 @@ function getCardContent(cardID) {
                         dobasszamok.push(item[i]);
                     }
                     globaldszk = dobasszamok;
-                    console.log(dobasszamok[globaldszkl]);
                     throwDice(globaldszkl, dobasszamok);
                 }
                 else{
@@ -284,7 +334,6 @@ function getCardContent(cardID) {
                     optionElement.disabled = true;
                     optionElement.style.opacity = "0.5";
 
-                    console.log("asd");
                     Object.keys(jsonData[cardID]).forEach((key) => {
                         if (key !== 'btndisabled') {
                             if (jsonData[cardID].btndisabled !== true) {
