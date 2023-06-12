@@ -73,7 +73,8 @@ function calcStats(id, value){
 }
 
 
-let globaldsz;
+var globaldszkl = 0;
+var globaldszk;
 function ThrowDice(dsz) {
     for (let i = 1; i <= dsz; i++) {
         randomNum("szamTarolo" + i, "finalNumber" + i);
@@ -108,13 +109,15 @@ function BtnEnable(){
     });
 }
 function diceClickHandler(){
-    console.log(globaldsz);
-    ThrowDice(globaldsz);
-    globaldsz = 0;
+    ThrowDice(globaldszk[globaldszkl]);
+    globaldszkl++;
+    throwDice(globaldszkl, globaldszk);
 }
-function throwDice(dsz, id, lap, bool, calcId, calcVal){
-    globaldsz = dsz;
-    for (let i = 1; i <= dsz; i++) {
+function throwDice(index, dszk){
+    console.log("index "+typeof index);
+    console.log("dszk "+typeof dszk);
+    console.log("vmi "+dszk[index]);
+    for (let i = 0; i <= dszk[index]; i++) {
         let dice = document.getElementById('dice'+i);
         dice.disabled = false;
         dice.style.opacity = 1;
@@ -212,7 +215,6 @@ function getCardContent(cardID) {
                 }
             });
 
-            globaldsz = 0;
             var kisseged;
             Object.keys(jsonData[cardID]).forEach((key) => {
                 var item;
@@ -232,12 +234,14 @@ function getCardContent(cardID) {
                     eredmeny.disabled = false;
                     eredmeny.style.opacity = 1;
 
-                    item = jsonData[cardID].throw;
-                    dobasszam = item[0];
-                    for (let i = 2; i < jsonData[cardID].throw.length; i++){
-                        lapozz.push(item[i]);
+                    var item = jsonData[cardID].throw;
+                    var dobasszamok = [];
+                    for (let i = 0; i < jsonData[cardID].throw.length; i++){
+                        dobasszamok.push(item[i]);
                     }
-                    throwDice(dobasszam, kulcs, lapozz, bool, calcId, calcVal);
+                    globaldszk = dobasszamok;
+                    console.log(dobasszamok[globaldszkl]);
+                    throwDice(globaldszkl, dobasszamok);
                 }
                 else{
                     var eredmeny = document.getElementById('eredmeny');

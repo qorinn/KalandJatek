@@ -45,7 +45,7 @@
     "cardContent": "Dobj három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYEJSÉGED EREJE<br><strong>Lapozz a 387-re</strong><br>Ha a kapott összeg ugyanannyi vagy több, mint LEGÉNYSÉGED EREJE<br><strong>Lapozz a 356-ra</strong>",
     "cardTo": [387, 356],
     "btndisabled": true,
-    "throw": ["3"]
+    "throw": ["3", "2"]
   },
   {
     "cardID": 8,
