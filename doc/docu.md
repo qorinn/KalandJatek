@@ -1,7 +1,8 @@
 
-### Vértengerek
->
+# Vértengerek
+### 1. Forrás formázás, feldolgozás
 > Az első forrás kifelytő python script
+> docx formátumba konvertálás külső webalkalmazás használatával, .pdf formátumból. 
 > Nyers text formátumú kinyerés docx formátumból.
 ```py
 import docx2txt
@@ -13,9 +14,7 @@ print(result)
 f.write(result)
 f.close()
 ```
->
 > Szöveg egyszerűsítése
->
 ```py
 f = open("text.txt", "r+", encoding='utf-8')
 result = f.read()
@@ -25,10 +24,7 @@ ggg = result.split("asd--")
 print(ggg[1])
 f.close()
 ```
-
->
-> Szöveg formázása, json adattározáshoz kártyánként.
->
+> Szöveg formázása, egyszerűsítése json adattározáshoz kártyánként.
 ```py
 import json
 f = open("text.txt", "r+", encoding='utf-8')
@@ -64,9 +60,7 @@ waaa = open('cards.json', 'r', encoding='utf-8')
 cardsJsonArray = json.loads(waaa.read())
 print(cardsJsonArray[22]["cardID"])
 ```
-
 > A kapott fájleredmény az alábbi sémára hasonlít:
->
 ```json
 [
   {
@@ -82,4 +76,8 @@ print(cardsJsonArray[22]["cardID"])
     "cardContent": "„Végre az enyém! rikácsolja hiteleződ. Legközelebb ne fogadj olyan pénzbe, amivel nem rendelkezel!” Matrózaival felmegy a hajódra, hogy átvegye jogos nyereményét. Hajó nélkül nem tudod folytatni az utadat. Kalandod itt véget ér.",
   }
 ] // "cardID": 4,...
+```
+### 2. Funkcionalitás, JS scriptelés
+```js
+
 ```
