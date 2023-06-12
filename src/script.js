@@ -57,6 +57,26 @@ function removeClick(){
     dices.forEach(function(dice) {
         dice.removeEventListener('click', ThrowDice);
         dice.disabled = true;
+        setTimeout(delayOpacity, 3000);
+    });
+}
+function delayOpacity(){
+    var dices = document.querySelectorAll('.dice');
+    dices.forEach(function(dice) {
+        dice.style.opacity = 0.5;
+    });
+    var eredmeny = document.getElementById('eredmeny');
+    eredmeny.classList.remove("glowAnimation");
+    void eredmeny.offsetWidth; // Re-flow: szükséges a stílusfrissítéshez
+    eredmeny.classList.add("glowAnimation");
+  
+    BtnEnable();
+}
+function BtnEnable(){
+    var btns = document.querySelectorAll('.choices button');
+    btns.forEach(btn => {
+        btn.disabled = false;
+        btn.style.opacity = 1;
     });
 }
 function diceClickHandler(){
@@ -68,9 +88,11 @@ function throwDice(dsz, id, lap, bool, calcId, calcVal){
     globaldsz = dsz;
     for (let i = 1; i <= dsz; i++) {
         let dice = document.getElementById('dice'+i);
-        dice.classList.remove('display-none');
+        dice.disabled = false;
+        dice.style.opacity = 1;
         dice.addEventListener('click', diceClickHandler);
     }
+    /*
     if (id === "hp" || id === "compnum" || id === "compstren"){
         let idVal = localStorage.getItem(id);
         let x = idVal.split('/');
@@ -81,9 +103,7 @@ function throwDice(dsz, id, lap, bool, calcId, calcVal){
         let comaprison = localStorage.getItem(id);
         console.log(comaprison+" comparison");
     }
-    let eredmeny = document.getElementById('eredmeny');
-    eredmeny.classList.remove('display-none');
-    
+    */
 }
 
 //TOGGLE MAP
@@ -164,6 +184,7 @@ function getCardContent(cardID) {
                 }
             });
 
+            globaldsz = 0;
             var kisseged;
             Object.keys(jsonData[cardID]).forEach((key) => {
                 var item;
@@ -178,12 +199,11 @@ function getCardContent(cardID) {
                     kisseged = 'throw';
                 }
                 if (kisseged === 'throw') {
+                    
+                    var eredmeny = document.getElementById('eredmeny');
+                    eredmeny.disabled = false;
+                    eredmeny.style.opacity = 1;
 
-                    var dices = document.querySelectorAll('.dice');
-                    dices.forEach(dice => {
-                        dice.disabled = false;
-                        dice.style.opacity = 1;
-                    });
                     item = jsonData[cardID].throw;
                     dobasszam = item[0];
                     kulcs = keyToIdMap[item[1]];
@@ -194,11 +214,14 @@ function getCardContent(cardID) {
                     throwDice(dobasszam, kulcs, lapozz, bool, calcId, calcVal);
                 }
                 else{
+                    var eredmeny = document.getElementById('eredmeny');
                     var dices = document.querySelectorAll('.dice');
                     dices.forEach(dice => {
                         dice.disabled = true;
                         dice.style.opacity = 0.5;
                     });
+                    eredmeny.disabled = true;
+                    eredmeny.style.opacity = 0.5;
                 }
                 if (key === 'valami'){
                     console.log(key[0]);
@@ -264,6 +287,7 @@ function getCardContent(cardID) {
                 container.appendChild(restartBtn);
                 restartBtn.appendChild(restartBg);
             };
+
 
 
 
