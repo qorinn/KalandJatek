@@ -1,6 +1,7 @@
 [
   {
-    "cardID": 0
+    "cardID": 0,
+    "throw": ["1", "1", "1", "1"]
   },
   {
     "cardID": 1,
@@ -60,8 +61,7 @@
     "cardTo": [44, 33],
     "map": "tuztenger",
     "btndisabled": true,
-    "throw": ["3", "4"],
-    "statCalc": ["6", "5", "6"]
+    "throw": ["3"]
   },
   {
     "cardID": 11,

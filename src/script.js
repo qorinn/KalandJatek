@@ -42,6 +42,34 @@ function calcStats(id, value){
         else{ idBox.innerText = calcId;}
         checkStat(id);
     }
+    var noti1 = document.getElementById('noti1');
+    var noti2 = document.getElementById('noti2');
+    noti1.innerText = id;
+    noti2.innerText = value;
+    noti1.style.transition = ".3s";
+    noti2.style.transition = ".3s";
+    noti1.style.left = "50%";
+    noti2.style.right = "50%";
+    setTimeout(function(){
+        noti1.style.transform = "translate(-100%, -100%)";
+        noti2.style.transform = "translate(100%, -100%)";
+        setTimeout(function(){
+            noti1.style.transition = "0s";
+            noti2.style.transition = "0s";
+            noti1.style.transform = "translate(-100%, 0%)";
+            noti2.style.transform = "translate(100%, 0%)";
+            noti1.style.left = "0";
+            noti2.style.right = "0";
+        }, 300);
+    }, 5000);
+    if (value < 0){
+        noti1.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+        noti2.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+    }
+    else{
+        noti1.style.backgroundColor = "rgba(0, 255, 0, 0.5)";
+        noti2.style.backgroundColor = "rgba(0, 255, 0, 0.5)";
+    }
 }
 
 
@@ -206,8 +234,6 @@ function getCardContent(cardID) {
 
                     item = jsonData[cardID].throw;
                     dobasszam = item[0];
-                    kulcs = keyToIdMap[item[1]];
-                    lapozz = [];
                     for (let i = 2; i < jsonData[cardID].throw.length; i++){
                         lapozz.push(item[i]);
                     }
@@ -254,8 +280,9 @@ function getCardContent(cardID) {
                     optionElement.disabled = true;
                     optionElement.style.opacity = "0.5";
 
+                    console.log("asd");
                     Object.keys(jsonData[cardID]).forEach((key) => {
-                        if (key === 'btndisabled') {
+                        if (key !== 'btndisabled') {
                             if (jsonData[cardID].btndisabled !== true) {
                                 setTimeout(() => enableBtn(optionElement), 2000);
                             }
@@ -281,7 +308,8 @@ function getCardContent(cardID) {
                 restartBtn.style.opacity = "0.5";
                 setTimeout(() => enableBtn(restartBtn), 1000);
                 restartBtn.addEventListener('click', function () {
-                    getCardContent(0);
+                    getCardContent(1);
+                    localStorage.clear();
                     console.log('Restarting game');
                 });
                 container.appendChild(restartBtn);
@@ -296,6 +324,7 @@ function getCardContent(cardID) {
 }
 
 function enableBtn(button) {
+    console.log("asd");
     button.disabled = false;
     button.style.opacity = "1";
 }

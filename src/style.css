@@ -9,6 +9,7 @@ body {
   background-repeat: no-repeat, repeat;
   background-size: 100% 100%, auto;
   background-attachment: fixed, fixed;
+  overflow-x: hidden;
 }
 
 main {
@@ -472,4 +473,22 @@ strong {
   100% {
     color: black;
   }
+}
+#noti1, #noti2 {
+  position: absolute;
+  top: 0;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+}
+
+#noti1 {
+  left: 0;
+  transform: translate(-100%, 0);
+  border-radius: 0 0 0 15px;
+}
+
+#noti2 {
+  right: 0;
+  transform: translate(100%, 0);
+  border-radius: 0 0 15px 0;
 }/*# sourceMappingURL=style.css.map */
