@@ -181,7 +181,10 @@
   {
     "cardID": 29,
     "cardContent": "Előreugrasz, és behúzol egyet a Küklopsz bordái közé. Ennek következtében az kettőt szaltózik vonj le 2 pontot az ÉLETEREJÉBŐL. Előrehajol,  és egy horogütéssel úgy fejbe vág, hogy elterülsz  a földön vesztesz 2 ÉLETERŐ pontot. A Küklopsz tér magához előbb, karjaiba vesz, és felemel a magasba. Mit teszel?<br>Belerúgsz a vállába?<br><strong>Lapozz a 251-re</strong><br>Belerúgsz a hónaljába?<br><strong>Lapozz a 305-re</strong><br>Visszakézből ráhúzol a könyökére?<br><strong>Lapozz a 145-re</strong>",
-    "cardTo": [251, 305, 145]
+    "cardTo": [251, 305, 145],
+    "statupdate": [
+      {"2": -2}
+    ]
   },
   {
     "cardID": 30,
@@ -189,14 +192,20 @@
     "cardTo": [160, 138]
   },
   {
-    "cardID": 31,
-    "cardContent": "„Ó, jaj! kiált a Szellem. Ez igazán szörnyű!” Dühös pillantást vet rád, és kezével kétségbeesetten feléd suhint. „Ó, ily rettenetes hírek hordozója, megátkozlak téged!” Vesztesz 2 SZERENCSE  és 1 ÜGYESSÉG pontot! <strong>Lapozz a 210-re</strong>",
-    "cardTo": [210]
+    "cardID": 14,
+    "cardContent": "„Ó, jaj! kiált a Szellem. Ez igazán szörnyű!” Dühös pillantást vet rád, és kezével kétségbeesetten suhint feléd. „Ó, ily rettenetes hírek hordozója, megátkozlak téged!” Vesztesz 2 SZERENCSE  és 2 ÜGYESSÉG pontot. <strong>Lapozz a 210-re</strong>",
+    "cardTo": [210],
+    "statupdate": [
+      {"1": -2},
+      {"3": -2}
+    ]
   },
   {
     "cardID": 32,
-    "cardContent": "A Kísértettel behajóztok Nippur egyetlen nagy kikötőjébe. Legényeid örülnek, hogy Vége az útnak. Dobi három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE, növeld 4-gyel utazási napjaid számát a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy több, mint LEGÉNYSÉGED EREJE, növeld 5-tel utazási napjaid számát a HAJÓNAPLÓDBAN. Abdulnak, a Mészárosnak Haveldar nevű hajója már lehorgonyzott az öbölben. Néhányan, akik a hajó fedélzetén maradtak, közlik veletek, hogy Abdul már fölment Nippur egyetlen magas hegycsúcsára, a találkahelyre. Ha a HAJÓNAPLÓDBAN  50-nél több utazási napod van <strong>Lapozz a 342-re, ha a HAJÓNAPLÓDBAN 50 vagy ennél kevesebb utazási napod van lapozz a 213-ra</strong>",
-    "cardTo": [342, 50, 213]
+    "cardContent": "A Kísértettel behajóztok Nippur egyetlen nagy kikötőjébe. Legényeid örülnek, hogy Vége az útnak. Dobj három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE, növeld 4-gyel utazási napjaid számát a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy több, mint LEGÉNYSÉGED EREJE, növeld 5-tel utazási napjaid számát a HAJÓNAPLÓDBAN. Abdulnak, a Mészárosnak Haveldar nevű hajója már lehorgonyzott az öbölben. Néhányan, akik a hajó fedélzetén maradtak, közlik veletek, hogy Abdul már fölment Nippur egyetlen magas hegycsúcsára, a találkahelyre. Ha a HAJÓNAPLÓDBAN  50-nél több utazási napod van <strong>Lapozz a 342-re, ha a HAJÓNAPLÓDBAN 50 vagy ennél kevesebb utazási napod van lapozz a 213-ra</strong>",
+    "cardTo": [342, 50, 213],
+    "btndisabled": true,
+    "throw": ["3"]
   },
   {
     "cardID": 33,
@@ -312,7 +321,7 @@
   },
   {
     "cardID": 55,
-    "cardContent": "Dobj három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE, HAJÓNAP-<br>LÓDBAN növeld 5 nappal utazásod idejét, és <strong>Lapozz a 68-ra</strong> Ha a kapott összeg ugyanannyi vagy nagyobb, mint LEGÉNYSÉGED EREJE, akkor 6 nappal növeled utazásod idejét a HAJÓNAPLÓBAN. <strong>Lapozz a 181-re</strong>",
+    "cardContent": "Dobj három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE, HAJÓNAPLÓDBAN növeld 5 nappal utazásod idejét, és <strong>Lapozz a 68-ra</strong> Ha a kapott összeg ugyanannyi vagy nagyobb, mint LEGÉNYSÉGED EREJE, akkor 6 nappal növeled utazásod idejét a HAJÓNAPLÓBAN. <strong>Lapozz a 181-re</strong>",
     "cardTo": [68, 181],
     "btndisabled": true,
     "throw": ["3"]
@@ -477,7 +486,7 @@
   },
   {
     "cardID": 86,
-    "cardContent": "„Mozdulj, te szemét mondod, miközben görbe kardodat kihúzod a hüvelyéből -‚ vagy nemcsak a szörnyek miatt kell aggódnod!” Tedd próbára a SZERENCSÉDET! Ha SZERENCSÉD van la-<br>pozz a 230-ra, ha nincs SZERENCSÉD <strong>Lapozz a 182-re</strong>",
+    "cardContent": "„Mozdulj, te szemét mondod, miközben görbe kardodat kihúzod a hüvelyéből -‚ vagy nemcsak a szörnyek miatt kell aggódnod!” Tedd próbára a SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 230-ra, ha nincs SZERENCSÉD <strong>Lapozz a 182-re</strong>",
     "cardTo": [182]
   },
   {
@@ -791,7 +800,7 @@
   },
   {
     "cardID": 146,
-    "cardContent": "A piacokon nyüzsögnek a farmerok, katonák, hivatalnokok, kereskedők és rabszolgák, de szinte egyetlen tengerész vagy szárazföldi halandó sem óhajtja megtanulni a kalózmesterséget. Csak néhány kóbor lelket találsz, aki hajlandó közétek beállni, bár az áruk igen magas. Minden 20 Arany Tallér után, amit kifizetsz, nyersz 1 LEGÉNYSÉGI ERŐ pontot. Az egyik újdonsült kalózodtól megtudod, hogy a közelben van egy igen gazdag, de veszedelmes szentély, amelyet a pestis isteneinek emeltek. Ez a szentély az Assur mellett kanyargó folyó mentén található, a várostól néhány kilo-<br>méterre. Ha fölfelé indulsz a folyón, hogy megkeresd ezt a helyet <strong>Lapozz a 335-re; ha inkább elhagyod Assurt és délkeleti irányba hajózol el, a Beltengerre lapozz a 318-ra</strong> Ha a nyugati partvidék mentén hajózol lefelé a 45-re.",
+    "cardContent": "A piacokon nyüzsögnek a farmerok, katonák, hivatalnokok, kereskedők és rabszolgák, de szinte egyetlen tengerész vagy szárazföldi halandó sem óhajtja megtanulni a kalózmesterséget. Csak néhány kóbor lelket találsz, aki hajlandó közétek beállni, bár az áruk igen magas. Minden 20 Arany Tallér után, amit kifizetsz, nyersz 1 LEGÉNYSÉGI ERŐ pontot. Az egyik újdonsült kalózodtól megtudod, hogy a közelben van egy igen gazdag, de veszedelmes szentély, amelyet a pestis isteneinek emeltek. Ez a szentély az Assur mellett kanyargó folyó mentén található, a várostól néhány kilométerre. Ha fölfelé indulsz a folyón, hogy megkeresd ezt a helyet <strong>Lapozz a 335-re; ha inkább elhagyod Assurt és délkeleti irányba hajózol el, a Beltengerre lapozz a 318-ra</strong> Ha a nyugati partvidék mentén hajózol lefelé a 45-re.",
     "cardTo": [335, 318]
   },
   {
@@ -922,7 +931,7 @@
   },
   {
     "cardID": 171,
-    "cardContent": "A semleges Assur városa felé hajózol, a Kísértet egyenletesen szeli a Beltenger nyugodt vizét. Dobj három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE, növeld utazási napjaid számát 5-tel a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy nagyobb, mint LEGÉNYSÉGED EREJE, 6-tal növeld utazási napjaid számát a HAJÓNAPLÓDBAN. Ha a HAJÓNAP-<br>LÓDBAN lévő szám páratlan <strong>Lapozz a 376-ra; ha ez a szám páros lapozz a 357-re</strong>",
+    "cardContent": "A semleges Assur városa felé hajózol, a Kísértet egyenletesen szeli a Beltenger nyugodt vizét. Dobj három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE, növeld utazási napjaid számát 5-tel a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy nagyobb, mint LEGÉNYSÉGED EREJE, 6-tal növeld utazási napjaid számát a HAJÓNAPLÓDBAN. Ha a HAJÓNAPLÓDBAN lévő szám páratlan <strong>Lapozz a 376-ra; ha ez a szám páros lapozz a 357-re</strong>",
     "cardTo": [376, 357],
     "btndisabled": true,
     "throw": ["3"]
@@ -1009,7 +1018,7 @@
   },
   {
     "cardID": 188,
-    "cardContent": "Legénységed zömével partra szállsz, és nekivágtok az erődítmény mögött emelkedő hegynek utazási idődet növeld 1 nappal a HAJÓNAPLÓDBAN. Végül megfelelő ösvényt találsz, amely erdőkön, bozótos részeken, majd havas vidéken visz fölfelé. Miközben legénységeddel egyre följebb és följebb haladsz az ösvényen, a közeli hegygerincen egyszer csak észreveszel egy páratlan szép-<br>ségű, II alakú anraki szentélyt; vörösfenyő szerkezete hátborzongatóan nyikorog a szélben. Ha úgy döntesz, hogy az ösvényről letérve odamész és megnézed a szentélyt <strong>Lapozz a 359-re, ha továbbmész az ösvényen lapozz az 52-re</strong>",
+    "cardContent": "Legénységed zömével partra szállsz, és nekivágtok az erődítmény mögött emelkedő hegynek utazási idődet növeld 1 nappal a HAJÓNAPLÓDBAN. Végül megfelelő ösvényt találsz, amely erdőkön, bozótos részeken, majd havas vidéken visz fölfelé. Miközben legénységeddel egyre följebb és följebb haladsz az ösvényen, a közeli hegygerincen egyszer csak észreveszel egy páratlan szépségű, II alakú anraki szentélyt; vörösfenyő szerkezete hátborzongatóan nyikorog a szélben. Ha úgy döntesz, hogy az ösvényről letérve odamész és megnézed a szentélyt <strong>Lapozz a 359-re, ha továbbmész az ösvényen lapozz az 52-re</strong>",
     "cardTo": [359, 52]
   },
   {
@@ -1020,12 +1029,17 @@
   {
     "cardID": 190,
     "cardContent": "Letérdelsz, elérsz egy követ, és magad felé görgeted. A kezed váratlanul szürke masszába süpped, és a „kő” hangos szisszenéssel savnyálat lövell a válladra. Vonj le 2 pontot ÉLETERŐDBŐL. A tojás alakú kő tovább sziszeg és köpköd. Rántsd elő a kardodat, és védd magad!<br>Savlabda<br>ÜGYESSÉG 9 ÉLETERŐ 6<br>Ha legyőzöd <strong>Lapozz a 205-re</strong>",
-    "cardTo": [205]
+    "cardTo": [205],
+    "statupdate": [
+      {"2": -2}
+    ]
   },
   {
     "cardID": 191,
-    "cardContent": "Messze elkerülöd az ellenséges Marad városát. Dobi három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE, növeld utazási napjaid számát 4-gyel a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy több, mint LEGÉNYSÉGED EREJE, növeld utazási napjaid számát 5-tel a HAJÓNAPLÓDBAN. Mikor 150 mérföldnyire megközelítetted a Goth-csatornát, az őrszem egy szigetet vesz észre, amelyet semmilyen térkép nem jelöl. Ha kikötsz ezen a szigeten -<br><strong>Lapozz a 38-ra, ha továbbmész a Goth-csatorna felé lapozz a 4-re, ha nyugati irányba indulsz az Ölyv felé, a Trysta-sziget déli partjai mellett lapozz a 257-re</strong>",
-    "cardTo": [38, 4, 257]
+    "cardContent": "Messze elkerülöd az ellenséges Marad városát. Dobj három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE, növeld utazási napjaid számát 4-gyel a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy több, mint LEGÉNYSÉGED EREJE, növeld utazási napjaid számát 5-tel a HAJÓNAPLÓDBAN. Mikor 150 mérföldnyire megközelítetted a Goth-csatornát, az őrszem egy szigetet vesz észre, amelyet semmilyen térkép nem jelöl. Ha kikötsz ezen a szigeten <strong>Lapozz a 38-ra, ha továbbmész a Goth-csatorna felé lapozz a 4-re, ha nyugati irányba indulsz az Ölyv felé, a Trysta-sziget déli partjai mellett lapozz a 257-re</strong>",
+    "cardTo": [38, 4, 257],
+    "btndisabled": true,
+    "throw": ["3"]
   },
   {
     "cardID": 192,
@@ -1078,7 +1092,7 @@
   },
   {
     "cardID": 201,
-    "cardContent": "A szarvánál fogva megragadod a koponyát, és teljes erővel kifelé kezded húzni. Tedd próbára a SZERENCSÉDET! Ha SZERENCSÉD van la-<br>pozz a 232-re, ha nincs SZERENCSÉD <strong>Lapozz a 243-ra</strong>",
+    "cardContent": "A szarvánál fogva megragadod a koponyát, és teljes erővel kifelé kezded húzni. Tedd próbára a SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 232-re, ha nincs SZERENCSÉD <strong>Lapozz a 243-ra</strong>",
     "cardTo": [243]
   },
   {
@@ -1179,7 +1193,7 @@
   },
   {
     "cardID": 220,
-    "cardContent": "Amikor embereiddel felmászol a hegyre, a velőtrázó ordítást hallató havasi vadállatok megfordulnak, és eltűnnek a kopár vidék magasabb régióiban. Egy ideig még üldözitek e veszedelmes teremtményeket, de egy újabb hatalmas hógolyó gurul embereid közé, és sokat összelapít közülük. Vonj le<br>2 pontot LEGÉNYSÉGED EREJÉBŐL. A teremtmények újra eltűnnek a hóban a hegy magasabb részein. Úgy döntesz, hogy visszamentek az erődítmény mögött lévő ösvényhez. Tedd próbára a SZERENCSÉDET! Ha SZERENCSÉD van la-<br>pozz a 244-re. Ha nincs SZERENCSÉD <strong>Lapozz a 373-ra</strong>",
+    "cardContent": "Amikor embereiddel felmászol a hegyre, a velőtrázó ordítást hallató havasi vadállatok megfordulnak, és eltűnnek a kopár vidék magasabb régióiban. Egy ideig még üldözitek e veszedelmes teremtményeket, de egy újabb hatalmas hógolyó gurul embereid közé, és sokat összelapít közülük. Vonj le<br>2 pontot LEGÉNYSÉGED EREJÉBŐL. A teremtmények újra eltűnnek a hóban a hegy magasabb részein. Úgy döntesz, hogy visszamentek az erődítmény mögött lévő ösvényhez. Tedd próbára a SZERENCSÉDET! Ha SZERENCSÉD van lapozz a 244-re. Ha nincs SZERENCSÉD <strong>Lapozz a 373-ra</strong>",
     "cardTo": [373]
   },
   {
@@ -1189,7 +1203,7 @@
   },
   {
     "cardID": 222,
-    "cardContent": "Kihúzzátok a Hidra tetemét a vízből, felvágod a hasát, és tengerészek, ocsmány cápák, mindenféle tengeri élőlénynek darabjai fordulnak ki belőle. A vadállat nyelőcsövéből 50 Arany Tallér is előkerül, amit hozzáadsz Zsákmányodhoz. Minden egyebet visszaszórsz a tengerbe. Ha tovább is a Beltengeren fogsz cirkálni a Trysta-zátonyok felé igyekezve<br><strong>Lapozz a 66-ra, ha irányt változtatsz és elindulsz  a nyugati partok felé lapozz a 157-re, ha a Keletipartvidék felé tartasz, hogy egy kis szárazföldi portyázásra menj lapozz a 10-re</strong>",
+    "cardContent": "Kihúzzátok a Hidra tetemét a vízből, felvágod a hasát, és tengerészek, ocsmány cápák, mindenféle tengeri élőlénynek darabjai fordulnak ki belőle. A vadállat nyelőcsövéből 50 Arany Tallér is előkerül, amit hozzáadsz Zsákmányodhoz. Minden egyebet visszaszórsz a tengerbe. Ha tovább is a Beltengeren fogsz cirkálni a Trysta-zátonyok felé igyekezve<br><strong>Lapozz a 66-ra, ha irányt változtatsz és elindulsz a nyugati partok felé lapozz a 157-re, ha a Keletipartvidék felé tartasz, hogy egy kis szárazföldi portyázásra menj lapozz a 10-re</strong>",
     "cardTo": [66, 157]
   },
   {
@@ -1266,7 +1280,7 @@
   },
   {
     "cardID": 237,
-    "cardContent": "A Kísértetet megcsáklyázzák, amint elhalad a hatalmas hadihajó mellett. Amikor közelebb húznak benneteket a hajójukhoz, a hajó korlátjánál egy ismerősnek látszó alakot veszel észre a tengerészek között. „Hé, te ott! kiált, és rád mutat. -<br>Ismerlek téged! Ne találkoztunk mi már egy kiütős versenyen?” Megpróbálsz visszaemlékezni az arcára és eszedbe jut, hogy ő Ali Mitok sen elShazar, Shurrupak egyik gazdag nemesura. „Igen<br>mondod -‚ jól elbántál velem! Hat fogamat verted ki!“ Nevetve nyugtázza, hogy ilyen jól emlékszel rá, és jelt ad az embereinek, hogy álljanak le, ne csáklyázzák tovább a Kísértetet. „Nem tudom, hogy kerültél ide mondja, miközben néhány száz méterrel hátrább küldi embereit -‚ de a régi időkre való tekintettel igen alacsony váltságdíjjal, 200 Arany Tallérral is megelégszem!” Ha akarsz és tudsz is ennyit fizetni <strong>Lapozz a 71-re, ha nem akarsz vagy nem tudsz fizetni lapozz a 96-ra</strong>",
+    "cardContent": "A Kísértetet megcsáklyázzák, amint elhalad a hatalmas hadihajó mellett. Amikor közelebb húznak benneteket a hajójukhoz, a hajó korlátjánál egy ismerősnek látszó alakot veszel észre a tengerészek között. „Hé, te ott! kiált, és rád mutat. Ismerlek téged! Ne találkoztunk mi már egy kiütős versenyen?” Megpróbálsz visszaemlékezni az arcára és eszedbe jut, hogy ő Ali Mitok sen elShazar, Shurrupak egyik gazdag nemesura. „Igen<br>mondod -‚ jól elbántál velem! Hat fogamat verted ki!“ Nevetve nyugtázza, hogy ilyen jól emlékszel rá, és jelt ad az embereinek, hogy álljanak le, ne csáklyázzák tovább a Kísértetet. „Nem tudom, hogy kerültél ide mondja, miközben néhány száz méterrel hátrább küldi embereit -‚ de a régi időkre való tekintettel igen alacsony váltságdíjjal, 200 Arany Tallérral is megelégszem!” Ha akarsz és tudsz is ennyit fizetni <strong>Lapozz a 71-re, ha nem akarsz vagy nem tudsz fizetni lapozz a 96-ra</strong>",
     "cardTo": [71, 96]
   },
   {
@@ -1368,8 +1382,10 @@
   },
   {
     "cardID": 257,
-    "cardContent": "Nyugat felé hajózva áthaladsz a Trysta-sziget északi és a Vulkánok szigete déli csücske között. Dobi három kockával! Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE növeld utazási napjaid számát 3-mal a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy több, mint LEGÉNYSÉGED EREJE növeld utazási napjaid számát 4-gyel a HAJÓNAPLÓDBAN. Ha a HAJÓNAPLÓDBAN lévő szám páros <strong>Lapozz a 109-re, ha ez a szám páratlan lapozz a 27-re</strong>",
-    "cardTo": [109, 27]
+    "cardContent": "Nyugat felé hajózva áthaladsz a Trysta-sziget északi és a Vulkánok szigete déli csücske között. Dobj három kockával! Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE növeld utazási napjaid számát 3-mal a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy több, mint LEGÉNYSÉGED EREJE növeld utazási napjaid számát 4-gyel a HAJÓNAPLÓDBAN. Ha a HAJÓNAPLÓDBAN lévő szám páros <strong>Lapozz a 109-re, ha ez a szám páratlan lapozz a 27-re</strong>",
+    "cardTo": [109, 27],
+    "btndisabled": true,
+    "throw": ["3"]
   },
   {
     "cardID": 258,
@@ -1456,8 +1472,10 @@
   },
   {
     "cardID": 273,
-    "cardContent": "Fölfelé mész a völgy közepén. Már egészen közel jársz a gályához, amikor beszakad a lábad alatt a jég, és egy mély verembe zuhansz. Dobi két kockával, és a kapott összeget vond le ÉLETERŐ pontjaidból! Ha még mindig életben vagy, kimászol a veremből, és óvatos léptekkel továbbmész a gálya felé. <strong>Lapozz a 288-ra</strong>",
-    "cardTo": [288]
+    "cardContent": "Fölfelé mész a völgy közepén. Már egészen közel jársz a gályához, amikor beszakad a lábad alatt a jég, és egy mély verembe zuhansz. Dobj két kockával, és a kapott összeget vond le ÉLETERŐ pontjaidból! Ha még mindig életben vagy, kimászol a veremből, és óvatos léptekkel továbbmész a gálya felé. <strong>Lapozz a 288-ra</strong>",
+    "cardTo": [288],
+    "btndisabled": true,
+    "throw": ["1"]
   },
   {
     "cardID": 274,
@@ -1689,7 +1707,7 @@
   },
   {
     "cardID": 318,
-    "cardContent": "A Kísértet a Beltenger nyugodt vizeit szeli; az őrszem az árbockosárból állandóan szemmel tartja a látóhatárt, nem tűnik-e fel valamilyen hajó. Dobj három kockával. Ha az eredmény kevesebb, mint LEGÉNYSÉGED EREJE, növeld utazási napjaid számát 4-gyel a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy nagyobb, mint LEGÉNYSÉGED EREJE, 5 nappal növeld utazási napjaid számát a HAJÓNAPLÓDBAN. Ha a HAJÓNAP-<br>LÓDBAN szereplő napok száma páros <strong>Lapozz a 363-ra, ha ez a szám páratlan lapozz a 294-re</strong>",
+    "cardContent": "A Kísértet a Beltenger nyugodt vizeit szeli; az őrszem az árbockosárból állandóan szemmel tartja a látóhatárt, nem tűnik-e fel valamilyen hajó. Dobj három kockával. Ha az eredmény kevesebb, mint LEGÉNYSÉGED EREJE, növeld utazási napjaid számát 4-gyel a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy nagyobb, mint LEGÉNYSÉGED EREJE, 5 nappal növeld utazási napjaid számát a HAJÓNAPLÓDBAN. Ha a HAJÓNAPLÓDBAN szereplő napok száma páros <strong>Lapozz a 363-ra, ha ez a szám páratlan lapozz a 294-re</strong>",
     "cardTo": [363, 294],
     "btndisabled": true,
     "throw": ["3"]
@@ -1801,8 +1819,10 @@
   },
   {
     "cardID": 340,
-    "cardContent": "Dobi három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE, növeld utazási napjaid számát 2-vel a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy kevesebb, mint LEGÉNYSÉGED EREJE, növeld 3-mal az Utazási napjaid Számát a HAJÓNAPLÓDBAN. <strong>Lapozz a 378-ra</strong>",
-    "cardTo": [378]
+    "cardContent": "Dobj három kockával. Ha a kapott összeg kevesebb, mint LEGÉNYSÉGED EREJE, növeld utazási napjaid számát 2-vel a HAJÓNAPLÓDBAN. Ha a kapott összeg ugyanannyi vagy kevesebb, mint LEGÉNYSÉGED EREJE, növeld 3-mal az Utazási napjaid Számát a HAJÓNAPLÓDBAN. <strong>Lapozz a 378-ra</strong>",
+    "cardTo": [378],
+    "btndisabled": true,
+    "throw": ["3"]
   },
   {
     "cardID": 341,
