@@ -11,68 +11,69 @@ const keyToIdMap = {
 var defaultLuck;
 
 
+function setStatValue(id){
+    let stat = document.getElementById(id);
+    console.log("setStatValue "+localStorage.getItem(id)) // 8/8
+    stat.innerText = localStorage.getItem(id);
+    console.log("2");
+}
+
 function checkStat(id) {
-    localStorage.setItem(id, document.getElementById(id).textContent);
     var dynamicVal = localStorage.getItem(id);
     if (id === "hp" || id === "compnum" || id === "compstren") {
         var tomb = dynamicVal.split('/');
         var statAmount = tomb[0] / tomb[1] * 100;
-        localStorage.setItem(id, dynamicVal);
     }
     else {
         var statAmount = dynamicVal / 12 * 100;
-        localStorage.setItem(id, dynamicVal);
     }
 
     if (id !== "diary" && id !== "gold" && id !== "slaves") {
-        const pseudoHp = document.getElementById(id + 'Indicator');
-        pseudoHp.style.height = statAmount + '%';
+        const pseudoBg = document.getElementById(id + 'Indicator');
+        pseudoBg.style.height = statAmount + '%';
     }
 }
 
 function calcStats(id, value, nulladik){
+    let idVal = localStorage.getItem(id);
+    let idBox = document.getElementById(id);
     if (id === "hp" || id === "compnum" || id === "compstren"){
-        let idVal = localStorage.getItem(id);
-        let idBox = document.getElementById(id);
         let x = idVal.split('/');
         if (nulladik) {
-            console.log("nulladik");
             if (id === "hp"){
                 console.log("setting " + id);
-                var calcId = value + 12;
+                x[0] = parseInt(x[0]) + 12;
+                x[1] = x[0];
             }
             else{
                 console.log("setting " + id);
-                var calcId = value + 6;
+                x[0] = parseInt(x[0]) + 6;
+                x[1] = x[0];
             }
-            idBox.innerText = String(calcId)+"/"+String(calcId);
-            console.log(String(calcId)+"/"+String(calcId));
+            let calcSlash = x[0]+"/"+x[1];
+            localStorage.setItem(id, calcSlash);
+            console.log(id+" is set to: "+localStorage.getItem('hp')); // 20/20
         }
         else{
-            var calcId = Number(x[0]) + value;
-            console.log("nem nulladik");
+            x[0] = Number(x[0]) + value;
         }
-        console.log(calcId);
-        if (calcId < 0){ idBox.innerText = 0+"/"+x[1]; console.log("meghaltál");}
-        else if (calcId > x[1]){ idBox.innerText = x[1]+"/"+x[1];}
-        else{ idBox.innerText = calcId+"/"+x[1];}
+        if (x[0] < 0){ localStorage.setItem(id, "0"+"/"+x[1]); console.log("meghaltál");}
+        else if (x[0] > x[1]){ localStorage.setItem(id, x[1]+"/"+x[1]);}
+        else{ localStorage.setItem(id, x[0]+"/"+x[1]);}
+        setStatValue(id);
         checkStat(id);
     }
     else{
-        let idVal = localStorage.getItem(id);
-        let idBox = document.getElementById(id);
         if (nulladik) {
             console.log("setting " + id);
-            var calcId = value + 6;
-            console.log("nulladik");
+            var calcId = parseInt(idVal) + 6;
+            console.log(id+" is set to: "+calcId);
         }
         else{
             var calcId = Number(idVal) + value;
-            console.log("nem nulladik");
-
+            console.log(id+" is set to: "+calcId);
         }
-        console.log(calcId);
-        if (calcId < 0){ idBox.innerText = 0;}
+        if (calcId < 0){ localStorage.setItem(id, "0");}
         if (id === "luck") {
             defaultLuck = calcId;
             if (calcId > defaultLuck) {
@@ -83,10 +84,10 @@ function calcStats(id, value, nulladik){
             }
         }
         if (calcId > 12){
-            if (id === "skill") {idBox.innerText = 12;}
-            else{ idBox.innerText = calcId;}
+            if (id === "skill") {localStorage.setItem(id, "12");}
         }
-        else{ idBox.innerText = calcId;}
+        else{ localStorage.setItem(id, calcId);}
+        setStatValue(id);
         checkStat(id);
     }
     var noti1 = document.getElementById('noti1');
@@ -167,8 +168,16 @@ function diceClickHandler(){
         setTimeout(function(){
             let eredmenyBox = document.getElementById('eredmeny').textContent;
             let x = eredmenyBox.split(": ");
-            console.log(typeof parseInt(x[1]));
-            calcStats(keyToIdMap[globaldszkl], parseInt(x[1]), true);
+            if (keyToIdMap[globaldszkl] === "hp" || keyToIdMap[globaldszkl] === "compnum" || keyToIdMap[globaldszkl] === "compstren") {
+                localStorage.setItem(keyToIdMap[globaldszkl], x[1]+"/"+x[1]);
+                console.log("1");
+                console.log(localStorage.getItem(keyToIdMap[globaldszkl])+" bemener");
+            } else {
+                console.log("1");
+                localStorage.setItem(keyToIdMap[globaldszkl], x[1]);
+                console.log(localStorage.getItem(keyToIdMap[globaldszkl])+" bemenet")
+            }
+            calcStats(keyToIdMap[globaldszkl], 0, true);
         }, 3001);
     }
 }
@@ -227,10 +236,6 @@ function toggleMap() {
 
 //LOCAL STORAGE AND CARD HANDLER
 
-if (localStorage.getItem('cardID') === undefined) {
-    localStorage.setItem('cardID', 1);
-}
-
 function getCardContent(cardID) {
     var card = document.getElementsByClassName("cardBody")[0];
     var cardNum = document.getElementById('cardNum');
@@ -285,6 +290,7 @@ function getCardContent(cardID) {
                     eredmeny.disabled = false;
                     eredmeny.style.opacity = 1;
 
+                    globaldszkl = 0;
                     var item = jsonData[cardID].throw;
                     var dobasszamok = [];
                     for (let i = 0; i < jsonData[cardID].throw.length; i++){
@@ -399,17 +405,31 @@ forwards.addEventListener("click", function () {
 
 
 window.addEventListener('load', function () {
-    getCardContent(localStorage.getItem('cardID'));
-    var map = document.getElementById('map');
-    map.setAttribute("src", "img/locations/" + localStorage.getItem('map'));
-    checkStat('skill');
-    checkStat('hp');
-    checkStat('luck');
-    checkStat('compnum');
-    checkStat('compstren');
-    checkStat('diary');
-    checkStat('gold');
-    checkStat('slaves');
+    if (localStorage.getItem('cardID')){
+        console.log(localStorage.getItem('cardID')+". betöltése");
+        getCardContent(localStorage.getItem('cardID'));
+        var map = document.getElementById('map');
+        map.setAttribute("src", "img/locations/" + localStorage.getItem('map'));
+        setStatValue('skill');
+        setStatValue('hp');
+        setStatValue('luck');
+        setStatValue('compnum');
+        setStatValue('compstren');
+        setStatValue('diary');
+        setStatValue('gold');
+        setStatValue('slaves');
+        checkStat('skill');
+        checkStat('hp');
+        checkStat('luck');
+        checkStat('compnum');
+        checkStat('compstren');
+        checkStat('diary');
+        checkStat('gold');
+        checkStat('slaves');
+    }else{
+        console.log("0. betöltése");
+        getCardContent(0);
+    }
     console.log('Page loaded');
 });
 
