@@ -139,8 +139,15 @@
             <div id="eredmeny">Eredmény: </div>
         </section>
     </main>
-    <p id="noti1">aaa</p>
-    <p id="noti2">aaa</p>
+    <p id="noti1"></p>
+    <p id="noti2"></p>
+    <div id="audioControls">
+        <button onclick="playAudio()" id="audioBtn"><i id="playPause" class="fa-solid fa-play"></i></button>
+        <input type="range" id="volSlider" min="0" max="100" value="50" oninput="changeVolume()">
+    </div>
+    <audio autoplay loop id="myAudio">
+        <source src="audio/Sneaky Snitch.mp3" type="audio/ogg">
+    </audio> 
     <script src="src/dobokocka.js"></script>
     <script src="src/script.js"></script>
 </body>

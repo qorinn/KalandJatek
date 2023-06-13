@@ -402,7 +402,32 @@ forwards.addEventListener("click", function () {
     getCardContent(nextCard);
 });
 
-
+function playAudio() {
+    let audio = document.getElementById("myAudio");
+    if (audio.paused){
+        audio.play();
+    }
+    else{
+        audio.pause();
+    }
+    checkAudioState();
+}
+function checkAudioState(){
+    let audio = document.getElementById("myAudio");
+    let btn = document.getElementById('audioBtn');
+    if (audio.paused){
+        btn.innerHTML = '<i class="fa-solid fa-play"></i>';
+    }
+    else{
+        btn.innerHTML = '<i class="fa-solid fa-pause"></i>';
+    }
+}
+function changeVolume(){
+    console.log("changing");
+    let audio = document.getElementById("myAudio");
+    let vol = document.getElementById('volSlider').value;
+    audio.volume = vol * 0.01;
+}
 
 window.addEventListener('load', function () {
     if (localStorage.getItem('cardID')){
@@ -430,6 +455,10 @@ window.addEventListener('load', function () {
         console.log("0. betöltése");
         getCardContent(0);
     }
+    this.setTimeout(function(){
+        playAudio();
+        checkAudioState();
+    }, 1000);
     console.log('Page loaded');
 });
 

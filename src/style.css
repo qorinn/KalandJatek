@@ -491,4 +491,38 @@ strong {
   right: 0;
   transform: translate(100%, 0);
   border-radius: 0 0 15px 0;
+}
+
+#audioControls {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#audioControls #volSlider {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -2px);
+  padding: 10px;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+#audioControls #volSlider:hover {
+  visibility: visible;
+  opacity: 1;
+}
+#audioControls #audioBtn {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+#audioControls #audioBtn:hover + #volSlider {
+  visibility: visible;
+  opacity: 1;
+}
+#audioControls input {
+  cursor: e-resize;
 }/*# sourceMappingURL=style.css.map */
