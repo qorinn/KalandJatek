@@ -10,10 +10,53 @@ const keyToIdMap = {
 };
 var defaultLuck;
 
+// #region //! Dobókocka script
+var previousNumber;
+var calc = 0;
+function randomNum(szamtarid, finalnumid) {
+    var diceBox = document.getElementById(szamtarid);
 
-function setStatValue(id){
+    previousNumber = document.getElementById(finalnumid).textContent;
+    while (diceBox.firstChild) {
+        diceBox.removeChild(diceBox.firstChild);
+    }
+    var p = document.createElement("p");
+    p.textContent = previousNumber;
+    diceBox.appendChild(p);
+    for (let i = 0; i < 9; i++) {
+        const randomNumber = Math.floor(Math.random() * 6) + 1;
+        var p = document.createElement("p");
+        if (i == 8) {
+            p.id = finalnumid;
+        } else {
+            p.id = "n" + i;
+        }
+        p.textContent = randomNumber;
+        diceBox.appendChild(p);
+    }
+    previousNumber = document.getElementById(finalnumid).textContent;
+
+    diceBox.classList.remove("roll-animation");
+    void diceBox.offsetWidth; // Re-flow: szükséges a stílusfrissítéshez
+    diceBox.classList.add("roll-animation");
+
+    diceBox.style.animationPlayState = "running";
+    calc = 0;
+    setTimeout(() => delayedFunction(szamtarid, finalnumid), 3000);
+}
+
+function delayedFunction(szamtarid, finalnumid) {
+    var diceBox = document.getElementById(szamtarid);
+    diceBox.style.transform = "translateY(-900px)";
+    var eredmeny = document.getElementById("eredmeny");
+    calc += Number(document.getElementById(finalnumid).textContent);
+    eredmeny.innerText = "Eredmény: " + calc;
+}
+// #endregion
+
+function setStatValue(id) {
     let stat = document.getElementById(id);
-    console.log("setStatValue "+localStorage.getItem(id)) // 8/8
+    console.log("setStatValue " + localStorage.getItem(id)) // 8/8
     stat.innerText = localStorage.getItem(id);
     console.log("2");
 }
@@ -23,85 +66,95 @@ function checkStat(id) {
     if (id === "hp" || id === "compnum" || id === "compstren") {
         var tomb = dynamicVal.split('/');
         var statAmount = tomb[0] / tomb[1] * 100;
-    }
-    else {
+    } else {
         var statAmount = dynamicVal / 12 * 100;
     }
-
     if (id !== "diary" && id !== "gold" && id !== "slaves") {
         const pseudoBg = document.getElementById(id + 'Indicator');
         pseudoBg.style.height = statAmount + '%';
     }
 }
 
-function calcStats(id, value, nulladik){
+function calcStats(id, value, nulladik) {
     let idVal = localStorage.getItem(id);
     let idBox = document.getElementById(id);
-    if (id === "hp" || id === "compnum" || id === "compstren"){
-        let x = idVal.split('/');
+    let x = idVal.split('/');
+    if (id === "hp" || id === "compnum" || id === "compstren") {
         if (nulladik) {
-            if (id === "hp"){
+            if (id === "hp") {
                 console.log("setting " + id);
                 x[0] = parseInt(x[0]) + 12;
                 x[1] = x[0];
-            }
-            else{
+            } else {
                 console.log("setting " + id);
                 x[0] = parseInt(x[0]) + 6;
                 x[1] = x[0];
             }
-            let calcSlash = x[0]+"/"+x[1];
+            let calcSlash = x[0] + "/" + x[1];
             localStorage.setItem(id, calcSlash);
-            console.log(id+" is set to: "+localStorage.getItem('hp')); // 20/20
-        }
-        else{
+            console.log(id + " is set to: " + localStorage.getItem('hp')); // 20/20
+        } else {
             x[0] = Number(x[0]) + value;
         }
-        if (x[0] < 0){ localStorage.setItem(id, "0"+"/"+x[1]); console.log("meghaltál");}
-        else if (x[0] > x[1]){ localStorage.setItem(id, x[1]+"/"+x[1]);}
-        else{ localStorage.setItem(id, x[0]+"/"+x[1]);}
+        if (x[0] < 0) {
+            localStorage.setItem(id, "0" + "/" + x[1]);
+            console.log("meghaltál");
+        } else if (x[0] > x[1]) {
+            localStorage.setItem(id, x[1] + "/" + x[1]);
+        } else {
+            localStorage.setItem(id, x[0] + "/" + x[1]);
+        }
         setStatValue(id);
         checkStat(id);
-    }
-    else{
+    } else {
         if (nulladik) {
             console.log("setting " + id);
             var calcId = parseInt(idVal) + 6;
-            console.log(id+" is set to: "+calcId);
-        }
-        else{
+            console.log(id + " is set to: " + calcId);
+        } else {
             var calcId = Number(idVal) + value;
-            console.log(id+" is set to: "+calcId);
+            console.log(id + " is set to: " + calcId);
         }
-        if (calcId < 0){ localStorage.setItem(id, "0");}
+        if (calcId < 0) {
+            localStorage.setItem(id, "0");
+        }
         if (id === "luck") {
             defaultLuck = calcId;
             if (calcId > defaultLuck) {
                 idBox.innerText = defaultLuck;
-            }
-            else{
+            } else {
                 idBox.innerText = calcId;
             }
         }
-        if (calcId > 12){
-            if (id === "skill") {localStorage.setItem(id, "12");}
+        if (calcId > 12) {
+            if (id === "skill") {
+                localStorage.setItem(id, "12");
+            }
+        } else {
+            localStorage.setItem(id, calcId);
         }
-        else{ localStorage.setItem(id, calcId);}
         setStatValue(id);
         checkStat(id);
     }
     var noti1 = document.getElementById('noti1');
     var noti2 = document.getElementById('noti2');
     noti1.innerText = id;
-    noti2.innerText = value;
+
+    /*
+    //* mennyiben a stat formátum nem egy string
+    //* számból áll beállítjuk az aktuális "X/X" stat formátumot
+    //* különben undifined értéket állítana be.
+    */
+   noti2.innerText = calcId ? calcId : x[0];
+    
     noti1.style.transition = ".3s";
     noti2.style.transition = ".3s";
     noti1.style.left = "50%";
     noti2.style.right = "50%";
-    setTimeout(function(){
+    setTimeout(function () {
         noti1.style.transform = "translate(-100%, -100%)";
         noti2.style.transform = "translate(100%, -100%)";
-        setTimeout(function(){
+        setTimeout(function () {
             noti1.style.transition = "0s";
             noti2.style.transition = "0s";
             noti1.style.transform = "translate(-100%, 0%)";
@@ -110,11 +163,10 @@ function calcStats(id, value, nulladik){
             noti2.style.right = "0";
         }, 300);
     }, 5000);
-    if (value < 0){
+    if (value < 0) {
         noti1.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
         noti2.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-    }
-    else{
+    } else {
         noti1.style.backgroundColor = "rgba(0, 255, 0, 0.5)";
         noti2.style.backgroundColor = "rgba(0, 255, 0, 0.5)";
     }
@@ -129,62 +181,65 @@ function ThrowDice(dsz) {
     }
     removeClick();
 }
-function removeClick(){
+function removeClick() {
     var dices = document.querySelectorAll('.dice');
-    dices.forEach(function(dice) {
+    dices.forEach(function (dice) {
         dice.removeEventListener('click', ThrowDice);
         dice.disabled = true;
         setTimeout(delayOpacity, 3000);
     });
 }
-function delayOpacity(){
+
+function delayOpacity() {
     var dices = document.querySelectorAll('.dice');
-    dices.forEach(function(dice) {
+    dices.forEach(function (dice) {
         dice.style.opacity = 0.5;
     });
     var eredmeny = document.getElementById('eredmeny');
     eredmeny.classList.remove("glowAnimation");
     void eredmeny.offsetWidth; // Re-flow: szükséges a stílusfrissítéshez
     eredmeny.classList.add("glowAnimation");
-  
+
     BtnEnable();
 }
-function BtnEnable(){
+
+function BtnEnable() {
     var btns = document.querySelectorAll('.choices button');
     btns.forEach(btn => {
         btn.disabled = false;
         btn.style.opacity = 1;
     });
 }
-function diceClickHandler(){
+
+function diceClickHandler() {
     ThrowDice(globaldszk[globaldszkl]);
     globaldszkl++;
     if (globaldszkl <= globaldszk.length) {
-        setTimeout(function(){
+        setTimeout(function () {
             throwDice(globaldszkl, globaldszk);
         }, 3001);
     }
     if (nulladik) {
-        setTimeout(function(){
+        setTimeout(function () {
             let eredmenyBox = document.getElementById('eredmeny').textContent;
             let x = eredmenyBox.split(": ");
             if (keyToIdMap[globaldszkl] === "hp" || keyToIdMap[globaldszkl] === "compnum" || keyToIdMap[globaldszkl] === "compstren") {
-                localStorage.setItem(keyToIdMap[globaldszkl], x[1]+"/"+x[1]);
+                localStorage.setItem(keyToIdMap[globaldszkl], x[1] + "/" + x[1]);
                 console.log("1");
-                console.log(localStorage.getItem(keyToIdMap[globaldszkl])+" bemener");
+                console.log(localStorage.getItem(keyToIdMap[globaldszkl]) + " bemener");
             } else {
                 console.log("1");
                 localStorage.setItem(keyToIdMap[globaldszkl], x[1]);
-                console.log(localStorage.getItem(keyToIdMap[globaldszkl])+" bemenet")
+                console.log(localStorage.getItem(keyToIdMap[globaldszkl]) + " bemenet")
             }
             calcStats(keyToIdMap[globaldszkl], 0, true);
         }, 3001);
     }
 }
-function throwDice(index, dszk){
+function throwDice(index, dszk) {
     for (let i = 1; i <= dszk[index]; i++) {
-        console.log(i+" kocka");
-        let dice = document.getElementById('dice'+i);
+        console.log(i + " kocka");
+        let dice = document.getElementById('dice' + i);
         dice.disabled = false;
         dice.style.opacity = 1;
         dice.addEventListener('click', diceClickHandler);
@@ -204,15 +259,14 @@ function throwDice(index, dszk){
     */
 }
 
-//TOGGLE MAP
-
+// #region //! Map Toggle
 var prevoiusMap;
 function toggleMap() {
     var stats = document.getElementById("statsContainer");
     var map = document.getElementById('map');
     var currentMap = map.getAttribute('src');
     var magnify = document.getElementById('magnifying');
-    var terkepPath = "/img/terkep.png";
+    var terkepPath = "./img/terkep.png";
 
     if (currentMap != terkepPath) {
         prevoiusMap = map.getAttribute('src');
@@ -233,13 +287,14 @@ function toggleMap() {
     }
 
 }
+// #endregion
 
 //LOCAL STORAGE AND CARD HANDLER
 
 function getCardContent(cardID) {
     var card = document.getElementsByClassName("cardBody")[0];
     var cardNum = document.getElementById('cardNum');
-    fetch("../json/cards2.json")
+    fetch("./json/cards2.json")
         .then((res) => {
             return res.json();
         })
@@ -247,10 +302,9 @@ function getCardContent(cardID) {
             card.innerHTML = "<p>" + jsonData[cardID].cardContent + "</p>";
             cardNum.innerHTML = jsonData[cardID].cardID + ". Kártya";
 
-            if (jsonData[cardID].cardID === 0){
+            if (jsonData[cardID].cardID === 0) {
                 nulladik = true;
-            }
-            else{
+            } else {
                 nulladik = false;
             }
 
@@ -281,11 +335,11 @@ function getCardContent(cardID) {
                 var item;
                 var dobasszam;
 
-                if (key === 'throw'){
+                if (key === 'throw') {
                     kisseged = 'throw';
                 }
                 if (kisseged === 'throw') {
-                    
+
                     var eredmeny = document.getElementById('eredmeny');
                     eredmeny.disabled = false;
                     eredmeny.style.opacity = 1;
@@ -293,13 +347,12 @@ function getCardContent(cardID) {
                     globaldszkl = 0;
                     var item = jsonData[cardID].throw;
                     var dobasszamok = [];
-                    for (let i = 0; i < jsonData[cardID].throw.length; i++){
+                    for (let i = 0; i < jsonData[cardID].throw.length; i++) {
                         dobasszamok.push(item[i]);
                     }
                     globaldszk = dobasszamok;
                     throwDice(globaldszkl, dobasszamok);
-                }
-                else{
+                } else {
                     var eredmeny = document.getElementById('eredmeny');
                     var dices = document.querySelectorAll('.dice');
                     dices.forEach(dice => {
@@ -309,7 +362,7 @@ function getCardContent(cardID) {
                     eredmeny.disabled = true;
                     eredmeny.style.opacity = 0.5;
                 }
-                if (key === 'valami'){
+                if (key === 'valami') {
                     console.log(key[0]);
                     bool = true;
                     calcId = key[0];
@@ -318,7 +371,6 @@ function getCardContent(cardID) {
                     console.log(dobasszam, kulcs, lapozz, bool, calcId, calcVal);
                 }
             });
-              
 
             var container = document.getElementById('choices');
             container.innerHTML = '';
@@ -327,8 +379,7 @@ function getCardContent(cardID) {
                     if (jsonData[cardID].cardTo.length === 1) {
                         container.classList.remove("choicesGrid");
                         container.classList.add("choicesFlex");
-                    }
-                    else {
+                    } else {
                         container.classList.remove("choicesFlex");
                         container.classList.add("choicesGrid");
                     }
@@ -375,9 +426,6 @@ function getCardContent(cardID) {
                 restartBtn.appendChild(restartBg);
             };
 
-
-
-
             localStorage.setItem('cardID', jsonData[cardID].cardID);
         });
 }
@@ -401,37 +449,37 @@ forwards.addEventListener("click", function () {
     let nextCard = thisCard + 1;
     getCardContent(nextCard);
 });
-
+/* //! Ideiglenesen kommentelve
 function playAudio() {
     let audio = document.getElementById("myAudio");
-    if (audio.paused){
+    if (audio.paused) {
         audio.play();
-    }
-    else{
+    } else {
         audio.pause();
     }
     checkAudioState();
 }
-function checkAudioState(){
+function checkAudioState() {
     let audio = document.getElementById("myAudio");
     let btn = document.getElementById('audioBtn');
-    if (audio.paused){
+    if (audio.paused) {
         btn.innerHTML = '<i class="fa-solid fa-play"></i>';
-    }
-    else{
+    } else {
         btn.innerHTML = '<i class="fa-solid fa-pause"></i>';
     }
 }
-function changeVolume(){
+function changeVolume() {
     console.log("changing");
     let audio = document.getElementById("myAudio");
     let vol = document.getElementById('volSlider').value;
     audio.volume = vol * 0.01;
 }
+*/
 
+localStorage.clear(); //! Tesztelés szempontjából
 window.addEventListener('load', function () {
-    if (localStorage.getItem('cardID')){
-        console.log(localStorage.getItem('cardID')+". betöltése");
+    if (localStorage.getItem('cardID')) {
+        console.log(localStorage.getItem('cardID') + ". betöltése");
         getCardContent(localStorage.getItem('cardID'));
         var map = document.getElementById('map');
         map.setAttribute("src", "img/locations/" + localStorage.getItem('map'));
@@ -451,14 +499,16 @@ window.addEventListener('load', function () {
         checkStat('diary');
         checkStat('gold');
         checkStat('slaves');
-    }else{
+    } else {
         console.log("0. betöltése");
         getCardContent(0);
     }
-    this.setTimeout(function(){
+    /* //! Ideiglenesen kommentelve
+    this.setTimeout(function () {
         playAudio();
         checkAudioState();
     }, 1000);
+     */
     console.log('Page loaded');
 });
 
