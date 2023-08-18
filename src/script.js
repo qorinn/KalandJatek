@@ -9,6 +9,7 @@ const keyToIdMap = {
     "8": "slaves"
 };
 var defaultLuck;
+var CurrentCardID = 0;
 
 // #region //! Dobókocka script
 var previousNumber;
@@ -61,6 +62,9 @@ function setStatValue(id) {
     console.log("2");
 }
 
+var setStatCount = 0;
+var setUpInitially = false;
+var diceLocked = false;
 function checkStat(id) {
     var dynamicVal = localStorage.getItem(id);
     if (id === "hp" || id === "compnum" || id === "compstren") {
@@ -68,12 +72,17 @@ function checkStat(id) {
         var statAmount = tomb[0] / tomb[1] * 100;
     } else {
         var statAmount = dynamicVal / 12 * 100;
-    }
+    };
     if (id !== "diary" && id !== "gold" && id !== "slaves") {
         const pseudoBg = document.getElementById(id + 'Indicator');
         pseudoBg.style.height = statAmount + '%';
-    }
-}
+    };
+    setStatCount++;
+    if (setStatCount === 5) {
+        setUpInitially = true; //kezdő statok beállítása után
+        diceLocked = true; // dobókocka letiltása, hogy ne dobhasson.
+    };
+};
 
 function calcStats(id, value, nulladik) {
     let idVal = localStorage.getItem(id);
@@ -145,8 +154,8 @@ function calcStats(id, value, nulladik) {
     //* számból áll beállítjuk az aktuális "X/X" stat formátumot
     //* különben undifined értéket állítana be.
     */
-   noti2.innerText = calcId ? calcId : x[0];
-    
+    noti2.innerText = calcId ? calcId : x[0];
+
     noti1.style.transition = ".3s";
     noti2.style.transition = ".3s";
     noti1.style.left = "50%";
@@ -212,6 +221,7 @@ function BtnEnable() {
 }
 
 function diceClickHandler() {
+    if (diceLocked && CurrentCardID === 0) return;
     ThrowDice(globaldszk[globaldszkl]);
     globaldszkl++;
     if (globaldszkl <= globaldszk.length) {
@@ -262,15 +272,14 @@ function throwDice(index, dszk) {
 // #region //! Map Toggle
 var prevoiusMap;
 function toggleMap() {
-    var stats = document.getElementById("statsContainer");
-    var map = document.getElementById('map');
-    var currentMap = map.getAttribute('src');
-    var magnify = document.getElementById('magnifying');
-    var terkepPath = "./img/terkep.png";
+    let
+    stats = document.getElementById("statsContainer"),
+    map = document.getElementById('map'),
+    currentMap = map.getAttribute('src'),
+    magnify = document.getElementById('magnifying'),
+    terkepPath = "./img/terkep.png";
 
-    if (currentMap != terkepPath) {
-        prevoiusMap = map.getAttribute('src');
-    }
+    if (currentMap != terkepPath) prevoiusMap = map.getAttribute('src');
 
     stats.classList.toggle('display-none');
 
@@ -285,7 +294,6 @@ function toggleMap() {
         magnify.classList.add('fa-magnifying-glass-plus');
         magnify.classList.remove('fa-magnifying-glass-minus');
     }
-
 }
 // #endregion
 
@@ -294,6 +302,7 @@ function toggleMap() {
 function getCardContent(cardID) {
     var card = document.getElementsByClassName("cardBody")[0];
     var cardNum = document.getElementById('cardNum');
+    CurrentCardID = cardID;
     fetch("./json/cards2.json")
         .then((res) => {
             return res.json();
@@ -310,19 +319,18 @@ function getCardContent(cardID) {
 
             Object.keys(jsonData[cardID]).forEach((key) => {
                 if (key === 'map') {
-                    var map = document.getElementById('map');
+                    let map = document.getElementById('map');
                     map.setAttribute('src', "img/locations/" + jsonData[cardID][key] + ".png");
                     localStorage.setItem("map", jsonData[cardID][key] + ".png");
                 }
             });
 
-
             Object.keys(jsonData[cardID]).forEach((key) => {
                 if (key === 'statupdate') {
                     jsonData[cardID].statupdate.forEach(function (item) {
                         Object.keys(item).forEach(function (key) {
-                            var value = item[key];
-                            var segedId = keyToIdMap[key];
+                            let value = item[key];
+                            let segedId = keyToIdMap[key];
                             console.log(segedId, value);
                             calcStats(segedId, value);
                         });
@@ -449,6 +457,7 @@ forwards.addEventListener("click", function () {
     let nextCard = thisCard + 1;
     getCardContent(nextCard);
 });
+
 /* //! Ideiglenesen kommentelve
 function playAudio() {
     let audio = document.getElementById("myAudio");
@@ -475,6 +484,16 @@ function changeVolume() {
     audio.volume = vol * 0.01;
 }
 */
+// Chrome és Firefox támogatja, elméletileg...
+var myEvent = window.attachEvent || window.addEventListener;
+var chkevent = window.attachEvent ? 'onbeforeunload' : 'beforeunload'; /// make IE7, IE8 compitable
+
+myEvent(chkevent, function (e) { // For >=IE7, Chrome, Firefox
+    var confirmationMessage = 'Are you sure to leave the page?';  // a space
+    (e || window.event).returnValue = confirmationMessage;
+    console.log("asd")
+    return confirmationMessage;
+});
 
 localStorage.clear(); //! Tesztelés szempontjából
 window.addEventListener('load', function () {
