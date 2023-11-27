@@ -4,11 +4,11 @@
 }
 
 body {
-  background: url(../img/background.png), url(../img/main_bg.jpg);
-  background-position: center center, auto auto;
-  background-repeat: no-repeat, repeat;
-  background-size: 100% 100%, auto;
-  background-attachment: fixed, fixed;
+  background: url(../img/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   overflow-x: hidden;
 }
 
