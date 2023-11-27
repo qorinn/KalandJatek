@@ -4,7 +4,7 @@
 }
 
 body {
-  background: url(../img/backgroundd.png), url(../img/main_bg.jpg);
+  background: url(../img/background.png), url(../img/main_bg.jpg);
   background-position: center center, auto auto;
   background-repeat: no-repeat, repeat;
   background-size: 100% 100%, auto;
