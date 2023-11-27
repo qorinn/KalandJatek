@@ -10,9 +10,20 @@
     <link rel="stylesheet" href="src/dobokocka.css">
     <link href='https://fonts.googleapis.com/css?family=UnifrakturCook:700' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/35956c1f37.js" crossorigin="anonymous"></script>
+    <script src="node_modules\jquery\dist\jquery.min.js"></script>
 </head>
 <body>
-    <main>
+    <div id="loader">
+        <div class="loader-text">Töltés...</div>
+      </div>
+      
+      <div id="video-container">
+        <video id="background-video" autoplay muted>
+          <source src="asd.mp4" type="video/mp4">
+        </video>
+      </div>
+
+    <main style="display: none;" id="main">
         <section class="left">
             <div class="titleBox">
                 <div id="title"></div>
@@ -150,5 +161,28 @@
     </audio> 
     <script src="src/dobokocka.js"></script>
     <script src="src/script.js"></script>
+    <script>
+$(document).ready(function() {
+    // Ellenőrzés, hogy a local storage értéke kisebb-e mint 1
+    if (localStorage.length < 3) {
+        $(window).on('load', function() {
+            $('#loader').fadeOut('slow', function() {
+                var video = document.getElementById('background-video');
+                video.play();
+                video.addEventListener('ended', handleVideoEnd, false);
+                    
+                function handleVideoEnd() {
+                    $('#main').fadeIn();
+                }
+            });
+        });
+    } else{
+        $('#loader').fadeOut('slow');
+        $('#video-container').css('display', 'none');
+        $('#main').fadeIn();
+    }
+});
+
+      </script>
 </body>
 </html>
