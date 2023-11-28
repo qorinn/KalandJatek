@@ -458,8 +458,9 @@ forwards.addEventListener("click", function () {
     getCardContent(nextCard);
 });
 
-/* //! Ideiglenesen kommentelve
+//! Ideiglenesen kommentelve
 function playAudio() {
+    console.log('playing');
     let audio = document.getElementById("myAudio");
     if (audio.paused) {
         audio.play();
@@ -478,12 +479,11 @@ function checkAudioState() {
     }
 }
 function changeVolume() {
-    console.log("changing");
     let audio = document.getElementById("myAudio");
     let vol = document.getElementById('volSlider').value;
     audio.volume = vol * 0.01;
 }
-*/
+
 // Chrome és Firefox támogatja, elméletileg...
 var myEvent = window.attachEvent || window.addEventListener;
 var chkevent = window.attachEvent ? 'onbeforeunload' : 'beforeunload'; /// make IE7, IE8 compitable
@@ -495,7 +495,23 @@ myEvent(chkevent, function (e) { // For >=IE7, Chrome, Firefox
     return confirmationMessage;
 });
 
-localStorage.clear(); //! Tesztelés szempontjából
+function manualCalc(name, calc) {
+    if (name === "hp" || name === "compnum" || name === "compstren") {
+        calcStats(name, calc === false ? -1 : 1, false);
+    } else{
+        let x = localStorage.getItem(name);
+        if (x === null){
+            console.log(name);
+            calc === false ? localStorage.setItem(name, -1) : localStorage.setItem(name, 1);
+            x = localStorage.getItem(name);
+        }
+        calc === false ? x-- : x++;
+        localStorage.setItem(name, x);
+    }
+
+    setStatValue(name);
+}
+
 window.addEventListener('load', function () {
     if (localStorage.getItem('cardID')) {
         console.log(localStorage.getItem('cardID') + ". betöltése");
@@ -522,12 +538,12 @@ window.addEventListener('load', function () {
         console.log("0. betöltése");
         getCardContent(0);
     }
-    /* //! Ideiglenesen kommentelve
+    //! Ideiglenesen kommentelve
     this.setTimeout(function () {
         playAudio();
         checkAudioState();
     }, 1000);
-     */
+     
     console.log('Page loaded');
 });
 

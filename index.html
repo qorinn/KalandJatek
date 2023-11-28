@@ -14,7 +14,8 @@
 </head>
 <body>
     <div id="loader">
-        <div class="loader-text">Töltés...</div>
+            <img src="img/vertengerek.png" alt="A Vértengerek" id="homeLogo">
+            <p id="status">Játék kezdése</p>
       </div>
       
       <div id="video-container">
@@ -22,6 +23,7 @@
           <source src="asd.mp4" type="video/mp4">
         </video>
       </div>
+
 
     <main style="display: none;" id="main">
         <section class="left">
@@ -31,6 +33,8 @@
             <div class="stats" id="statsContainer">
                 <div class="statsGrid">
                     <div class="grid-item" id="skillBox" title="Ügyesség">
+                        <div class="minus" onclick="manualCalc('skill', false)">-</div>
+                        <div class="plus" onclick="manualCalc('skill', true)">+</div>
                         <div id="skillIndicator"></div>
                         <h3>Ügyesség:</h3>
                         <div class="statValue">
@@ -39,6 +43,8 @@
                         </div>
                     </div>
                     <div class="grid-item" id="hpBox" title="Életerő">
+                        <div class="minus" onclick="manualCalc('hp', false)">-</div>
+                        <div class="plus" onclick="manualCalc('hp', true)">+</div>
                         <div id="hpIndicator"></div>
                         <h3>Életerő:</h3>
                         <div class="statValue">
@@ -47,6 +53,8 @@
                         </div>
                     </div>
                     <div class="grid-item" id="luckBox" title="Szerencse">
+                        <div class="minus" onclick="manualCalc('luck', false)">-</div>
+                        <div class="plus" onclick="manualCalc('luck', true)">+</div>
                         <div id="luckIndicator"></div>
                         <h3>Szerencse:</h3>
                         <div class="statValue">
@@ -55,6 +63,8 @@
                         </div>
                     </div>
                     <div class="grid-item" id="compnumBox">
+                        <div class="minus" onclick="manualCalc('compnum', false)">-</div>
+                        <div class="plus" onclick="manualCalc('compnum', true)">+</div>
                         <div id="compnumIndicator"></div>
                         <h3>Legénység ereje:</h3>
                         <div class="statValue">
@@ -63,6 +73,8 @@
                         </div>
                     </div>
                     <div class="grid-item" id="compstrenBox">
+                        <div class="minus" onclick="manualCalc('compstren', false)">-</div>
+                        <div class="plus" onclick="manualCalc('compstren', true)">+</div>
                         <div id="compstrenIndicator"></div>
                         <h3>Legénység ütései:</h3>
                         <div class="statValue">
@@ -109,6 +121,8 @@
             </div>
             <div class="stuffs">
                 <div class="grid-item">
+                    <div class="minus" onclick="manualCalc('diary', false)">-</div>
+                    <div class="plus" onclick="manualCalc('diary', true)">+</div>
                     <h3>Hajónapló: </h3>
                     <div class="statValue">
                         <p id="diary"></p>
@@ -116,6 +130,8 @@
                     </div>
                 </div>
                 <div class="grid-item">
+                    <div class="minus" onclick="manualCalc('gold', false)">-</div>
+                    <div class="plus" onclick="manualCalc('gold', true)">+</div>
                     <h3>Arany: </h3>
                     <div class="statValue">
                         <p id="gold"></p>
@@ -123,6 +139,8 @@
                     </div>
                 </div>
                 <div class="grid-item">
+                    <div class="minus" onclick="manualCalc('slaves', false)">-</div>
+                    <div class="plus" onclick="manualCalc('slaves', true)">+</div>
                     <h3>Rabszolgák:  </h3>
                     <div class="statValue">
                         <p id="slaves"></p>
@@ -152,37 +170,51 @@
     </main>
     <p id="noti1"></p>
     <p id="noti2"></p>
-    <!---
-    <div id="audioControls">
+
+    <div id="audioControls" style="display: none;">
         <button onclick="playAudio()" id="audioBtn"><i id="playPause" class="fa-solid fa-play"></i></button>
         <input type="range" id="volSlider" min="0" max="100" value="50" oninput="changeVolume()">
     </div>
-    <audio autoplay loop id="myAudio">
+    <audio loop id="myAudio">
         <source src="audio/Sneaky Snitch.mp3" type="audio/ogg">
     </audio>
-    -->
+
     <script src="src/script.js"></script>
     <script>
-$(document).ready(function() {
-    // Ellenőrzés, hogy a local storage értéke kisebb-e mint 1
-    if (localStorage.length < 3) {
-        $(window).on('load', function() {
-            $('#loader').fadeOut('slow', function() {
-                var video = document.getElementById('background-video');
-                video.play();
-                video.addEventListener('ended', handleVideoEnd, false);
-                    
-                function handleVideoEnd() {
-                    $('#main').fadeIn();
-                }
-            });
+    $(document).ready(function() {
+        var video = document.getElementById('background-video');
+        var status = $('#status');
+        var homePage = $('#loader');
+
+        video.pause();
+        
+        if (localStorage.length > 3 ) {
+            $('#loader').fadeOut();
+            $('#video-container').css('display', 'none');
+            $('#main').fadeIn();
+        }
+
+        $(window).on('load', function(){
+            status.text('Játék betöltése...');
+            homePage.prop('disabled', true);
         });
-    } else{
-        $('#loader').fadeOut('slow');
-        $('#video-container').css('display', 'none');
-        $('#main').fadeIn();
-    }
-});
+        
+        homePage.prop('disabled', false);
+        status.text('Kattints a játék indításához');
+
+        homePage.click(function(){
+            video.play();
+            video.addEventListener('ended', handleVideoEnd, false);
+            $('#loader').fadeOut(1000);
+                
+            function handleVideoEnd() {
+                $('#main').fadeIn();
+                $('#audioControls').fadeIn();
+                playAudio();
+            }
+        });
+
+    });
 
       </script>
 </body>
